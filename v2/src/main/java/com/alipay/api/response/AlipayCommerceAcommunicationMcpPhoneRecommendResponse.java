@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceAcommunicationMcpPhoneRecommendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1145749668634231787L;
+	private static final long serialVersionUID = 1824189276474984864L;
 
 	/** 
 	 * null

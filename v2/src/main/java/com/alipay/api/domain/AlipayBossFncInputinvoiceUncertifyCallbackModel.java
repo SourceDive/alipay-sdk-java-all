@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 进项票反勾选回调
  *
  * @author auto create
- * @since 1.0, 2023-08-30 16:37:08
+ * @since 1.0, 2026-08-19 11:33:55
  */
 public class AlipayBossFncInputinvoiceUncertifyCallbackModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8858613448544151293L;
+	private static final long serialVersionUID = 2437456857645696288L;
 
 	/**
 	 * 反勾选回调入参

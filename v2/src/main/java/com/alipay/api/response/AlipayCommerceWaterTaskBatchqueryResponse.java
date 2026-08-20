@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceWaterTaskBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7887454371989259372L;
+	private static final long serialVersionUID = 6715978429991557952L;
 
 	/** 
 	 * 任务列表

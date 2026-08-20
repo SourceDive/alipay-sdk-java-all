@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EduOrderPaymentDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 7697337974367972727L;
+	private static final long serialVersionUID = 7425819456926596447L;
 
 	/**
 	 * 支付金额，单位：元。

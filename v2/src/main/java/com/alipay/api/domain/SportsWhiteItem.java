@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SportsWhiteItem extends AlipayObject {
 
-	private static final long serialVersionUID = 8534627128193844886L;
+	private static final long serialVersionUID = 8654298988139311139L;
 
 	/**
 	 * 绑定状态 BIND 已绑定 / UNBIND 未绑定

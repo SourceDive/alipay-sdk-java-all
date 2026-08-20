@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceCognitiveOcrIdcardQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6144697894822687474L;
+	private static final long serialVersionUID = 6383355548353592469L;
 
 	/** 
 	 * 地址

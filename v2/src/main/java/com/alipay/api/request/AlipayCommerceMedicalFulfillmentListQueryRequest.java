@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.fulfillment.list.query request
  * 
  * @author auto create
- * @since 1.0, 2026-08-12 17:52:55
+ * @since 1.0, 2026-08-19 10:47:47
  */
 public class AlipayCommerceMedicalFulfillmentListQueryRequest implements AlipayRequest<AlipayCommerceMedicalFulfillmentListQueryResponse> {
 

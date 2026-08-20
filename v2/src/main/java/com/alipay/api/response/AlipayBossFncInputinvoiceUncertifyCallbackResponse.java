@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.boss.fnc.inputinvoice.uncertify.callback response.
  * 
  * @author auto create
- * @since 1.0, 2023-08-30 16:41:43
+ * @since 1.0, 2026-08-19 11:33:55
  */
 public class AlipayBossFncInputinvoiceUncertifyCallbackResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3878848466182538178L;
+	private static final long serialVersionUID = 4835622892834697731L;
 
 	/** 
 	 * 结果

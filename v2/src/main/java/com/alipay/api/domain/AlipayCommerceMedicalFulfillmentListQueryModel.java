@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * SaaS履约单批量查询
  *
  * @author auto create
- * @since 1.0, 2026-08-12 17:52:55
+ * @since 1.0, 2026-08-19 10:47:47
  */
 public class AlipayCommerceMedicalFulfillmentListQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8326395827269862636L;
+	private static final long serialVersionUID = 8383158799711897747L;
 
 	/**
 	 * null

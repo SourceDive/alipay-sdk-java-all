@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenAppDeliveryInfoSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6324241252442592361L;
+	private static final long serialVersionUID = 3697982675121951314L;
 
 	/**
 	 * 履约属性，从模板中查询(alipay.open.app.delivery.template.query)得到，is_required=1时表示属性必填。

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 发票查询
  *
  * @author auto create
- * @since 1.0, 2022-09-28 10:50:20
+ * @since 1.0, 2026-08-19 11:32:50
  */
 public class AlipayBossFncGfsettleprodInvoiceBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7627763595371235855L;
+	private static final long serialVersionUID = 7375842354635561238L;
 
 	/**
 	 * 业务身份id

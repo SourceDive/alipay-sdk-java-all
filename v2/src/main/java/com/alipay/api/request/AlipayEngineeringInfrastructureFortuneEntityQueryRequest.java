@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.engineering.infrastructure.fortune.entity.query request
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:45
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class AlipayEngineeringInfrastructureFortuneEntityQueryRequest implements AlipayRequest<AlipayEngineeringInfrastructureFortuneEntityQueryResponse> {
 

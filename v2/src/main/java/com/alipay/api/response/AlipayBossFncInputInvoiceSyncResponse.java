@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.boss.fnc.input.invoice.sync response.
  * 
  * @author auto create
- * @since 1.0, 2024-12-02 11:07:22
+ * @since 1.0, 2026-08-19 11:26:26
  */
 public class AlipayBossFncInputInvoiceSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8817945458943642644L;
+	private static final long serialVersionUID = 8369444754257674466L;
 
 	/** 
 	 * 结果

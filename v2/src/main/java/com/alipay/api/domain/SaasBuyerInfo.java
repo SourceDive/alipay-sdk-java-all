@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 买家信息。pay_channels显式单选BANK_TRANSFER时条件必填。
  *
  * @author auto create
- * @since 1.0, 2026-08-13 14:47:50
+ * @since 1.0, 2026-08-19 12:08:29
  */
 public class SaasBuyerInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8898173376896438358L;
+	private static final long serialVersionUID = 3115286793353434819L;
 
 	/**
 	 * 买家标识。buyer_id_type=customer_id时为SaaS 客户 ID

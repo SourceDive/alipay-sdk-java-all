@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BatchSettleDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 7387167739834363479L;
+	private static final long serialVersionUID = 6762168144144675865L;
 
 	/**
 	 * 结算金额，单位为元

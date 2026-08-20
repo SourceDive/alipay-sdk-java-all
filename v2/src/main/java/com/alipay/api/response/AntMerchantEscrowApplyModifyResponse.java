@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AntMerchantEscrowApplyModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8867451856343619379L;
+	private static final long serialVersionUID = 3285376769213669558L;
 
 	/** 
 	 * 支付宝受理主单号

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * Saas账户创建
  *
  * @author auto create
- * @since 1.0, 2026-08-03 11:57:50
+ * @since 1.0, 2026-08-19 12:08:01
  */
 public class AlipayTradeSaasAccountCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1881314729386959847L;
+	private static final long serialVersionUID = 5436922225819312654L;
 
 	/**
 	 * 二级商户名称；相同外部商户号幂等重试时必须与首次一致

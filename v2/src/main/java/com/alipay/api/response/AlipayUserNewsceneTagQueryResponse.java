@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserNewsceneTagQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1661259449564453467L;
+	private static final long serialVersionUID = 8672481281187886773L;
 
 	/** 
 	 * 对于传入的tag进行输出，格式为json，true表示是 fasle表示否，invalid表示无法判断，例如传入的账号不存在

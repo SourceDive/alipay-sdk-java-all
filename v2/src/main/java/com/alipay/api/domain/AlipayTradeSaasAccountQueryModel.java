@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * Saas账户查询
  *
  * @author auto create
- * @since 1.0, 2026-08-03 11:57:50
+ * @since 1.0, 2026-08-19 12:08:00
  */
 public class AlipayTradeSaasAccountQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3336661637999792472L;
+	private static final long serialVersionUID = 2893122393366858594L;
 
 	/**
 	 * SaaS客户ID。与out_merchant_no至少传入一个，两个字段同时传入时按AND条件查询。

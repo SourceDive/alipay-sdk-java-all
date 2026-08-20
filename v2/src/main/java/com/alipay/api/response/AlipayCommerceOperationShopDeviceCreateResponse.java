@@ -1,0 +1,30 @@
+package com.alipay.api.response;
+
+import com.alipay.api.internal.mapping.ApiField;
+
+import com.alipay.api.AlipayResponse;
+
+/**
+ * ALIPAY API: alipay.commerce.operation.shop.device.create response.
+ * 
+ * @author auto create
+ * @since 1.0, 2026-08-20 14:02:50
+ */
+public class AlipayCommerceOperationShopDeviceCreateResponse extends AlipayResponse {
+
+	private static final long serialVersionUID = 6595814236651741459L;
+
+	/** 
+	 * 受理成功时返回，可用于问题排查和对账
+	 */
+	@ApiField("submission_no")
+	private String submissionNo;
+
+	public void setSubmissionNo(String submissionNo) {
+		this.submissionNo = submissionNo;
+	}
+	public String getSubmissionNo( ) {
+		return this.submissionNo;
+	}
+
+}

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AppItemVoucherModifyDisplayPatternInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8666919853743511436L;
+	private static final long serialVersionUID = 1522669896868534514L;
 
 	/**
 	 * 客服电话

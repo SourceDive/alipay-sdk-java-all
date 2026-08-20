@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.engineering.infrastructure.stock.kline.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:46
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class AlipayEngineeringInfrastructureStockKlineQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3792968738614251982L;
+	private static final long serialVersionUID = 4698613727392433795L;
 
 	/** 
 	 * 业务数据，类型为ObjKLineDTOWrapper

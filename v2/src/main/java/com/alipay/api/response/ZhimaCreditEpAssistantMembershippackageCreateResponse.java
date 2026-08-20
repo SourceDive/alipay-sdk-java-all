@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class ZhimaCreditEpAssistantMembershippackageCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8575466118781611589L;
+	private static final long serialVersionUID = 7761592353892764728L;
 
 	/** 
 	 * 会员包生效时间

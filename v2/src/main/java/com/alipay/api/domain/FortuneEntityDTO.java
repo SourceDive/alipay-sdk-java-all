@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 实体详细信息
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:45
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class FortuneEntityDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8885869133347839629L;
+	private static final long serialVersionUID = 6417568332222153916L;
 
 	/**
 	 * 详细信息内容

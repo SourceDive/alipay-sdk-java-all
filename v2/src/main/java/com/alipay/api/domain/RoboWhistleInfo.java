@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RoboWhistleInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4638273317955479751L;
+	private static final long serialVersionUID = 5299934942736199544L;
 
 	/**
 	 * 是否有鸣笛能力，0无，1有

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 数据项，类型为KLineDTO
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:46
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class KLineDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4655822476816215488L;
+	private static final long serialVersionUID = 5182442966639771687L;
 
 	/**
 	 * 成交额，单元为元

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EncryptConfigExt extends AlipayObject {
 
-	private static final long serialVersionUID = 7162334852649986842L;
+	private static final long serialVersionUID = 5624329323646389889L;
 
 	/**
 	 * APPID

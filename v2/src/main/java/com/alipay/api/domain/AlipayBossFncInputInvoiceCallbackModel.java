@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 进项票回调接口
  *
  * @author auto create
- * @since 1.0, 2023-10-13 13:44:27
+ * @since 1.0, 2026-08-19 11:33:30
  */
 public class AlipayBossFncInputInvoiceCallbackModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2624286935789727327L;
+	private static final long serialVersionUID = 8899337775127431513L;
 
 	/**
 	 * 请求入参

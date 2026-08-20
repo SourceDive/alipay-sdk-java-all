@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 发票退换票申请
  *
  * @author auto create
- * @since 1.0, 2024-01-22 09:41:04
+ * @since 1.0, 2026-08-19 11:28:05
  */
 public class AlipayBossFncInvoicereturnCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7459889837333591612L;
+	private static final long serialVersionUID = 2751854115979697454L;
 
 	/**
 	 * 申请明细

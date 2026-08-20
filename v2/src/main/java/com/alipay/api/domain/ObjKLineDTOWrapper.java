@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 业务数据，类型为ObjKLineDTOWrapper
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:46
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class ObjKLineDTOWrapper extends AlipayObject {
 
-	private static final long serialVersionUID = 1429392567611565986L;
+	private static final long serialVersionUID = 8555793662187428432L;
 
 	/**
 	 * 业务数据，类型为ObjKLineDTOWrapper

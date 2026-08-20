@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 集团发票分发、验真、勾选等操作通知接口
  *
  * @author auto create
- * @since 1.0, 2022-06-13 21:42:58
+ * @since 1.0, 2026-08-19 11:32:58
  */
 public class AlipayBossFncInputinvoiceInvoiceNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4865335877188329372L;
+	private static final long serialVersionUID = 4586256341444342293L;
 
 	/**
 	 * 错误代码

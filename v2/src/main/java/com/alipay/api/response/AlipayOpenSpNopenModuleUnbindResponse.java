@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenSpNopenModuleUnbindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7565351252979862848L;
+	private static final long serialVersionUID = 6892171922746131964L;
 
 	/** 
 	 * traceId信息

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEcoMycarMaintainBizorderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8443572596197693397L;
+	private static final long serialVersionUID = 8526141297224191152L;
 
 	/**
 	 * 预约确认时间yyyy-MM-dd HH:mm:ss。门店确认预约时间。门店确认后，预约流程生效，用户可到店服务。

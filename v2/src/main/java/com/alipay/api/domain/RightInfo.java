@@ -7,11 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 服务权益项列表
  *
  * @author auto create
- * @since 1.0, 2026-06-23 14:00:14
+ * @since 1.0, 2026-08-19 16:35:24
  */
 public class RightInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1744289437248764747L;
+	private static final long serialVersionUID = 6842329786415924117L;
+
+	/**
+	 * 履约类型
+	 */
+	@ApiField("fulfillment_type")
+	private String fulfillmentType;
+
+	/**
+	 * 权益剩余次数
+	 */
+	@ApiField("remaining_times")
+	private String remainingTimes;
 
 	/**
 	 * 权益副标题
@@ -26,10 +38,30 @@ public class RightInfo extends AlipayObject {
 	private String rightTitle;
 
 	/**
+	 * SKU编码
+	 */
+	@ApiField("sku_code")
+	private String skuCode;
+
+	/**
 	 * 权益总数
 	 */
 	@ApiField("total_times")
 	private String totalTimes;
+
+	public String getFulfillmentType() {
+		return this.fulfillmentType;
+	}
+	public void setFulfillmentType(String fulfillmentType) {
+		this.fulfillmentType = fulfillmentType;
+	}
+
+	public String getRemainingTimes() {
+		return this.remainingTimes;
+	}
+	public void setRemainingTimes(String remainingTimes) {
+		this.remainingTimes = remainingTimes;
+	}
 
 	public String getRightSubtitle() {
 		return this.rightSubtitle;
@@ -43,6 +75,13 @@ public class RightInfo extends AlipayObject {
 	}
 	public void setRightTitle(String rightTitle) {
 		this.rightTitle = rightTitle;
+	}
+
+	public String getSkuCode() {
+		return this.skuCode;
+	}
+	public void setSkuCode(String skuCode) {
+		this.skuCode = skuCode;
 	}
 
 	public String getTotalTimes() {

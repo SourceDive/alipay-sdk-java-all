@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 根据PID获取相关的开票资料
  *
  * @author auto create
- * @since 1.0, 2024-01-22 09:39:28
+ * @since 1.0, 2026-08-19 11:27:30
  */
 public class AlipayBossFncUserinvoiceinfoQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7535756822573837522L;
+	private static final long serialVersionUID = 5447249518539155958L;
 
 	/**
 	 * 开票pid/mid/ou，唯一标识商户信息/集团用户信息的ID

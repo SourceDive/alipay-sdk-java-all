@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class LoanPayAssetResult extends AlipayObject {
 
-	private static final long serialVersionUID = 4216623963417686378L;
+	private static final long serialVersionUID = 6165811512754643766L;
 
 	/**
 	 * 资金账号

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 医生服务包列表查询
  *
  * @author auto create
- * @since 1.0, 2026-08-18 10:36:07
+ * @since 1.0, 2026-08-19 16:37:52
  */
 public class AlipayCommerceMedicalServicepackageListQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1229679376254842868L;
+	private static final long serialVersionUID = 5431862449358156866L;
 
 	/**
 	 * 是否是买后
@@ -35,6 +35,12 @@ public class AlipayCommerceMedicalServicepackageListQueryModel extends AlipayObj
 	@ApiField("string")
 	private List<String> packageIdList;
 
+	/**
+	 * 订单号
+	 */
+	@ApiField("service_pkg_order_no")
+	private String servicePkgOrderNo;
+
 	public Boolean getIsPurchased() {
 		return this.isPurchased;
 	}
@@ -54,6 +60,13 @@ public class AlipayCommerceMedicalServicepackageListQueryModel extends AlipayObj
 	}
 	public void setPackageIdList(List<String> packageIdList) {
 		this.packageIdList = packageIdList;
+	}
+
+	public String getServicePkgOrderNo() {
+		return this.servicePkgOrderNo;
+	}
+	public void setServicePkgOrderNo(String servicePkgOrderNo) {
+		this.servicePkgOrderNo = servicePkgOrderNo;
 	}
 
 }

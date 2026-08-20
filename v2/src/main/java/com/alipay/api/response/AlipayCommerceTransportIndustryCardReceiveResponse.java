@@ -13,11 +13,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.industry.card.receive response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-18 16:37:54
+ * @since 1.0, 2026-08-19 15:02:52
  */
 public class AlipayCommerceTransportIndustryCardReceiveResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3435477956493382539L;
+	private static final long serialVersionUID = 2385271138925893367L;
 
 	/** 
 	 * 卡详情

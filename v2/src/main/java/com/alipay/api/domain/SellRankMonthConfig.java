@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SellRankMonthConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 3231515274545969951L;
+	private static final long serialVersionUID = 7219692341547711264L;
 
 	/**
 	 * 月份

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 请求模式是end + count，即以end时间节点为起点，向历史查询count个数据
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:46
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class QueryRange extends AlipayObject {
 
-	private static final long serialVersionUID = 8375896286536319347L;
+	private static final long serialVersionUID = 4518289177515463867L;
 
 	/**
 	 * 查询范围的结束时间戳

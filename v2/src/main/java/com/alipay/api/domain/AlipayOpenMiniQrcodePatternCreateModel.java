@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenMiniQrcodePatternCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1482859337591243533L;
+	private static final long serialVersionUID = 3318366545777176273L;
 
 	/**
 	 * 调用类型，目前支持三种调用类型：DELEGATE、MERCHANT和ISV，不同调用类型会导致模式归属者不同

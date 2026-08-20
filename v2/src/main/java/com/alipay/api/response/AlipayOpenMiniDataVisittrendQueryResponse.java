@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenMiniDataVisittrendQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7735316612949688565L;
+	private static final long serialVersionUID = 5478889231723346816L;
 
 	/** 
 	 * 小程序实时访问趋势结果

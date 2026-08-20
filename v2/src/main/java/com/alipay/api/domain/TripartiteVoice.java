@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class TripartiteVoice extends AlipayObject {
 
-	private static final long serialVersionUID = 5658431389217399797L;
+	private static final long serialVersionUID = 4769941853778793414L;
 
 	/**
 	 * anteye一级意图

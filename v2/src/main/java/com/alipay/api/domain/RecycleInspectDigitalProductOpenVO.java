@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecycleInspectDigitalProductOpenVO extends AlipayObject {
 
-	private static final long serialVersionUID = 3679744424766323761L;
+	private static final long serialVersionUID = 5227868273216195522L;
 
 	/**
 	 * imei号

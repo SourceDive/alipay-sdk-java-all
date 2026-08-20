@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.boss.fnc.outputinvoice.redinvoice.apply request
  * 
  * @author auto create
- * @since 1.0, 2024-01-22 09:41:22
+ * @since 1.0, 2026-08-19 11:27:57
  */
 public class AlipayBossFncOutputinvoiceRedinvoiceApplyRequest implements AlipayRequest<AlipayBossFncOutputinvoiceRedinvoiceApplyResponse> {
 

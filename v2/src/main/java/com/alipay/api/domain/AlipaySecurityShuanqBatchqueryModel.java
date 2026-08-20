@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySecurityShuanqBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4343797672299354681L;
+	private static final long serialVersionUID = 3529571734475332611L;
 
 	/**
 	 * 区

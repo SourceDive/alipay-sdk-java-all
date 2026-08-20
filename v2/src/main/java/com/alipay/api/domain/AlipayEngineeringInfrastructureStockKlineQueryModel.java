@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * K线数据查询接口
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:46
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class AlipayEngineeringInfrastructureStockKlineQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5842533129615645525L;
+	private static final long serialVersionUID = 1544357577598427228L;
 
 	/**
 	 * 限制条目、非null 

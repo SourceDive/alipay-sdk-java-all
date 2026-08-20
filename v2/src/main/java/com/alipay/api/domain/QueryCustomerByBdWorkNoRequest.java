@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class QueryCustomerByBdWorkNoRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 5715388243373699558L;
+	private static final long serialVersionUID = 4625124943346873943L;
 
 	/**
 	 * bd工号

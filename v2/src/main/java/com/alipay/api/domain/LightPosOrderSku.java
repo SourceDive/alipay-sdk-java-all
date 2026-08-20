@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LightPosOrderSku extends AlipayObject {
 
-	private static final long serialVersionUID = 3172368293687899741L;
+	private static final long serialVersionUID = 8655487963485455212L;
 
 	/**
 	 * 单位元

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 批量分发前修改发票
  *
  * @author auto create
- * @since 1.0, 2023-08-30 16:36:12
+ * @since 1.0, 2026-08-19 11:33:18
  */
 public class AlipayBossFncInputinvoiceBeforedistributeModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8595333681861429562L;
+	private static final long serialVersionUID = 7794475394897989148L;
 
 	/**
 	 * 批量修改入参

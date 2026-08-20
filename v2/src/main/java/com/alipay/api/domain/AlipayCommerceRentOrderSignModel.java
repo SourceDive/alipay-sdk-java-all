@@ -7,17 +7,25 @@ import com.alipay.api.internal.mapping.ApiField;
  * 租赁订单签约
  *
  * @author auto create
- * @since 1.0, 2025-12-15 11:30:21
+ * @since 1.0, 2026-08-19 14:55:53
  */
 public class AlipayCommerceRentOrderSignModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5311213988913693236L;
+	private static final long serialVersionUID = 2856927396294276436L;
 
 	/**
 	 * 芝麻信用拓展信息
 	 */
 	@ApiField("credit_ext_info")
 	private RentCreditExtInfoDTO creditExtInfo;
+
+	/**
+	 * 无特殊需要请勿传入；买家实名信息。
+传入后支付宝会比对买家在支付宝端的实名信息。包含如下可选key：
+1.identity_hash，买家姓名拼接身份证号后，使用SHA256摘要方式与UTF8编码后的hash值，返回的十六进制字符串，例如 “张三4566498798498498498498”对应的identity_hash应为“acc2b92ffc5ed9b472faa19748f10045c30434132784f774b00216a56b8841c6”
+	 */
+	@ApiField("identity_params")
+	private String identityParams;
 
 	/**
 	 * 是否需要人脸核身
@@ -44,6 +52,13 @@ false：无需人脸核身
 	}
 	public void setCreditExtInfo(RentCreditExtInfoDTO creditExtInfo) {
 		this.creditExtInfo = creditExtInfo;
+	}
+
+	public String getIdentityParams() {
+		return this.identityParams;
+	}
+	public void setIdentityParams(String identityParams) {
+		this.identityParams = identityParams;
 	}
 
 	public Boolean getNeedFaceValidateFlag() {

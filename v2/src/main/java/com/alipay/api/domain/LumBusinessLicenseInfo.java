@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LumBusinessLicenseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3499342556675413297L;
+	private static final long serialVersionUID = 3427761571732287798L;
 
 	/**
 	 * 营业执照图片OSS Key，调用ant.merchant.expand.indirect.image.upload获取

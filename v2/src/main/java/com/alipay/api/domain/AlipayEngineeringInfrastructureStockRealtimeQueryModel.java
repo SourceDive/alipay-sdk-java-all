@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 分时图查询接口
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:25:33
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class AlipayEngineeringInfrastructureStockRealtimeQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7115695467676378184L;
+	private static final long serialVersionUID = 1427666638681684617L;
 
 	/**
 	 * 查询天数

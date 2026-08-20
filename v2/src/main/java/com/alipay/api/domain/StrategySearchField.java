@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class StrategySearchField extends AlipayObject {
 
-	private static final long serialVersionUID = 7291926835536157588L;
+	private static final long serialVersionUID = 3397668987964317163L;
 
 	/**
 	 * gmt_create

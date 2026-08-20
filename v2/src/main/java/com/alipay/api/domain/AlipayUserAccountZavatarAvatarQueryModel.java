@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayUserAccountZavatarAvatarQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5834679522157365469L;
+	private static final long serialVersionUID = 7762442693552937664L;
 
 	/**
 	 * 数字人形象的版本参数

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.engineering.infrastructure.stock.realtime.query request
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 16:25:33
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class AlipayEngineeringInfrastructureStockRealtimeQueryRequest implements AlipayRequest<AlipayEngineeringInfrastructureStockRealtimeQueryResponse> {
 

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEcoTextVoiceTransferResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4171234112811322538L;
+	private static final long serialVersionUID = 7249555921562854824L;
 
 	/** 
 	 * 阿里云语音编号

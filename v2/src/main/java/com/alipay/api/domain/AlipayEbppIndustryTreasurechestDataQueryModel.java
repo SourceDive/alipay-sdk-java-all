@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEbppIndustryTreasurechestDataQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7168118258979385829L;
+	private static final long serialVersionUID = 6498852431155252559L;
 
 	/**
 	 * 用户授权后办事保险箱生成的授权码

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:25:33
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class TrendDataDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1785564854216762514L;
+	private static final long serialVersionUID = 2662663771119514197L;
 
 	/**
 	 * 渠道来源交易所 eg. SH

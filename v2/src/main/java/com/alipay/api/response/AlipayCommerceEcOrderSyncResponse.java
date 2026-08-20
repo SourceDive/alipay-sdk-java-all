@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEcOrderSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3819469449543553971L;
+	private static final long serialVersionUID = 4836912247611877779L;
 
 	/** 
 	 * 订单同步成功后产生的支付宝订单号

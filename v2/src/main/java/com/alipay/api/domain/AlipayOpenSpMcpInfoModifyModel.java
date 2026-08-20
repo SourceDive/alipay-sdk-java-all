@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenSpMcpInfoModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4266268461544727557L;
+	private static final long serialVersionUID = 3757712461564539995L;
 
 	/**
 	 * MCP能力编码code

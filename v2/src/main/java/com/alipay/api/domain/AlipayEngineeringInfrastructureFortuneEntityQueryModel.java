@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 财富标的代码及基本信息提取接口
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:27:45
+ * @since 1.0, 2026-08-20 00:05:39
  */
 public class AlipayEngineeringInfrastructureFortuneEntityQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1692563496631599993L;
+	private static final long serialVersionUID = 5878622213655164765L;
 
 	/**
 	 * 自然语言文本

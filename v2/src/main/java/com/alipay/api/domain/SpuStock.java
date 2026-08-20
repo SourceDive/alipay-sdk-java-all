@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SpuStock extends AlipayObject {
 
-	private static final long serialVersionUID = 1738774762881584423L;
+	private static final long serialVersionUID = 1242937739316565628L;
 
 	/**
 	 * 对用户展示的实际可售卖库存数量。

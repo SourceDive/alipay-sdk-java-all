@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class YpzMedAccompanyCardOne extends AlipayObject {
 
-	private static final long serialVersionUID = 1224345179373811881L;
+	private static final long serialVersionUID = 2841282944154788277L;
 
 	/**
 	 * 陪诊师名字

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.boss.fnc.inputinvoice.uncertify.callback request
  * 
  * @author auto create
- * @since 1.0, 2023-08-30 16:41:43
+ * @since 1.0, 2026-08-19 11:33:55
  */
 public class AlipayBossFncInputinvoiceUncertifyCallbackRequest implements AlipayRequest<AlipayBossFncInputinvoiceUncertifyCallbackResponse> {
 

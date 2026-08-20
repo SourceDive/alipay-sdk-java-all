@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KoubeiSalesKbassetStuffCancelstockoutorderQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7268648118468122986L;
+	private static final long serialVersionUID = 7145519169691781194L;
 
 	/**
 	 * 扩展字段，备用
