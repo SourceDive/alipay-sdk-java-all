@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ChannelListQueryRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 5447656864785435982L;
+	private static final long serialVersionUID = 2267173539453357898L;
 
 	/**
 	 * 当前页，默认1

@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySecurityTestmysqltoobQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5578365525917297365L;
+	private static final long serialVersionUID = 2545191671456548763L;
 
 	/** 
 	 * 11

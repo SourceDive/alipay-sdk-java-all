@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EcEmployeeBatchAddFailInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6514749563471621387L;
+	private static final long serialVersionUID = 3467128371788648221L;
 
 	/**
 	 * 证件号

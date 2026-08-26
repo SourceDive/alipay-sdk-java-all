@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AdjustRouteDirectionObject extends AlipayObject {
 
-	private static final long serialVersionUID = 3725121828446844664L;
+	private static final long serialVersionUID = 5724499153861353394L;
 
 	/**
 	 * 调整详情

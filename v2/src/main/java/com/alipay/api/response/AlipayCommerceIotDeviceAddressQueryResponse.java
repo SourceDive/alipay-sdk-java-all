@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceIotDeviceAddressQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7316453845686817248L;
+	private static final long serialVersionUID = 7825453835577882915L;
 
 	/** 
 	 * 城市名称

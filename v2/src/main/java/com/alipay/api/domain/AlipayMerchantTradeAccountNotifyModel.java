@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 间连商户动帐通知
  *
  * @author auto create
- * @since 1.0, 2024-12-19 13:35:18
+ * @since 1.0, 2026-08-21 14:06:55
  */
 public class AlipayMerchantTradeAccountNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7862488698216713317L;
+	private static final long serialVersionUID = 4855149378338536518L;
 
 	/**
 	 * 收银员ID，若收银员需要接收动账通知，需要传该字段。该字段值与商户信息查接口中的收银员ID一致

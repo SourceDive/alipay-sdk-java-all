@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商家营销内容咨询接口
  *
  * @author auto create
- * @since 1.0, 2026-04-28 16:10:17
+ * @since 1.0, 2026-08-21 14:10:55
  */
 public class AlipayMerchantNpromoIndirectQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2597737794718259553L;
+	private static final long serialVersionUID = 1123784869292818292L;
 
 	/**
 	 * 当前登录用户对应的服务商商户号，可能有多个

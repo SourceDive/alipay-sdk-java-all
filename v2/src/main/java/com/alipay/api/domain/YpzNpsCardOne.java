@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * NPS卡
  *
  * @author auto create
- * @since 1.0, 2026-07-07 14:32:58
+ * @since 1.0, 2026-08-25 20:51:51
  */
 public class YpzNpsCardOne extends AlipayObject {
 
-	private static final long serialVersionUID = 4281486297587323313L;
+	private static final long serialVersionUID = 6412169768213538779L;
 
 	/**
 	 * 显示状态

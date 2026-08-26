@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 间连解决方案单条数据提报结果查询
  *
  * @author auto create
- * @since 1.0, 2026-06-15 10:33:48
+ * @since 1.0, 2026-08-21 14:13:37
  */
 public class AlipayMerchantSolutionRecordQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5495777784553514989L;
+	private static final long serialVersionUID = 3618438683623238412L;
 
 	/**
 	 * 要查询的数据，上传的数据可以标识唯一一条数据记录。如有多条记录，返回最新状态。

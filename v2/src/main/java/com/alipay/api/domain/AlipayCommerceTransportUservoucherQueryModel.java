@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝机票阵地已领取优惠券查询
  *
  * @author auto create
- * @since 1.0, 2026-07-15 17:52:54
+ * @since 1.0, 2026-08-21 16:44:45
  */
 public class AlipayCommerceTransportUservoucherQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4144156645799169513L;
+	private static final long serialVersionUID = 6362745963288615149L;
 
 	/**
 	 * 达到机场三字码

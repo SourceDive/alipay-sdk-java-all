@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 云陪诊统一查询推荐卡片接口
  *
  * @author auto create
- * @since 1.0, 2026-07-07 14:32:58
+ * @since 1.0, 2026-08-25 20:51:51
  */
 public class AlipayCommerceMedicalYpzRecommendcardQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2556941872395898272L;
+	private static final long serialVersionUID = 5139252914875872692L;
 
 	/**
 	 * 就医数据唯一ID

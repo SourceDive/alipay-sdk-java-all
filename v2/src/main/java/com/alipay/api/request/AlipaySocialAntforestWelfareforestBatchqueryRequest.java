@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.social.antforest.welfareforest.batchquery request
  * 
  * @author auto create
- * @since 1.0, 2026-07-03 10:21:24
+ * @since 1.0, 2026-08-25 13:07:49
  */
 public class AlipaySocialAntforestWelfareforestBatchqueryRequest implements AlipayRequest<AlipaySocialAntforestWelfareforestBatchqueryResponse> {
 

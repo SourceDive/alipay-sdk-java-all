@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.gas.item.query request
  * 
  * @author auto create
- * @since 1.0, 2025-12-03 14:49:27
+ * @since 1.0, 2026-08-25 15:36:55
  */
 public class AlipayCommerceGasItemQueryRequest implements AlipayRequest<AlipayCommerceGasItemQueryResponse> {
 

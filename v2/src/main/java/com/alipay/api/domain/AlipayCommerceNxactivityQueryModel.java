@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceNxactivityQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8313279823282817349L;
+	private static final long serialVersionUID = 7583846245641922319L;
 
 	/**
 	 * 碰出惊喜活动ID，可从碰出惊喜活动创建或活动查询结果中获取。

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.open.mini.order.logisticsinfo.modify request
  * 
  * @author auto create
- * @since 1.0, 2026-05-06 10:28:03
+ * @since 1.0, 2026-08-21 14:07:56
  */
 public class AlipayOpenMiniOrderLogisticsinfoModifyRequest implements AlipayRequest<AlipayOpenMiniOrderLogisticsinfoModifyResponse> {
 

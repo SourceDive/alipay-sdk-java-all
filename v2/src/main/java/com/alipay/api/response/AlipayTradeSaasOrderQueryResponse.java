@@ -8,17 +8,47 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.saas.order.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-19 14:05:36
+ * @since 1.0, 2026-08-25 21:17:52
  */
 public class AlipayTradeSaasOrderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4782734318639436578L;
+	private static final long serialVersionUID = 7593246828236728346L;
+
+	/** 
+	 * 银行转账实际付款账号。仅在银行转账支付成功且渠道返回该信息时返回。
+	 */
+	@ApiField("buyer_bank_account")
+	private String buyerBankAccount;
+
+	/** 
+	 * 银行转账实际付款银行名称。仅在银行转账支付成功且渠道返回该信息时返回。
+	 */
+	@ApiField("buyer_bank_name")
+	private String buyerBankName;
+
+	/** 
+	 * 银行转账实际付款户名。仅在银行转账支付成功且渠道返回该信息时返回。
+	 */
+	@ApiField("buyer_name")
+	private String buyerName;
 
 	/** 
 	 * 买家实付金额，单位为元。
 	 */
 	@ApiField("buyer_pay_amount")
 	private String buyerPayAmount;
+
+	/** 
+	 * 首次真实关单原因。仅在交易真实关闭且已记录关单原因时返回。
+	 */
+	@ApiField("close_reason")
+	private String closeReason;
+
+	/** 
+	 * 商户订单备注。创建收款单时传入则原样返回。
+	 */
+	@ApiField("memo")
+	private String memo;
 
 	/** 
 	 * SaaS交易订单号。单号已形成时返回。
@@ -80,11 +110,46 @@ public class AlipayTradeSaasOrderQueryResponse extends AlipayResponse {
 	@ApiField("trade_status")
 	private String tradeStatus;
 
+	public void setBuyerBankAccount(String buyerBankAccount) {
+		this.buyerBankAccount = buyerBankAccount;
+	}
+	public String getBuyerBankAccount( ) {
+		return this.buyerBankAccount;
+	}
+
+	public void setBuyerBankName(String buyerBankName) {
+		this.buyerBankName = buyerBankName;
+	}
+	public String getBuyerBankName( ) {
+		return this.buyerBankName;
+	}
+
+	public void setBuyerName(String buyerName) {
+		this.buyerName = buyerName;
+	}
+	public String getBuyerName( ) {
+		return this.buyerName;
+	}
+
 	public void setBuyerPayAmount(String buyerPayAmount) {
 		this.buyerPayAmount = buyerPayAmount;
 	}
 	public String getBuyerPayAmount( ) {
 		return this.buyerPayAmount;
+	}
+
+	public void setCloseReason(String closeReason) {
+		this.closeReason = closeReason;
+	}
+	public String getCloseReason( ) {
+		return this.closeReason;
+	}
+
+	public void setMemo(String memo) {
+		this.memo = memo;
+	}
+	public String getMemo( ) {
+		return this.memo;
 	}
 
 	public void setOrderNo(String orderNo) {

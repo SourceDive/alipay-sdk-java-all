@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundMbpcardCardBindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2851336746812525118L;
+	private static final long serialVersionUID = 3592951988416561796L;
 
 	/** 
 	 * 绑卡结果

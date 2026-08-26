@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class QualityDetectDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 6323458696516426757L;
+	private static final long serialVersionUID = 4126152417595693718L;
 
 	/**
 	 * 线圈烧录的UTC时间戳

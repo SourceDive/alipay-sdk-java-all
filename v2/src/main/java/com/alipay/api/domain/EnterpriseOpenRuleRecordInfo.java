@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 开票规则记录
  *
  * @author auto create
- * @since 1.0, 2026-07-31 14:57:33
+ * @since 1.0, 2026-08-25 19:42:05
  */
 public class EnterpriseOpenRuleRecordInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2672837896195617993L;
+	private static final long serialVersionUID = 1292637756149555749L;
 
 	/**
 	 * 开票规则账单日
@@ -62,6 +62,12 @@ public class EnterpriseOpenRuleRecordInfo extends AlipayObject {
 	 */
 	@ApiField("gmt_modified")
 	private Date gmtModified;
+
+	/**
+	 * 开票规则的发票备注取值规则。NONE表示不使用额度发放说明；QUOTA_ISSUE_DESC表示将因公付额度发放说明作为发票备注。历史规则未配置时按NONE理解。
+	 */
+	@ApiField("invoice_remark_value_rule")
+	private String invoiceRemarkValueRule;
 
 	/**
 	 * 开票规则ID
@@ -165,6 +171,13 @@ public class EnterpriseOpenRuleRecordInfo extends AlipayObject {
 	}
 	public void setGmtModified(Date gmtModified) {
 		this.gmtModified = gmtModified;
+	}
+
+	public String getInvoiceRemarkValueRule() {
+		return this.invoiceRemarkValueRule;
+	}
+	public void setInvoiceRemarkValueRule(String invoiceRemarkValueRule) {
+		this.invoiceRemarkValueRule = invoiceRemarkValueRule;
 	}
 
 	public String getInvoiceRuleId() {

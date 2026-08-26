@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 开启蚂蚁关联交易合约审批接口（智科调用）
  *
  * @author auto create
- * @since 1.0, 2020-12-24 20:46:36
+ * @since 1.0, 2026-08-20 16:25:19
  */
 public class AlipayBossContractGeneralCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4269783156181386982L;
+	private static final long serialVersionUID = 6263992162611585642L;
 
 	/**
 	 * 上游平台唯一识别

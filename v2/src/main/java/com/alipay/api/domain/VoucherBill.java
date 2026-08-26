@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class VoucherBill extends AlipayObject {
 
-	private static final long serialVersionUID = 4443512291268361376L;
+	private static final long serialVersionUID = 4899894296749921659L;
 
 	/**
 	 * 券核销/退款金额(单位：元)

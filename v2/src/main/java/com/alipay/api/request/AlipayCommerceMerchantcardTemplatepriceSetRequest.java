@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.merchantcard.templateprice.set request
  * 
  * @author auto create
- * @since 1.0, 2026-07-31 11:12:49
+ * @since 1.0, 2026-08-21 11:49:03
  */
 public class AlipayCommerceMerchantcardTemplatepriceSetRequest implements AlipayRequest<AlipayCommerceMerchantcardTemplatepriceSetResponse> {
 

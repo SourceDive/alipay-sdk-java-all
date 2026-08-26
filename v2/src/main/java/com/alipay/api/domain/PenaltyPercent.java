@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PenaltyPercent extends AlipayObject {
 
-	private static final long serialVersionUID = 4539292443234663528L;
+	private static final long serialVersionUID = 5457623511417581479L;
 
 	/**
 	 * 罚金晚数

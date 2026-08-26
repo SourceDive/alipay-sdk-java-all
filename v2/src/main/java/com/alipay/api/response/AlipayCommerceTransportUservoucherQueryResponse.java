@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.uservoucher.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-07-15 17:52:54
+ * @since 1.0, 2026-08-21 16:44:45
  */
 public class AlipayCommerceTransportUservoucherQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8246478776536584332L;
+	private static final long serialVersionUID = 7811395687644123141L;
 
 	/** 
 	 * null

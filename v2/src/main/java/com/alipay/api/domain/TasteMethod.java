@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TasteMethod extends AlipayObject {
 
-	private static final long serialVersionUID = 4623415696626848541L;
+	private static final long serialVersionUID = 6643635892419844678L;
 
 	/**
 	 * 1

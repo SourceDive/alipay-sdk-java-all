@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IpRoleInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1753437478142445714L;
+	private static final long serialVersionUID = 2757917996298287356L;
 
 	/**
 	 * gmt_create 不唯一 代表创建时间 无枚举 被调用方提供 无特殊说明

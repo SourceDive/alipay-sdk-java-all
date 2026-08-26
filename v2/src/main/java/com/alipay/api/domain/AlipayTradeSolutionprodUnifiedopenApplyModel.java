@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * C2C个人收款方聚合开通订单创建接口
  *
  * @author auto create
- * @since 1.0, 2026-08-06 19:57:09
+ * @since 1.0, 2026-08-25 14:36:39
  */
 public class AlipayTradeSolutionprodUnifiedopenApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1213955442219492777L;
+	private static final long serialVersionUID = 5863298734772387388L;
 
 	/**
 	 * 结果页点击完成后的跳转地址
@@ -40,7 +40,7 @@ public class AlipayTradeSolutionprodUnifiedopenApplyModel extends AlipayObject {
 
 	/**
 	 * 证件类型。
-目前只支持传入100（大陆身份证）
+目前只支持传入100（大陆身份证）、105（港澳居民来往内地通行证）、106（台湾居民来往大陆通行证）
 	 */
 	@ApiField("cert_type")
 	private String certType;

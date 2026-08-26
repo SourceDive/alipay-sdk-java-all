@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WorkPlace extends AlipayObject {
 
-	private static final long serialVersionUID = 3659637668533671125L;
+	private static final long serialVersionUID = 2216872111745318628L;
 
 	/**
 	 * 物流行业作业平台线圈作业时的最小铺设单位。

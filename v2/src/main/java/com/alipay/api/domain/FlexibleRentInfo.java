@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 灵活租期交易信息
  *
  * @author auto create
- * @since 1.0, 2026-08-18 14:07:51
+ * @since 1.0, 2026-08-26 10:57:51
  */
 public class FlexibleRentInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5597462628935234271L;
+	private static final long serialVersionUID = 1765383613281441266L;
 
 	/**
 	 * 双周租金,单位:元

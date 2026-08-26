@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.hdfopenmq.message.send request
  * 
  * @author auto create
- * @since 1.0, 2026-08-19 14:52:51
+ * @since 1.0, 2026-08-21 14:07:53
  */
 public class AlipayCommerceMedicalHdfopenmqMessageSendRequest implements AlipayRequest<AlipayCommerceMedicalHdfopenmqMessageSendResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ProviderShop extends AlipayObject {
 
-	private static final long serialVersionUID = 1882936174269536325L;
+	private static final long serialVersionUID = 7847185967228293887L;
 
 	/**
 	 * 门店营业时间

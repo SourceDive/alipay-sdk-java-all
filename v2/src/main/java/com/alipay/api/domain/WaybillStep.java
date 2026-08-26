@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WaybillStep extends AlipayObject {
 
-	private static final long serialVersionUID = 5851533663518543919L;
+	private static final long serialVersionUID = 3653423565252275787L;
 
 	/**
 	 * 城市

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMerchantcardRedeemRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3433528422569713985L;
+	private static final long serialVersionUID = 6746226467795726915L;
 
 	/**
 	 * 售卖订单id

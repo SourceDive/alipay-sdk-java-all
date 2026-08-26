@@ -14,7 +14,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.ec.tcn.invoiceapply.upload request
  * 
  * @author auto create
- * @since 1.0, 2024-11-28 11:31:48
+ * @since 1.0, 2026-08-25 16:51:06
  */
 public class AlipayCommerceEcTcnInvoiceapplyUploadRequest implements AlipayUploadRequest<AlipayCommerceEcTcnInvoiceapplyUploadResponse> {
 

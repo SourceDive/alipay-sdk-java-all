@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 专家问诊医生在线状态和问诊方式、价格等数据
  *
  * @author auto create
- * @since 1.0, 2026-03-12 14:22:41
+ * @since 1.0, 2026-08-25 10:10:23
  */
 public class InqueryDoctorStatusData extends AlipayObject {
 
-	private static final long serialVersionUID = 1241242461354158853L;
+	private static final long serialVersionUID = 2839384467243776796L;
 
 	/**
 	 * 平均接诊时长（单位：分钟）
@@ -29,7 +29,7 @@ public class InqueryDoctorStatusData extends AlipayObject {
 	private String doctorPlatformStatus;
 
 	/**
-	 * 医生评价分数
+	 * 医生评价分数（10分制）
 	 */
 	@ApiField("evaluation_score")
 	private String evaluationScore;

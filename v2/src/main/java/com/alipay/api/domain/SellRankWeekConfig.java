@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SellRankWeekConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 3862955958653777493L;
+	private static final long serialVersionUID = 3476843574853463622L;
 
 	/**
 	 * 周显示文本

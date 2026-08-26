@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MpcpromoShopList extends AlipayObject {
 
-	private static final long serialVersionUID = 1273333724765787783L;
+	private static final long serialVersionUID = 4857585336991783427L;
 
 	/**
 	 * 详细地址

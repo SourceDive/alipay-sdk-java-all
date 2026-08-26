@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTradeCommercialOrderCloseResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6364324742341122314L;
+	private static final long serialVersionUID = 7186634681462684587L;
 
 	/** 
 	 * 订单关闭时间，格式为yyyy-MM-dd HH:mm:ss

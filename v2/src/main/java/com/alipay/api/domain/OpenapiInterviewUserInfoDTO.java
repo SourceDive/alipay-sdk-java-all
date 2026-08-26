@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OpenapiInterviewUserInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2239733746419431613L;
+	private static final long serialVersionUID = 4126378294455399153L;
 
 	/**
 	 * 候选人教育经历文字描述，限制150字之内

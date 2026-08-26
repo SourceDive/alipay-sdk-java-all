@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.merchant.solution.batch.query response.
  * 
  * @author auto create
- * @since 1.0, 2024-06-05 19:02:04
+ * @since 1.0, 2026-08-21 14:13:24
  */
 public class AlipayMerchantSolutionBatchQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6163548117935954453L;
+	private static final long serialVersionUID = 3149355817963466168L;
 
 	/** 
 	 * 提报成功后，支付宝侧生成的提报批次号

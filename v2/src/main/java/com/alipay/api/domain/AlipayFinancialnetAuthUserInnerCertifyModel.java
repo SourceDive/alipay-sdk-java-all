@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayFinancialnetAuthUserInnerCertifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4789329975331197529L;
+	private static final long serialVersionUID = 2278691779654367424L;
 
 	/**
 	 * 浙江省杭州市地区编码

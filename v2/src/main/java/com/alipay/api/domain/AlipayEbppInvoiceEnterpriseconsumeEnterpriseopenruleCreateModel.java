@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 开票规则新增接口
  *
  * @author auto create
- * @since 1.0, 2026-07-31 14:56:59
+ * @since 1.0, 2026-08-25 19:42:08
  */
 public class AlipayEbppInvoiceEnterpriseconsumeEnterpriseopenruleCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1629174365536213977L;
+	private static final long serialVersionUID = 1631613225751385448L;
 
 	/**
 	 * 共同账户ID
@@ -54,6 +54,12 @@ public class AlipayEbppInvoiceEnterpriseconsumeEnterpriseopenruleCreateModel ext
 	 */
 	@ApiField("enterprise_id")
 	private String enterpriseId;
+
+	/**
+	 * 发票备注取值规则。NONE表示不使用额度发放说明；QUOTA_ISSUE_DESC表示将因公付额度发放说明作为发票备注。不传、传null或空字符串时默认NONE。
+	 */
+	@ApiField("invoice_remark_value_rule")
+	private String invoiceRemarkValueRule;
 
 	/**
 	 * 开票规则名称
@@ -150,6 +156,13 @@ public class AlipayEbppInvoiceEnterpriseconsumeEnterpriseopenruleCreateModel ext
 	}
 	public void setEnterpriseId(String enterpriseId) {
 		this.enterpriseId = enterpriseId;
+	}
+
+	public String getInvoiceRemarkValueRule() {
+		return this.invoiceRemarkValueRule;
+	}
+	public void setInvoiceRemarkValueRule(String invoiceRemarkValueRule) {
+		this.invoiceRemarkValueRule = invoiceRemarkValueRule;
 	}
 
 	public String getInvoiceRuleName() {

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FulfillmentAdditionalMediaInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3733778518977258727L;
+	private static final long serialVersionUID = 1512986946626391123L;
 
 	/**
 	 * 需整改的原始租赁租赁合同文件ID, 仅当type为RENT_CONTRACT_TEMPLATE时需要传入

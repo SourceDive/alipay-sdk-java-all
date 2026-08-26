@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 间连解决方案批次数据提报结果查询
  *
  * @author auto create
- * @since 1.0, 2024-06-05 18:57:00
+ * @since 1.0, 2026-08-21 14:13:24
  */
 public class AlipayMerchantSolutionBatchQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5229835431398987311L;
+	private static final long serialVersionUID = 5529232342272863423L;
 
 	/**
 	 * 提报成功后，支付宝侧生成的提报批次号

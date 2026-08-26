@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MybankCreditSupplychainWfDataauthtokenSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3381512795897312151L;
+	private static final long serialVersionUID = 7312545166467523529L;
 
 	/**
 	 * 发送时间

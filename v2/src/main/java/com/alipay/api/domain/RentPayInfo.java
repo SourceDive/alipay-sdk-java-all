@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-18 14:07:51
+ * @since 1.0, 2026-08-26 10:57:51
  */
 public class RentPayInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3411978274411248528L;
+	private static final long serialVersionUID = 2634314487569625597L;
 
 	/**
 	 * 租期结束日期

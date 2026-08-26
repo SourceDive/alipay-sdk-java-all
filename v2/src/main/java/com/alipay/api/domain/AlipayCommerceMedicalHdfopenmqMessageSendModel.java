@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 好大夫消息变更
  *
  * @author auto create
- * @since 1.0, 2026-08-19 14:50:33
+ * @since 1.0, 2026-08-21 14:05:38
  */
 public class AlipayCommerceMedicalHdfopenmqMessageSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7753259344844471638L;
+	private static final long serialVersionUID = 1888672452685451842L;
 
 	/**
 	 * 好大夫变更消息体

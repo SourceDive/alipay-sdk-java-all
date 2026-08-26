@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayVoyagerPaymentsCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3352538422523839846L;
+	private static final long serialVersionUID = 8542756885783931567L;
 
 	/**
 	 * voyager授权返回的openId

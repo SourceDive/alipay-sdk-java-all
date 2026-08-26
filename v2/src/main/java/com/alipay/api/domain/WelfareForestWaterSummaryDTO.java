@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WelfareForestWaterSummaryDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5651189367447647153L;
+	private static final long serialVersionUID = 8734283944158522627L;
 
 	/**
 	 * 当前浇水量可种植多少颗对应的树

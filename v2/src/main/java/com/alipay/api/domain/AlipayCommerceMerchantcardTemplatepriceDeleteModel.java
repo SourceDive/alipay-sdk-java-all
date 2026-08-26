@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商品动态价格删除
  *
  * @author auto create
- * @since 1.0, 2026-07-31 11:12:49
+ * @since 1.0, 2026-08-25 14:37:38
  */
 public class AlipayCommerceMerchantcardTemplatepriceDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3525353362593758451L;
+	private static final long serialVersionUID = 4763158674488479756L;
 
 	/**
 	 * 需要删除动态价格的商品模板ID。

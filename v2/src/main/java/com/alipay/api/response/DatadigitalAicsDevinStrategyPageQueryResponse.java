@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class DatadigitalAicsDevinStrategyPageQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3272943934241571753L;
+	private static final long serialVersionUID = 6399377228929162679L;
 
 	/** 
 	 * 策略列表分页结果与页结构

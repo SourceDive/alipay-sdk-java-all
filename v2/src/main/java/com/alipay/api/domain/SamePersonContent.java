@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SamePersonContent extends AlipayObject {
 
-	private static final long serialVersionUID = 7488233532982341541L;
+	private static final long serialVersionUID = 2581639239828448677L;
 
 	/**
 	 * 用户当前脱敏登录账号

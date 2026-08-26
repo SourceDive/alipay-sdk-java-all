@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEcBalanceAlertCheckResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2457282824675758548L;
+	private static final long serialVersionUID = 6167122759933781456L;
 
 	/** 
 	 * 余额是否充足（true: 充足, false: 不充足）

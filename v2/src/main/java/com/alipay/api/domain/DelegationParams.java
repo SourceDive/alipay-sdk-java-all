@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * AI付代买委托信息
  *
  * @author auto create
- * @since 1.0, 2026-07-16 17:02:54
+ * @since 1.0, 2026-08-24 16:02:50
  */
 public class DelegationParams extends AlipayObject {
 
-	private static final long serialVersionUID = 2369611182866364268L;
+	private static final long serialVersionUID = 2194865432155382592L;
 
 	/**
 	 * 对AI付代买委托意图做描述
@@ -30,6 +30,12 @@ public class DelegationParams extends AlipayObject {
 	 */
 	@ApiField("delegation_tag")
 	private String delegationTag;
+
+	/**
+	 * 代理授权周期任务参数
+	 */
+	@ApiField("delegation_task_params")
+	private DelegationTaskParams delegationTaskParams;
 
 	/**
 	 * 外部商户AI付代买委托id，用于委托申请成功后区分不同的委托任务
@@ -111,6 +117,13 @@ public class DelegationParams extends AlipayObject {
 	}
 	public void setDelegationTag(String delegationTag) {
 		this.delegationTag = delegationTag;
+	}
+
+	public DelegationTaskParams getDelegationTaskParams() {
+		return this.delegationTaskParams;
+	}
+	public void setDelegationTaskParams(DelegationTaskParams delegationTaskParams) {
+		this.delegationTaskParams = delegationTaskParams;
 	}
 
 	public String getExternalDelegationId() {

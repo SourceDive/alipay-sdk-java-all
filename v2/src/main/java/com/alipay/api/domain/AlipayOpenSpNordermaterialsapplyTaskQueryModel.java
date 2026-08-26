@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenSpNordermaterialsapplyTaskQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7263493711121142732L;
+	private static final long serialVersionUID = 8456762425597313526L;
 
 	/**
 	 * 门店作业单据标识唯一标识，一个作业单据只需要支付一次保证金

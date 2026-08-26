@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 专家问诊医生状态实时同步接口
  *
  * @author auto create
- * @since 1.0, 2026-03-12 14:22:41
+ * @since 1.0, 2026-08-25 10:10:23
  */
 public class AlipayCommerceMedicalIndustrydataInquirydoctorstatusUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4298272447216124191L;
+	private static final long serialVersionUID = 7684349359217442744L;
 
 	/**
 	 * 医生问诊状态信息列表
@@ -22,6 +22,12 @@ public class AlipayCommerceMedicalIndustrydataInquirydoctorstatusUploadModel ext
 	@ApiListField("doctor_status_list")
 	@ApiField("inquery_doctor_status_data")
 	private List<InqueryDoctorStatusData> doctorStatusList;
+
+	/**
+	 * 服务商编码
+	 */
+	@ApiField("isv_code")
+	private String isvCode;
 
 	/**
 	 * 问诊平台编码
@@ -34,6 +40,13 @@ public class AlipayCommerceMedicalIndustrydataInquirydoctorstatusUploadModel ext
 	}
 	public void setDoctorStatusList(List<InqueryDoctorStatusData> doctorStatusList) {
 		this.doctorStatusList = doctorStatusList;
+	}
+
+	public String getIsvCode() {
+		return this.isvCode;
+	}
+	public void setIsvCode(String isvCode) {
+		this.isvCode = isvCode;
 	}
 
 	public String getPlatformCode() {

@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.hdfopenmq.message.send response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-19 14:52:51
+ * @since 1.0, 2026-08-21 14:07:53
  */
 public class AlipayCommerceMedicalHdfopenmqMessageSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5632184779182329597L;
+	private static final long serialVersionUID = 6418394489694933496L;
 
 	
 

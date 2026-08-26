@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundJointaccountUnsignResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7186985781331567282L;
+	private static final long serialVersionUID = 8169153121523418875L;
 
 	
 

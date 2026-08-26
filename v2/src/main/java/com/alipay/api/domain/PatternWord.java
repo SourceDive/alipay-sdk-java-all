@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PatternWord extends AlipayObject {
 
-	private static final long serialVersionUID = 2628792441912247785L;
+	private static final long serialVersionUID = 3322333256673791377L;
 
 	/**
 	 * 跳转链接

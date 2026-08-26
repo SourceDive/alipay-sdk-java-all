@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 支付宝个人委托代买任务申请接口
  *
  * @author auto create
- * @since 1.0, 2026-07-16 17:02:54
+ * @since 1.0, 2026-08-24 16:02:50
  */
 public class AlipayUserAgreementDelegationApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4296545962341489575L;
+	private static final long serialVersionUID = 5742172989882498624L;
 
 	/**
 	 * 【描述】请按当前接入的方式进行填充，且输入值必须为文档中的参数取值范围。

@@ -1,0 +1,120 @@
+package com.alipay.api.domain;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * 智能体修改
+ *
+ * @author auto create
+ * @since 1.0, 2026-08-21 17:53:08
+ */
+public class AlipayTradeAgentModifyModel extends AlipayObject {
+
+	private static final long serialVersionUID = 7318859788488995315L;
+
+	/**
+	 * 需要修改的支付宝侧智能体唯一ID。
+	 */
+	@ApiField("agent_id")
+	private String agentId;
+
+	/**
+	 * 修改后的智能体载体，取值格式由platform决定。
+	 */
+	@ApiField("carrier")
+	private String carrier;
+
+	/**
+	 * 修改后的智能体Icon，支持AFTS fileId或HTTPS地址。
+	 */
+	@ApiField("logo")
+	private String logo;
+
+	/**
+	 * 修改后的智能体对外展示名称。
+	 */
+	@ApiField("name")
+	private String name;
+
+	/**
+	 * 千问平台侧请求唯一标识，用于修改请求幂等和后续查询。
+	 */
+	@ApiField("out_request_no")
+	private String outRequestNo;
+
+	/**
+	 * 商户支付宝登录账号，用于解析商户PID；千问平台PID由OpenAPI调用上下文恢复。
+	 */
+	@ApiField("owner_alipay_account")
+	private String ownerAlipayAccount;
+
+	/**
+	 * 智能体所在端，用于确定carrier的取值格式。
+	 */
+	@ApiField("platform")
+	private String platform;
+
+	/**
+	 * 修改后的智能体简介或副标题，用于KYA展示。
+	 */
+	@ApiField("sub_name")
+	private String subName;
+
+	public String getAgentId() {
+		return this.agentId;
+	}
+	public void setAgentId(String agentId) {
+		this.agentId = agentId;
+	}
+
+	public String getCarrier() {
+		return this.carrier;
+	}
+	public void setCarrier(String carrier) {
+		this.carrier = carrier;
+	}
+
+	public String getLogo() {
+		return this.logo;
+	}
+	public void setLogo(String logo) {
+		this.logo = logo;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getOutRequestNo() {
+		return this.outRequestNo;
+	}
+	public void setOutRequestNo(String outRequestNo) {
+		this.outRequestNo = outRequestNo;
+	}
+
+	public String getOwnerAlipayAccount() {
+		return this.ownerAlipayAccount;
+	}
+	public void setOwnerAlipayAccount(String ownerAlipayAccount) {
+		this.ownerAlipayAccount = ownerAlipayAccount;
+	}
+
+	public String getPlatform() {
+		return this.platform;
+	}
+	public void setPlatform(String platform) {
+		this.platform = platform;
+	}
+
+	public String getSubName() {
+		return this.subName;
+	}
+	public void setSubName(String subName) {
+		this.subName = subName;
+	}
+
+}

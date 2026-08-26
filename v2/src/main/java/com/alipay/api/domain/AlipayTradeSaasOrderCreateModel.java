@@ -1,17 +1,27 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * saas支付创单
  *
  * @author auto create
- * @since 1.0, 2026-08-19 12:08:29
+ * @since 1.0, 2026-08-25 21:17:52
  */
 public class AlipayTradeSaasOrderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6875912522294825886L;
+	private static final long serialVersionUID = 1199883114647243979L;
+
+	/**
+	 * null
+	 */
+	@ApiListField("additional_options")
+	@ApiField("string")
+	private List<String> additionalOptions;
 
 	/**
 	 * 商户业务参数。用于透传业务扩展信息。
@@ -108,6 +118,13 @@ public class AlipayTradeSaasOrderCreateModel extends AlipayObject {
 	 */
 	@ApiField("total_amount")
 	private String totalAmount;
+
+	public List<String> getAdditionalOptions() {
+		return this.additionalOptions;
+	}
+	public void setAdditionalOptions(List<String> additionalOptions) {
+		this.additionalOptions = additionalOptions;
+	}
 
 	public SaasBusinessParams getBusinessParams() {
 		return this.businessParams;

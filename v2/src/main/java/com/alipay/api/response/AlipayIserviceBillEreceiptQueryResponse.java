@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceBillEreceiptQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8748866269942135683L;
+	private static final long serialVersionUID = 7748314813963225388L;
 
 	/** 
 	 * PDF下载链接。当 status=SUCCESS 时返回，链接含电子章，可直接下载。链接有效期为20s，过期需重新申请。

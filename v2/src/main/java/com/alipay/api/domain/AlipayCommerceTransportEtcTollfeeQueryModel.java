@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 高速通行费率咨询接口
  *
  * @author auto create
- * @since 1.0, 2026-08-19 11:51:43
+ * @since 1.0, 2026-08-24 14:19:50
  */
 public class AlipayCommerceTransportEtcTollfeeQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4354572192221826837L;
+	private static final long serialVersionUID = 4561234687336834499L;
 
 	/**
 	 * 调用方标识为支付宝侧定义分给调用方的，识别调用方标识

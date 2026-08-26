@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 推荐官推荐结果发送
  *
  * @author auto create
- * @since 1.0, 2026-06-26 16:09:37
+ * @since 1.0, 2026-08-26 11:10:21
  */
 public class AlipayEbppIndustryReferralApplySendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8771876439916613957L;
+	private static final long serialVersionUID = 4668871735547755146L;
 
 	/**
 	 * 候选人姓名

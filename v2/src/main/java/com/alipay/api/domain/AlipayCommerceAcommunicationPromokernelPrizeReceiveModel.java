@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceAcommunicationPromokernelPrizeReceiveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4528916553771695897L;
+	private static final long serialVersionUID = 8333476696637896183L;
 
 	/**
 	 * 用户唯一标识，可以通过端内的jsApi进行获取。其实就是2088开头的支付宝ID。

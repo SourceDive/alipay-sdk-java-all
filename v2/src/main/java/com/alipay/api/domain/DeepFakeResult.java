@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DeepFakeResult extends AlipayObject {
 
-	private static final long serialVersionUID = 2449339871799791846L;
+	private static final long serialVersionUID = 1126395667247347441L;
 
 	/**
 	 * 检测明细

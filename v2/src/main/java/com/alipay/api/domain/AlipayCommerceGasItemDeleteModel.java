@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 加油商品信息删除
  *
  * @author auto create
- * @since 1.0, 2025-12-03 14:49:39
+ * @since 1.0, 2026-08-25 15:37:07
  */
 public class AlipayCommerceGasItemDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2822596573853261365L;
+	private static final long serialVersionUID = 3282759273496463892L;
 
 	/**
 	 * 外部商品ID（item_id不为空则以item_id作为删除KEY,item_id为空则以external_item_id作为删除KEY,两者不能同时为空）

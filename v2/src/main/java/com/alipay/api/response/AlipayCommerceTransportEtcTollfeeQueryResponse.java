@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.etc.tollfee.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-19 14:32:52
+ * @since 1.0, 2026-08-24 14:22:53
  */
 public class AlipayCommerceTransportEtcTollfeeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3883458223783261822L;
+	private static final long serialVersionUID = 4698526364413795779L;
 
 	/** 
 	 * 出站城市

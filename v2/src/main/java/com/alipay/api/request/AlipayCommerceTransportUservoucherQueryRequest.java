@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.transport.uservoucher.query request
  * 
  * @author auto create
- * @since 1.0, 2026-07-15 17:52:54
+ * @since 1.0, 2026-08-21 16:44:45
  */
 public class AlipayCommerceTransportUservoucherQueryRequest implements AlipayRequest<AlipayCommerceTransportUservoucherQueryResponse> {
 

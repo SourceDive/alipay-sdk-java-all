@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 交易补充信息
  *
  * @author auto create
- * @since 1.0, 2026-08-18 14:07:51
+ * @since 1.0, 2026-08-26 10:57:51
  */
 public class TradeDetailE extends AlipayObject {
 
-	private static final long serialVersionUID = 8826916583312414679L;
+	private static final long serialVersionUID = 7525996738898862588L;
+
+	/**
+	 * 免押必过；设置后，不会过风控，谨慎设置；仅支持设置值"Y"，不支持其他值
+	 */
+	@ApiField("credit_must_pass")
+	private String creditMustPass;
 
 	/**
 	 * 扣款信息
@@ -36,6 +42,13 @@ public class TradeDetailE extends AlipayObject {
 	 */
 	@ApiField("split_info")
 	private SplitInfoE splitInfo;
+
+	public String getCreditMustPass() {
+		return this.creditMustPass;
+	}
+	public void setCreditMustPass(String creditMustPass) {
+		this.creditMustPass = creditMustPass;
+	}
 
 	public DeductionInfoE getDeductionInfo() {
 		return this.deductionInfo;

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商品动态价格批量查询
  *
  * @author auto create
- * @since 1.0, 2026-07-31 11:12:49
+ * @since 1.0, 2026-08-25 14:38:07
  */
 public class AlipayCommerceMerchantcardTemplatepriceBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4256418218113757651L;
+	private static final long serialVersionUID = 8284589229223882395L;
 
 	/**
 	 * 需要查询动态价格的商品模板ID。

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 触享查询权益活动接口
  *
  * @author auto create
- * @since 1.0, 2026-08-12 16:03:42
+ * @since 1.0, 2026-08-21 10:22:51
  */
 public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2318174585898215334L;
+	private static final long serialVersionUID = 5153384431626243949L;
 
 	/**
 	 * 区域
@@ -24,6 +24,12 @@ public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject
 	 */
 	@ApiField("digest")
 	private String digest;
+
+	/**
+	 * 区县名称
+	 */
+	@ApiField("district_name")
+	private String districtName;
 
 	/**
 	 * 天分区
@@ -73,6 +79,13 @@ public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject
 	}
 	public void setDigest(String digest) {
 		this.digest = digest;
+	}
+
+	public String getDistrictName() {
+		return this.districtName;
+	}
+	public void setDistrictName(String districtName) {
+		this.districtName = districtName;
 	}
 
 	public String getDtList() {

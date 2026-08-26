@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class VisitorConfigVO extends AlipayObject {
 
-	private static final long serialVersionUID = 2864886254469285392L;
+	private static final long serialVersionUID = 5856682817557275962L;
 
 	/**
 	 * 开门配置

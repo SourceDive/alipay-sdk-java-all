@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.merchantcard.templateprice.delete request
  * 
  * @author auto create
- * @since 1.0, 2026-07-31 11:12:49
+ * @since 1.0, 2026-08-25 14:37:38
  */
 public class AlipayCommerceMerchantcardTemplatepriceDeleteRequest implements AlipayRequest<AlipayCommerceMerchantcardTemplatepriceDeleteResponse> {
 

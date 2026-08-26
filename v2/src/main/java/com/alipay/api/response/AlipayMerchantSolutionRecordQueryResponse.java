@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.merchant.solution.record.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-06-15 10:37:55
+ * @since 1.0, 2026-08-21 14:13:37
  */
 public class AlipayMerchantSolutionRecordQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7353797788566277949L;
+	private static final long serialVersionUID = 4318427376345458319L;
 
 	/** 
 	 * smid不准入原因描述

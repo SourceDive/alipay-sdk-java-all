@@ -16,7 +16,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SceneResult extends AlipayObject {
 
-	private static final long serialVersionUID = 6257254538499317294L;
+	private static final long serialVersionUID = 5682897982921749422L;
 
 	/**
 	 * 闪购发奖结果，其中price为其中子字段，代表发奖金额，单位为：分

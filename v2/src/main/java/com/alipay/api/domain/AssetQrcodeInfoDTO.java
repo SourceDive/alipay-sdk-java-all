@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AssetQrcodeInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8841577151575772595L;
+	private static final long serialVersionUID = 1635769399648352673L;
 
 	/**
 	 * 新空码绑码时关联的AO申请单号

@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.merchant.npromo.indirect.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-28 16:12:49
+ * @since 1.0, 2026-08-21 14:10:55
  */
 public class AlipayMerchantNpromoIndirectQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8191644649139374369L;
+	private static final long serialVersionUID = 8441969626696147715L;
 
 	/** 
 	 * 协议描述文案

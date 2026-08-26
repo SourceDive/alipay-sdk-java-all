@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KLineDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5182442966639771687L;
+	private static final long serialVersionUID = 3878381554522123591L;
 
 	/**
 	 * 成交额，单元为元

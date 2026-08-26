@@ -11,11 +11,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.social.antforest.welfareforest.batchquery response.
  * 
  * @author auto create
- * @since 1.0, 2026-07-03 10:21:24
+ * @since 1.0, 2026-08-25 13:07:49
  */
 public class AlipaySocialAntforestWelfareforestBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5895526456225846277L;
+	private static final long serialVersionUID = 8469644615623598412L;
+
+	/** 
+	 * 会返回当前系统日期的时间戳
+	 */
+	@ApiField("current_timestamp")
+	private Long currentTimestamp;
 
 	/** 
 	 * 用于页面展示使用的图片等信息
@@ -29,6 +35,13 @@ public class AlipaySocialAntforestWelfareforestBatchqueryResponse extends Alipay
 	@ApiListField("welfare_forest_detail_list")
 	@ApiField("welfare_forest_detail_d_t_o")
 	private List<WelfareForestDetailDTO> welfareForestDetailList;
+
+	public void setCurrentTimestamp(Long currentTimestamp) {
+		this.currentTimestamp = currentTimestamp;
+	}
+	public Long getCurrentTimestamp( ) {
+		return this.currentTimestamp;
+	}
 
 	public void setGlobalDisplayInfo(String globalDisplayInfo) {
 		this.globalDisplayInfo = globalDisplayInfo;

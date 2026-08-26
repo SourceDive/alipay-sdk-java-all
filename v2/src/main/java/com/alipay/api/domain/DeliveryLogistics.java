@@ -4,17 +4,17 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * null
+ * 物流信息
  *
  * @author auto create
- * @since 1.0, 2026-08-18 10:17:47
+ * @since 1.0, 2026-08-25 10:08:47
  */
 public class DeliveryLogistics extends AlipayObject {
 
-	private static final long serialVersionUID = 4862944289924614288L;
+	private static final long serialVersionUID = 3824383456543594937L;
 
 	/**
-	 * WAIT_DELIVER:待发货，DELIVERED:已发货
+	 * ALREADY_DELIVER:已发货，RECEIVED:已签收，SIGN_FAILED:签收失败
 	 */
 	@ApiField("delivery_status")
 	private String deliveryStatus;

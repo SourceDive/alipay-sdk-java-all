@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ProfitSharingRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 2461447968945166322L;
+	private static final long serialVersionUID = 4166617252498592336L;
 
 	/**
 	 * 参与分账的目标支付宝账号 2088**********34

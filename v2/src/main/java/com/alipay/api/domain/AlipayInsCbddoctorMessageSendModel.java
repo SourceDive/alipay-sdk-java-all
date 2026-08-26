@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayInsCbddoctorMessageSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6185519637722968486L;
+	private static final long serialVersionUID = 5612418496117965336L;
 
 	/**
 	 * 互医生成的msgId。需要唯一，用于防止消息发送重复。

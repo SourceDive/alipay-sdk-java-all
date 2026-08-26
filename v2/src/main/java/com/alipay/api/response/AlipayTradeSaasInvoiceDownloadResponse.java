@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.saas.invoice.download response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-14 20:02:48
+ * @since 1.0, 2026-08-25 15:25:45
  */
 public class AlipayTradeSaasInvoiceDownloadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8423783642968568262L;
+	private static final long serialVersionUID = 6528375989512766485L;
 
 	/** 
 	 * 代理短期下载地址，默认 300 秒有效；不得持久化或长期复用

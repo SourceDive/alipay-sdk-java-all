@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ebpp.industry.referral.apply.send request
  * 
  * @author auto create
- * @since 1.0, 2026-06-26 16:09:37
+ * @since 1.0, 2026-08-26 11:10:21
  */
 public class AlipayEbppIndustryReferralApplySendRequest implements AlipayRequest<AlipayEbppIndustryReferralApplySendResponse> {
 
