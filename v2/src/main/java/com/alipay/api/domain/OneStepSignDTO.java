@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OneStepSignDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4752457779529423152L;
+	private static final long serialVersionUID = 5364557393948262989L;
 
 	/**
 	 * 业务单据唯一回执单号

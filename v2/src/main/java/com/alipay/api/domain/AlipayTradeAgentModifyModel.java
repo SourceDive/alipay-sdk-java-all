@@ -7,17 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 智能体修改
  *
  * @author auto create
- * @since 1.0, 2026-08-21 17:53:08
+ * @since 1.0, 2026-08-26 21:26:47
  */
 public class AlipayTradeAgentModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7318859788488995315L;
+	private static final long serialVersionUID = 8452916395931443478L;
 
 	/**
 	 * 需要修改的支付宝侧智能体唯一ID。
 	 */
 	@ApiField("agent_id")
 	private String agentId;
+
+	/**
+	 * 可解析的json字段，用于填写附加的参数
+	 */
+	@ApiField("attributes")
+	private String attributes;
 
 	/**
 	 * 修改后的智能体载体，取值格式由platform决定。
@@ -66,6 +72,13 @@ public class AlipayTradeAgentModifyModel extends AlipayObject {
 	}
 	public void setAgentId(String agentId) {
 		this.agentId = agentId;
+	}
+
+	public String getAttributes() {
+		return this.attributes;
+	}
+	public void setAttributes(String attributes) {
+		this.attributes = attributes;
 	}
 
 	public String getCarrier() {

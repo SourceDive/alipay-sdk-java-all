@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 根据手机号发放服务包
  *
  * @author auto create
- * @since 1.0, 2026-08-26 10:37:29
+ * @since 1.0, 2026-08-26 15:32:49
  */
 public class AlipayCommerceMedicalServicepackageGrantbyphonenoCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7434656611618674159L;
+	private static final long serialVersionUID = 3195928873422859246L;
 
 	/**
 	 * 证件号
@@ -40,6 +40,12 @@ public class AlipayCommerceMedicalServicepackageGrantbyphonenoCreateModel extend
 	 */
 	@ApiField("name")
 	private String name;
+
+	/**
+	 * 支付宝用户的唯一ID
+	 */
+	@ApiField("open_id")
+	private String openId;
 
 	/**
 	 * 是否开通主订单，不传不开通
@@ -85,6 +91,12 @@ public class AlipayCommerceMedicalServicepackageGrantbyphonenoCreateModel extend
 	private List<SubUserInfo> subUserInfoList;
 
 	/**
+	 * 支付宝用户的唯一ID
+	 */
+	@ApiField("user_id")
+	private String userId;
+
+	/**
 	 * 指定的用户可用开始时间
 	 */
 	@ApiField("user_start_time")
@@ -116,6 +128,13 @@ public class AlipayCommerceMedicalServicepackageGrantbyphonenoCreateModel extend
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
 	}
 
 	public Boolean getOpenMain() {
@@ -165,6 +184,13 @@ public class AlipayCommerceMedicalServicepackageGrantbyphonenoCreateModel extend
 	}
 	public void setSubUserInfoList(List<SubUserInfo> subUserInfoList) {
 		this.subUserInfoList = subUserInfoList;
+	}
+
+	public String getUserId() {
+		return this.userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 	public Date getUserStartTime() {

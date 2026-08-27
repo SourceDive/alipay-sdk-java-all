@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-25 20:51:51
+ * @since 1.0, 2026-08-26 17:18:06
  */
 public class YpzCloudDispenseMedicineHomeCardOne extends AlipayObject {
 
-	private static final long serialVersionUID = 3352868126457816221L;
+	private static final long serialVersionUID = 2455667552243841822L;
 
 	/**
 	 * 按钮文案

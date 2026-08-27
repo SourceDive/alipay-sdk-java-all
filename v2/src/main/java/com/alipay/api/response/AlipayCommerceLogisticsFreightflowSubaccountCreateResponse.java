@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceLogisticsFreightflowSubaccountCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7297897597768987343L;
+	private static final long serialVersionUID = 3687428293917189619L;
 
 	/** 
 	 * mode为浦发银行且开户成功时返回,按余额出金时使用

@@ -1,0 +1,46 @@
+package com.alipay.api.domain;
+
+import java.util.List;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
+
+/**
+ * 验货异常描述凭证
+ *
+ * @author auto create
+ * @since 1.0, 2026-08-26 12:42:50
+ */
+public class DistributionOrderInspectProofDTO extends AlipayObject {
+
+	private static final long serialVersionUID = 5388436767131316769L;
+
+	/**
+	 * null
+	 */
+	@ApiListField("img_ids")
+	@ApiField("string")
+	private List<String> imgIds;
+
+	/**
+	 * 异常描述
+	 */
+	@ApiField("text")
+	private String text;
+
+	public List<String> getImgIds() {
+		return this.imgIds;
+	}
+	public void setImgIds(List<String> imgIds) {
+		this.imgIds = imgIds;
+	}
+
+	public String getText() {
+		return this.text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+
+}

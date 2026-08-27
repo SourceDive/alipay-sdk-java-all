@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 智能体创建
  *
  * @author auto create
- * @since 1.0, 2026-08-21 17:52:51
+ * @since 1.0, 2026-08-26 21:42:39
  */
 public class AlipayTradeAgentCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5398344978842819333L;
+	private static final long serialVersionUID = 5742792826263978264L;
+
+	/**
+	 * 可解析的json字段，用于填写附加的参数
+	 */
+	@ApiField("attributes")
+	private String attributes;
 
 	/**
 	 * 智能体载体，取值格式由platform决定。
@@ -54,6 +60,13 @@ public class AlipayTradeAgentCreateModel extends AlipayObject {
 	 */
 	@ApiField("sub_name")
 	private String subName;
+
+	public String getAttributes() {
+		return this.attributes;
+	}
+	public void setAttributes(String attributes) {
+		this.attributes = attributes;
+	}
 
 	public String getCarrier() {
 		return this.carrier;

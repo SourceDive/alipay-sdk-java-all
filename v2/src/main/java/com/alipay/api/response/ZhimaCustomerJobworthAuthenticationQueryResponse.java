@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: zhima.customer.jobworth.authentication.query response.
  * 
  * @author auto create
- * @since 1.0, 2024-03-28 00:22:03
+ * @since 1.0, 2026-08-26 17:27:51
  */
 public class ZhimaCustomerJobworthAuthenticationQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6149435394584584629L;
+	private static final long serialVersionUID = 5772591969882691243L;
 
 	/** 
 	 * SUCCESS代表可信，FAILED代表不可信，WAITING_VERIFY代表未知需要等待结果
@@ -25,6 +25,12 @@ public class ZhimaCustomerJobworthAuthenticationQueryResponse extends AlipayResp
 	 */
 	@ApiField("identity_result_skip_url")
 	private String identityResultSkipUrl;
+
+	/** 
+	 * 表示在商户下已经发起过验证的用户唯一标志，如果用户已经发起过验证，那么这个标志会相同返回
+	 */
+	@ApiField("merchant_identity_id")
+	private String merchantIdentityId;
 
 	/** 
 	 * 蚂蚁统一会员ID
@@ -56,6 +62,13 @@ public class ZhimaCustomerJobworthAuthenticationQueryResponse extends AlipayResp
 	}
 	public String getIdentityResultSkipUrl( ) {
 		return this.identityResultSkipUrl;
+	}
+
+	public void setMerchantIdentityId(String merchantIdentityId) {
+		this.merchantIdentityId = merchantIdentityId;
+	}
+	public String getMerchantIdentityId( ) {
+		return this.merchantIdentityId;
 	}
 
 	public void setOpenId(String openId) {

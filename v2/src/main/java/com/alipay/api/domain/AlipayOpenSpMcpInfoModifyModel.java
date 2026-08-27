@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 服务商代商户MCP信息修改
  *
  * @author auto create
- * @since 1.0, 2026-08-05 16:32:53
+ * @since 1.0, 2026-08-26 21:53:39
  */
 public class AlipayOpenSpMcpInfoModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7132472336517514565L;
+	private static final long serialVersionUID = 3312248582539394448L;
 
 	/**
 	 * MCP能力编码code

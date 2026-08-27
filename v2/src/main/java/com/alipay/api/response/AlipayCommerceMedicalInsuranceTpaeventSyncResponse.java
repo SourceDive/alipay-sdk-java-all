@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.insurance.tpaevent.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-13 21:02:45
+ * @since 1.0, 2026-08-26 20:17:50
  */
 public class AlipayCommerceMedicalInsuranceTpaeventSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2859573395154233661L;
+	private static final long serialVersionUID = 7788293279927267486L;
 
 	/** 
 	 * 用户证件号
@@ -25,6 +25,12 @@ public class AlipayCommerceMedicalInsuranceTpaeventSyncResponse extends AlipayRe
 	 */
 	@ApiField("cert_type")
 	private String certType;
+
+	/** 
+	 * 扩展信息
+	 */
+	@ApiField("ext_info")
+	private String extInfo;
 
 	/** 
 	 * 被保人证件号
@@ -68,6 +74,13 @@ public class AlipayCommerceMedicalInsuranceTpaeventSyncResponse extends AlipayRe
 	}
 	public String getCertType( ) {
 		return this.certType;
+	}
+
+	public void setExtInfo(String extInfo) {
+		this.extInfo = extInfo;
+	}
+	public String getExtInfo( ) {
+		return this.extInfo;
 	}
 
 	public void setInsuredCertNo(String insuredCertNo) {

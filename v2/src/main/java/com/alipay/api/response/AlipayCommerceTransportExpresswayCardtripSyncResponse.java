@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportExpresswayCardtripSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1733915496269975117L;
+	private static final long serialVersionUID = 4217248877251633686L;
 
 	/** 
 	 * 路网侧唯一高速行程单号

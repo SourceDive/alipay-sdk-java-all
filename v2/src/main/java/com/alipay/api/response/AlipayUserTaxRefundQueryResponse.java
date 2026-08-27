@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserTaxRefundQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4891268416149144636L;
+	private static final long serialVersionUID = 2586322319841594424L;
 
 	/** 
 	 * 支付宝转账订单号

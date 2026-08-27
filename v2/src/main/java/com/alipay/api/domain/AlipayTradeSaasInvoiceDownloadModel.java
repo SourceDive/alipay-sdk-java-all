@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 发票下载
  *
  * @author auto create
- * @since 1.0, 2026-08-25 15:25:45
+ * @since 1.0, 2026-08-26 11:42:49
  */
 public class AlipayTradeSaasInvoiceDownloadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4767651581644866581L;
+	private static final long serialVersionUID = 1846146875431574134L;
 
 	/**
 	 * 发票下载类型1=PDF、2=OFD、3=XML

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 人脸出库接口
  *
  * @author auto create
- * @since 1.0, 2022-08-22 19:37:51
+ * @since 1.0, 2026-08-26 17:27:52
  */
 public class AlipayCommerceEducateFacefeatureDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4512997924868639945L;
+	private static final long serialVersionUID = 3476369712922464284L;
 
 	/**
 	 * 行业编码。（注：该接口为定向开放接口，使用前需要与对应的"业务产品"申请，切勿随意填写）

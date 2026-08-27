@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserCharityWithholdCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5672418764458894513L;
+	private static final long serialVersionUID = 5473449939989982639L;
 
 	/** 
 	 * 代扣结果

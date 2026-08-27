@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class GaugeTypeListDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4162512551954144665L;
+	private static final long serialVersionUID = 8786745533144594264L;
 
 	/**
 	 * 量表图标

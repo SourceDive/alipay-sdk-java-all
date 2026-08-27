@@ -6,14 +6,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 问诊订单状态同步-扩展信息
+ * 增加字段service_expect_end_time
  *
  * @author auto create
- * @since 1.0, 2026-03-06 13:09:04
+ * @since 1.0, 2026-08-26 17:53:08
  */
 public class PlatformInquiryOrderStatusExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8198629776365378614L;
+	private static final long serialVersionUID = 2159487751517212741L;
 
 	/**
 	 * 支付宝交易号
@@ -192,6 +192,12 @@ TIMEOUT_END：超时结束
 	 */
 	@ApiField("service_end_time")
 	private Date serviceEndTime;
+
+	/**
+	 * 服务预期结束时间
+	 */
+	@ApiField("service_expect_end_time")
+	private String serviceExpectEndTime;
 
 	public String getAlipayTradeNo() {
 		return this.alipayTradeNo;
@@ -394,6 +400,13 @@ TIMEOUT_END：超时结束
 	}
 	public void setServiceEndTime(Date serviceEndTime) {
 		this.serviceEndTime = serviceEndTime;
+	}
+
+	public String getServiceExpectEndTime() {
+		return this.serviceExpectEndTime;
+	}
+	public void setServiceExpectEndTime(String serviceExpectEndTime) {
+		this.serviceExpectEndTime = serviceExpectEndTime;
 	}
 
 }

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 医生智能体推荐卡
  *
  * @author auto create
- * @since 1.0, 2026-08-25 20:51:51
+ * @since 1.0, 2026-08-26 17:18:06
  */
 public class YpzDoctorAgentCardOne extends AlipayObject {
 
-	private static final long serialVersionUID = 5256661633235562653L;
+	private static final long serialVersionUID = 2548284198494917358L;
 
 	/**
 	 * 智能助手功能描述

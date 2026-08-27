@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.servicepackage.grantbyphoneno.cancel request
  * 
  * @author auto create
- * @since 1.0, 2026-06-12 14:57:55
+ * @since 1.0, 2026-08-26 15:42:55
  */
 public class AlipayCommerceMedicalServicepackageGrantbyphonenoCancelRequest implements AlipayRequest<AlipayCommerceMedicalServicepackageGrantbyphonenoCancelResponse> {
 

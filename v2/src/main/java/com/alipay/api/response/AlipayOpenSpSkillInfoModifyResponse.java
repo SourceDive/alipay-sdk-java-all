@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenSpSkillInfoModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2434167748988973559L;
+	private static final long serialVersionUID = 8824417729321872375L;
 
 	/** 
 	 * SKILL能力编码code

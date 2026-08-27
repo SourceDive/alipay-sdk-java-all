@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * source增加HK来源
+ * 增加字段service_expect_end_time
  *
  * @author auto create
- * @since 1.0, 2026-03-06 10:57:56
+ * @since 1.0, 2026-08-26 17:50:50
  */
 public class PlatformInquiryOrderExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5853913878454473226L;
+	private static final long serialVersionUID = 3587112369334461862L;
 
 	/**
 	 * 支付宝渠道订单标识
@@ -135,6 +135,12 @@ public class PlatformInquiryOrderExtInfo extends AlipayObject {
 	 */
 	@ApiField("refund_url")
 	private String refundUrl;
+
+	/**
+	 * 服务预期结束时间
+	 */
+	@ApiField("service_expect_end_time")
+	private String serviceExpectEndTime;
 
 	/**
 	 * 枚举值：
@@ -298,6 +304,13 @@ AQ-小程序:AQ_MINI_APP
 	}
 	public void setRefundUrl(String refundUrl) {
 		this.refundUrl = refundUrl;
+	}
+
+	public String getServiceExpectEndTime() {
+		return this.serviceExpectEndTime;
+	}
+	public void setServiceExpectEndTime(String serviceExpectEndTime) {
+		this.serviceExpectEndTime = serviceExpectEndTime;
 	}
 
 	public String getSource() {

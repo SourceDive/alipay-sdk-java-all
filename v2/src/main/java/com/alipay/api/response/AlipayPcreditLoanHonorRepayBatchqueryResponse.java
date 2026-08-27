@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayPcreditLoanHonorRepayBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5474742863995323943L;
+	private static final long serialVersionUID = 6238545297496956578L;
 
 	/** 
 	 * 还款记录列表。result_code=0时必填

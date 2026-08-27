@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TransferCallbackBizDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 4573918619549348182L;
+	private static final long serialVersionUID = 6435938387485778575L;
 
 	/**
 	 * 支付宝订单号

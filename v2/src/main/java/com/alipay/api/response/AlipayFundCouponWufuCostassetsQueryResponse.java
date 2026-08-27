@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundCouponWufuCostassetsQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4433332215598532485L;
+	private static final long serialVersionUID = 2717758475625466196L;
 
 	/** 
 	 * 当前是否可消耗福卡

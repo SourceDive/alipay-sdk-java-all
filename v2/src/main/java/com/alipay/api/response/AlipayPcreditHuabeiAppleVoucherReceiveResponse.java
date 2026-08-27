@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pcredit.huabei.apple.voucher.receive response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-18 17:42:49
+ * @since 1.0, 2026-08-26 18:17:55
  */
 public class AlipayPcreditHuabeiAppleVoucherReceiveResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6147163569892153746L;
+	private static final long serialVersionUID = 8124727952552959788L;
 
 	/** 
 	 * 提额额度，单位分

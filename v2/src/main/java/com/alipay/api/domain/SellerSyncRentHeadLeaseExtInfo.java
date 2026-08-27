@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SellerSyncRentHeadLeaseExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1383449835176915293L;
+	private static final long serialVersionUID = 1335223285274368495L;
 
 	/**
 	 * 首租订单券后签约价，单位：元

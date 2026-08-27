@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 添加员工
  *
  * @author auto create
- * @since 1.0, 2026-07-28 17:30:55
+ * @since 1.0, 2026-08-26 19:22:18
  */
 public class AlipayCommerceEcEmployeeAddModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5568523647879813968L;
+	private static final long serialVersionUID = 4373883427356748689L;
 
 	/**
 	 * 员工所属核算主体，核算主体可用于管控不同员工的出资方式，建议和不同出资账户关联
@@ -162,7 +162,7 @@ public class AlipayCommerceEcEmployeeAddModel extends AlipayObject {
 	private Boolean signUrlCarryInfo;
 
 	/**
-	 * 代扣签约字符串，员工需签约开通代扣时必传，否则无需传值
+	 * 代扣签约字符串，员工需签约开通代扣时必传，否则无需传值；另外，如需参与企业码针对代扣的营销活动的服务商，必须要将该字段上传
 	 */
 	@ApiField("withholding_sign_str")
 	private String withholdingSignStr;

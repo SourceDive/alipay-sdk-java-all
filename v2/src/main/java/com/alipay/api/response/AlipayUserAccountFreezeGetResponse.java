@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserAccountFreezeGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2237185563872192739L;
+	private static final long serialVersionUID = 3131984244963877294L;
 
 	/** 
 	 * 冻结金额列表

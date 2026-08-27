@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 报告出具消息发送
  *
  * @author auto create
- * @since 1.0, 2026-08-21 09:57:51
+ * @since 1.0, 2026-08-26 19:23:14
  */
 public class AlipayCommerceMedicalReportSmsSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3211545537655136256L;
+	private static final long serialVersionUID = 6544162136822224823L;
 
 	/**
 	 * 证件号码,若短信模板签名为支付宝,则此项必填

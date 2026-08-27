@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EtravelHotelSupplyPriceDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2612154811875455643L;
+	private static final long serialVersionUID = 5577135815543866286L;
 
 	/**
 	 * 金额

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCircularZftIndirectModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1126972568588613224L;
+	private static final long serialVersionUID = 6151897624994439972L;
 
 	
 

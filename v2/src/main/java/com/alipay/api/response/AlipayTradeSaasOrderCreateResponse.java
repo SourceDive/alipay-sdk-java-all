@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTradeSaasOrderCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5691556699398898971L;
+	private static final long serialVersionUID = 1416941749415267794L;
 
 	/** 
 	 * 聚合收银台短链访问地址。商户将用户跳转到该地址后，浏览器会重定向到带收银台访问凭证的完整地址。

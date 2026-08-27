@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayUserAliyunbenefitOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3718627542421567582L;
+	private static final long serialVersionUID = 5398726244761923637L;
 
 	/**
 	 * LinkedMall订单号

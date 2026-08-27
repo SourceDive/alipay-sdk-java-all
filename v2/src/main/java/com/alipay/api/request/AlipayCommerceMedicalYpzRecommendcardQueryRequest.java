@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.ypz.recommendcard.query request
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 20:51:51
+ * @since 1.0, 2026-08-26 17:18:06
  */
 public class AlipayCommerceMedicalYpzRecommendcardQueryRequest implements AlipayRequest<AlipayCommerceMedicalYpzRecommendcardQueryResponse> {
 
