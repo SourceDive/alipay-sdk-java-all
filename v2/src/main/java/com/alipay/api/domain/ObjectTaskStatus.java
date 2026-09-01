@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ObjectTaskStatus extends AlipayObject {
 
-	private static final long serialVersionUID = 7767763819528137533L;
+	private static final long serialVersionUID = 8332156919848559871L;
 
 	/**
 	 * 对象放入的篮子编号

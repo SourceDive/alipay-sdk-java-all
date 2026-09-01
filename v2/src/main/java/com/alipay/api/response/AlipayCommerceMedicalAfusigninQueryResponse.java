@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.afusignin.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-03 13:57:44
+ * @since 1.0, 2026-09-01 14:48:31
  */
 public class AlipayCommerceMedicalAfusigninQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3675283668266551247L;
+	private static final long serialVersionUID = 4726442193998787284L;
 
 	/** 
 	 * 智能体头像链接

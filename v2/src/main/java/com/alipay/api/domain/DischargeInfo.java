@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 出院小结
  *
  * @author auto create
- * @since 1.0, 2026-08-07 13:34:21
+ * @since 1.0, 2026-08-27 16:07:51
  */
 public class DischargeInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4656796314475626584L;
+	private static final long serialVersionUID = 4766254281294897665L;
 
 	/**
 	 * 病人主诉

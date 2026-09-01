@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RentCarFreeCancelRule extends AlipayObject {
 
-	private static final long serialVersionUID = 5243795745658894288L;
+	private static final long serialVersionUID = 2814235575186577635L;
 
 	/**
 	 * 免费取消截止时间。free_type=1时使用此字段

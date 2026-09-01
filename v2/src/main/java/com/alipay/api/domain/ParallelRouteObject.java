@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ParallelRouteObject extends AlipayObject {
 
-	private static final long serialVersionUID = 2879869248827863751L;
+	private static final long serialVersionUID = 1782561576461297863L;
 
 	/**
 	 * 公交线路名称

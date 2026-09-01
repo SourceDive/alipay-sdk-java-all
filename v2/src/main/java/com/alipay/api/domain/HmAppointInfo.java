@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HmAppointInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1798898625278438995L;
+	private static final long serialVersionUID = 8712579936563746739L;
 
 	/**
 	 * 年龄

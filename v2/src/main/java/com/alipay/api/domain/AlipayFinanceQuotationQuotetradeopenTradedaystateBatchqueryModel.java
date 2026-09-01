@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayFinanceQuotationQuotetradeopenTradedaystateBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7753571998563954295L;
+	private static final long serialVersionUID = 4553233678832354349L;
 
 	/**
 	 * 查询的开始日期, 格式为 yyyyMMdd

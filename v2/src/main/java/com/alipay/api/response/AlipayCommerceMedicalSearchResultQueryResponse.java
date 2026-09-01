@@ -16,11 +16,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.search.result.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-07-23 15:21:43
+ * @since 1.0, 2026-08-27 20:32:51
  */
 public class AlipayCommerceMedicalSearchResultQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8796191561636953359L;
+	private static final long serialVersionUID = 4867689913634817898L;
 
 	/** 
 	 * 活动列表
@@ -35,7 +35,7 @@ public class AlipayCommerceMedicalSearchResultQueryResponse extends AlipayRespon
 	private ArticleVo articleList;
 
 	/** 
-	 * 医生信息
+	 * 医生列表
 	 */
 	@ApiField("doctor_info_list")
 	private SimpleDoctorInfo doctorInfoList;

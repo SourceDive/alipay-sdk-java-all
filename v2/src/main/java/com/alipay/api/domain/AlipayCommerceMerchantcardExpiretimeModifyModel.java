@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMerchantcardExpiretimeModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5792358467968544237L;
+	private static final long serialVersionUID = 5613144912798786318L;
 
 	/**
 	 * 安心付卡id

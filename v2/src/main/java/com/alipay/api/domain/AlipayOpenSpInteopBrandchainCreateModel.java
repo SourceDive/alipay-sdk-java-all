@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenSpInteopBrandchainCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8154742431859448617L;
+	private static final long serialVersionUID = 5756253654837499767L;
 
 	/**
 	 * 银行卡信息

@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ebpp.jobinterview.interview.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 10:17:29
+ * @since 1.0, 2026-08-28 21:22:53
  */
 public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3685714431773583955L;
+	private static final long serialVersionUID = 5577281691162725251L;
 
 	/** 
 	 * 候选人唯一 ID

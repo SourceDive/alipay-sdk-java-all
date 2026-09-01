@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class XingheLendassistCarfinExpressappointmentQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7746646619831794918L;
+	private static final long serialVersionUID = 5797955179494899759L;
 
 	/** 
 	 * 预约时间列表

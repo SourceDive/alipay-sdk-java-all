@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.sp.mcp.detail.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-26 21:53:19
+ * @since 1.0, 2026-08-31 09:42:54
  */
 public class AlipayOpenSpMcpDetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2254564517529312657L;
+	private static final long serialVersionUID = 5519423722978149163L;
 
 	/** 
 	 * MCP能力编码状态
@@ -29,6 +29,12 @@ public class AlipayOpenSpMcpDetailQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("ability_version")
 	private String abilityVersion;
+
+	/** 
+	 * 传输加密关联的加密应用。由调用方（服务商）入参指定其名下应用；推荐使用三方应用
+	 */
+	@ApiField("encrypt_app_id")
+	private String encryptAppId;
 
 	/** 
 	 * Header参数列表
@@ -111,6 +117,13 @@ public class AlipayOpenSpMcpDetailQueryResponse extends AlipayResponse {
 	}
 	public String getAbilityVersion( ) {
 		return this.abilityVersion;
+	}
+
+	public void setEncryptAppId(String encryptAppId) {
+		this.encryptAppId = encryptAppId;
+	}
+	public String getEncryptAppId( ) {
+		return this.encryptAppId;
 	}
 
 	public void setHeaderList(HeaderParam headerList) {

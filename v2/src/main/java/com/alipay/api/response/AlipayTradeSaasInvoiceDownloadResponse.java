@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTradeSaasInvoiceDownloadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1561784451372836115L;
+	private static final long serialVersionUID = 2381989747555962413L;
 
 	/** 
 	 * 代理短期下载地址，默认 300 秒有效；不得持久化或长期复用

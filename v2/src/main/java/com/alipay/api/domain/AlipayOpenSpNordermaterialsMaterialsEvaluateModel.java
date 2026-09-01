@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenSpNordermaterialsMaterialsEvaluateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3443561739184619439L;
+	private static final long serialVersionUID = 5369897386443253537L;
 
 	/**
 	 * 生产单号，用于匹配物料信息校验

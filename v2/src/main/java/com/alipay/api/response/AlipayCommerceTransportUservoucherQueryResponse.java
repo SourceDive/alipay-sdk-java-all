@@ -11,11 +11,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.uservoucher.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-21 16:44:45
+ * @since 1.0, 2026-09-01 14:32:53
  */
 public class AlipayCommerceTransportUservoucherQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1787127968949722224L;
+	private static final long serialVersionUID = 2414538312541316353L;
+
+	/** 
+	 * 优惠力度最大的单张券
+	 */
+	@ApiField("best_voucher")
+	private UserAvailableVoucher bestVoucher;
 
 	/** 
 	 * null
@@ -23,6 +29,13 @@ public class AlipayCommerceTransportUservoucherQueryResponse extends AlipayRespo
 	@ApiListField("user_available_voucher_list")
 	@ApiField("user_available_voucher")
 	private List<UserAvailableVoucher> userAvailableVoucherList;
+
+	public void setBestVoucher(UserAvailableVoucher bestVoucher) {
+		this.bestVoucher = bestVoucher;
+	}
+	public UserAvailableVoucher getBestVoucher( ) {
+		return this.bestVoucher;
+	}
 
 	public void setUserAvailableVoucherList(List<UserAvailableVoucher> userAvailableVoucherList) {
 		this.userAvailableVoucherList = userAvailableVoucherList;

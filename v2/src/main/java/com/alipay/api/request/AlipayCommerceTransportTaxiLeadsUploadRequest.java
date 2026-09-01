@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.transport.taxi.leads.upload request
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 10:57:51
+ * @since 1.0, 2026-09-01 10:42:30
  */
 public class AlipayCommerceTransportTaxiLeadsUploadRequest implements AlipayRequest<AlipayCommerceTransportTaxiLeadsUploadResponse> {
 

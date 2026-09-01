@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EbikeBindServiceStatisticsDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7188947591216926981L;
+	private static final long serialVersionUID = 4214665139491673762L;
 
 	/**
 	 * 用户年龄段

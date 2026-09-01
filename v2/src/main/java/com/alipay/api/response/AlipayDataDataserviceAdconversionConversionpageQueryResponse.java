@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.data.dataservice.adconversion.conversionpage.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-11 11:12:52
+ * @since 1.0, 2026-08-27 00:04:56
  */
 public class AlipayDataDataserviceAdconversionConversionpageQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2163543177795315481L;
+	private static final long serialVersionUID = 5851373777641964951L;
 
 	/** 
 	 * 当前页数

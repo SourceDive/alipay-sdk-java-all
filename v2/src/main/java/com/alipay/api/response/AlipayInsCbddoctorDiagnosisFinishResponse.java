@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ins.cbddoctor.diagnosis.finish response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-07 17:27:33
+ * @since 1.0, 2026-08-28 17:22:56
  */
 public class AlipayInsCbddoctorDiagnosisFinishResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1463778253898341154L;
+	private static final long serialVersionUID = 5311682724958631338L;
 
 	/** 
 	 * 医生在蚂蚁插件填写的病情处置建议

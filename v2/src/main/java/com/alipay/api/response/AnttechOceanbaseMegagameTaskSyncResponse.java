@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.oceanbase.megagame.task.sync response.
  * 
  * @author auto create
- * @since 1.0, 2023-08-21 03:19:06
+ * @since 1.0, 2026-08-31 10:42:54
  */
 public class AnttechOceanbaseMegagameTaskSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3467382454594378617L;
+	private static final long serialVersionUID = 6325393697373478277L;
 
 	
 

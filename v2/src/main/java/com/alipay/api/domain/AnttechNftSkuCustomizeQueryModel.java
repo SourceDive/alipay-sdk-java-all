@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AnttechNftSkuCustomizeQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5462287973416834593L;
+	private static final long serialVersionUID = 8655446145742727237L;
 
 	/**
 	 * 活动ID

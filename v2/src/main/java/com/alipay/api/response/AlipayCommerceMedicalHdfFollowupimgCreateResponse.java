@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.hdf.followupimg.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-19 16:22:51
+ * @since 1.0, 2026-09-01 14:31:37
  */
 public class AlipayCommerceMedicalHdfFollowupimgCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2756429519798774923L;
+	private static final long serialVersionUID = 8743649193614794675L;
 
 	/** 
 	 * 图片链接

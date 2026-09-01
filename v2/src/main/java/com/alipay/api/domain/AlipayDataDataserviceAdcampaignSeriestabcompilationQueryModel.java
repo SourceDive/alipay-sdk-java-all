@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * tab3短剧合集查询
  *
  * @author auto create
- * @since 1.0, 2026-07-28 19:22:54
+ * @since 1.0, 2026-08-27 00:04:56
  */
 public class AlipayDataDataserviceAdcampaignSeriestabcompilationQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8262216268135153877L;
+	private static final long serialVersionUID = 3658279964758343849L;
 
 	/**
 	 * 营销目标编码,缺失透传 null

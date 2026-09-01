@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 服务商代商户创建MCP
  *
  * @author auto create
- * @since 1.0, 2026-08-26 21:52:51
+ * @since 1.0, 2026-08-31 09:42:54
  */
 public class AlipayOpenSpMcpCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2137621257925418875L;
+	private static final long serialVersionUID = 7496521623432634553L;
 
 	/**
 	 * 商户支付宝账号
@@ -39,6 +39,12 @@ public class AlipayOpenSpMcpCreateModel extends AlipayObject {
 	 */
 	@ApiField("business_license_name")
 	private String businessLicenseName;
+
+	/**
+	 * 传输加密关联的加密应用。由调用方（服务商）入参指定其名下应用；推荐使用三方应用
+	 */
+	@ApiField("encrypt_app_id")
+	private String encryptAppId;
 
 	/**
 	 * null
@@ -140,6 +146,13 @@ public class AlipayOpenSpMcpCreateModel extends AlipayObject {
 	}
 	public void setBusinessLicenseName(String businessLicenseName) {
 		this.businessLicenseName = businessLicenseName;
+	}
+
+	public String getEncryptAppId() {
+		return this.encryptAppId;
+	}
+	public void setEncryptAppId(String encryptAppId) {
+		this.encryptAppId = encryptAppId;
 	}
 
 	public List<HeaderParam> getHeaderList() {

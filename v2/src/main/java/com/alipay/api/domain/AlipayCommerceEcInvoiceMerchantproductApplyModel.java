@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 发票产品开通申请
  *
  * @author auto create
- * @since 1.0, 2026-04-27 17:57:54
+ * @since 1.0, 2026-08-31 13:57:10
  */
 public class AlipayCommerceEcInvoiceMerchantproductApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6438236223237211359L;
+	private static final long serialVersionUID = 7679333423368145742L;
 
 	/**
 	 * 由外部系统（如合作伙伴平台或第三方服务）生成的唯一业务标识，用于关联外部系统的申请请求。

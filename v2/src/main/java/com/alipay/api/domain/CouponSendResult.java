@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CouponSendResult extends AlipayObject {
 
-	private static final long serialVersionUID = 6777268464521495615L;
+	private static final long serialVersionUID = 1145657528436629791L;
 
 	/**
 	 * 发放奖品的id，发放成功时必填

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 反向订单创建
  *
  * @author auto create
- * @since 1.0, 2026-08-06 19:32:17
+ * @since 1.0, 2026-08-28 11:29:59
  */
 public class AlipayCommerceEcRecyclinginvoiceOrderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6345232892863235891L;
+	private static final long serialVersionUID = 1693587982478822816L;
 
 	/**
 	 * 企业（商户）营业员ID，传值为已维护的企业（商户）营业员编号，可调用反向企业营业员查询接口查询
@@ -27,6 +27,12 @@ public class AlipayCommerceEcRecyclinginvoiceOrderCreateModel extends AlipayObje
 	 */
 	@ApiField("company_supplier_id")
 	private String companySupplierId;
+
+	/**
+	 * 指定发票开具时的票种
+	 */
+	@ApiField("invoice_kind")
+	private String invoiceKind;
 
 	/**
 	 * 订单的备注字段,用于发票的备注显示；超过 200 字节,转账单凭证信息将自动裁剪
@@ -83,6 +89,12 @@ public class AlipayCommerceEcRecyclinginvoiceOrderCreateModel extends AlipayObje
 	@ApiField("tax_no")
 	private String taxNo;
 
+	/**
+	 * 指定发票开具时的税率。
+	 */
+	@ApiField("tax_rate")
+	private String taxRate;
+
 	public String getCompanyClerkId() {
 		return this.companyClerkId;
 	}
@@ -95,6 +107,13 @@ public class AlipayCommerceEcRecyclinginvoiceOrderCreateModel extends AlipayObje
 	}
 	public void setCompanySupplierId(String companySupplierId) {
 		this.companySupplierId = companySupplierId;
+	}
+
+	public String getInvoiceKind() {
+		return this.invoiceKind;
+	}
+	public void setInvoiceKind(String invoiceKind) {
+		this.invoiceKind = invoiceKind;
 	}
 
 	public String getMemo() {
@@ -158,6 +177,13 @@ public class AlipayCommerceEcRecyclinginvoiceOrderCreateModel extends AlipayObje
 	}
 	public void setTaxNo(String taxNo) {
 		this.taxNo = taxNo;
+	}
+
+	public String getTaxRate() {
+		return this.taxRate;
+	}
+	public void setTaxRate(String taxRate) {
+		this.taxRate = taxRate;
 	}
 
 }

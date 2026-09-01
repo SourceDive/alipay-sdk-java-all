@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AppleVoucherQueryItem extends AlipayObject {
 
-	private static final long serialVersionUID = 8771228193246392844L;
+	private static final long serialVersionUID = 1327988372599846472L;
 
 	/**
 	 * 券额度，单位分

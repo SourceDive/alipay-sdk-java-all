@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 委托人下可投短剧App列表
  *
  * @author auto create
- * @since 1.0, 2026-07-28 19:22:54
+ * @since 1.0, 2026-08-27 00:04:55
  */
 public class AlipayDataDataserviceAdcampaignSeriesappQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4858821251139865757L;
+	private static final long serialVersionUID = 5726216181657523514L;
 
 	/**
 	 * 租户代码

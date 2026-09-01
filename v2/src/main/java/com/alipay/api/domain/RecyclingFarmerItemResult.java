@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecyclingFarmerItemResult extends AlipayObject {
 
-	private static final long serialVersionUID = 7276723283181647735L;
+	private static final long serialVersionUID = 6428841435137851185L;
 
 	/**
 	 * 产粮记录ID

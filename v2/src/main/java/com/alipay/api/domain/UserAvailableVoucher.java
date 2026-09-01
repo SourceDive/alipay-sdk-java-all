@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * null
+ * 优惠力度最大的单张券
  *
  * @author auto create
- * @since 1.0, 2026-08-21 16:44:45
+ * @since 1.0, 2026-09-01 14:32:53
  */
 public class UserAvailableVoucher extends AlipayObject {
 
-	private static final long serialVersionUID = 8478397185179557991L;
+	private static final long serialVersionUID = 7847689682471836752L;
 
 	/**
 	 * 航司二字码，比如:MU|CA

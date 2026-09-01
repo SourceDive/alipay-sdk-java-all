@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ChargerDiscountActivityQuota extends AlipayObject {
 
-	private static final long serialVersionUID = 5446295969578984514L;
+	private static final long serialVersionUID = 5257244619619116315L;
 
 	/**
 	 * 周期类型

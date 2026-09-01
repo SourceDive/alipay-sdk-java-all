@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.distmerchant.address.delete response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-26 11:58:06
+ * @since 1.0, 2026-08-28 15:02:51
  */
 public class AlipayCommerceRentDistmerchantAddressDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7357926115541428152L;
+	private static final long serialVersionUID = 2227165161998425856L;
 
 	
 

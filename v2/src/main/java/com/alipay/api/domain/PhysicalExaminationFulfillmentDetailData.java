@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PhysicalExaminationFulfillmentDetailData extends AlipayObject {
 
-	private static final long serialVersionUID = 3445791454689115767L;
+	private static final long serialVersionUID = 5824754125211193599L;
 
 	/**
 	 * 格式:yyyy-MM-dd HH:mm:ss

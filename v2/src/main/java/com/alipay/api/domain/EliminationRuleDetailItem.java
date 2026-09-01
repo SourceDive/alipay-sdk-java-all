@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 淘汰机制明细(评测明细+检测明细合并富化,status=COMPLETED 时返回)
  *
  * @author auto create
- * @since 1.0, 2026-08-25 10:17:29
+ * @since 1.0, 2026-08-28 21:22:53
  */
 public class EliminationRuleDetailItem extends AlipayObject {
 
-	private static final long serialVersionUID = 8439984646228397442L;
+	private static final long serialVersionUID = 6272289848811583421L;
 
 	/**
 	 * 业务标识(能力环节=题目ID,检测环节=检测项编码,收集环节=字段编码)

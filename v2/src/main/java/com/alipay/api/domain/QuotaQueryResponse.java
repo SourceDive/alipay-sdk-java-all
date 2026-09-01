@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class QuotaQueryResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 3833934964764135613L;
+	private static final long serialVersionUID = 1839177698878898734L;
 
 	/**
 	 * 协议号

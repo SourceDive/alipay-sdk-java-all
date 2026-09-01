@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-07 13:34:21
+ * @since 1.0, 2026-08-27 16:07:51
  */
 public class DiseaseHistory extends AlipayObject {
 
-	private static final long serialVersionUID = 4829653779784929251L;
+	private static final long serialVersionUID = 6273783573173158235L;
 
 	/**
 	 * 确诊日期

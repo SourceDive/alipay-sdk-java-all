@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ebpp.jobinterview.interview.query request
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 10:17:29
+ * @since 1.0, 2026-08-28 21:22:53
  */
 public class AlipayEbppJobinterviewInterviewQueryRequest implements AlipayRequest<AlipayEbppJobinterviewInterviewQueryResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ShipGoodsRiskVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7195675696629864318L;
+	private static final long serialVersionUID = 8722798323932887792L;
 
 	/**
 	 * true-建议发货

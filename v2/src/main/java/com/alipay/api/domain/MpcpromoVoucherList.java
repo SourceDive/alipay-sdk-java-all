@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MpcpromoVoucherList extends AlipayObject {
 
-	private static final long serialVersionUID = 1274487833955833532L;
+	private static final long serialVersionUID = 5246373862193266141L;
 
 	/**
 	 * 创建商家券活动成功后获取

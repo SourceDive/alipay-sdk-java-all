@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BianQueUserAuthDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 3229185964818893168L;
+	private static final long serialVersionUID = 7386191835129562338L;
 
 	/**
 	 * 用户证件号码

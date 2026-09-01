@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SportsRosterBatchQueryItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7135345613825331385L;
+	private static final long serialVersionUID = 8871719255668469227L;
 
 	/**
 	 * 部门（xxx/xx/xx 完整路径）

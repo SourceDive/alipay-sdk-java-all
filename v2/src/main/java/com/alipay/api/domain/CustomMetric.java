@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class CustomMetric extends AlipayObject {
 
-	private static final long serialVersionUID = 6778282325223597264L;
+	private static final long serialVersionUID = 4766763439767338187L;
 
 	/**
 	 * 监控共建自定义指标数据产生的时间戳

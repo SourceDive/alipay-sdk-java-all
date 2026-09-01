@@ -7,17 +7,35 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查面试状态与结果
  *
  * @author auto create
- * @since 1.0, 2026-08-25 10:17:29
+ * @since 1.0, 2026-08-28 21:22:53
  */
 public class AlipayEbppJobinterviewInterviewQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8293844332193135358L;
+	private static final long serialVersionUID = 1645452291931952857L;
 
 	/**
-	 * 候选人唯一ID（即创建会话时下发的 candidateId），空则报"候选人ID不能为空"
+	 * 候选人唯一ID（三个ID必填一个：外部候选人ID / 身份证ID / 候选人唯一ID）
 	 */
 	@ApiField("candidate_id")
 	private String candidateId;
+
+	/**
+	 * 外部候选人ID（三个ID必填一个：外部候选人ID / 身份证ID / 候选人唯一ID）
+	 */
+	@ApiField("external_candidate_id")
+	private String externalCandidateId;
+
+	/**
+	 * 身份证ID（三个ID必填一个：外部候选人ID / 身份证ID / 候选人唯一ID）
+	 */
+	@ApiField("id_card")
+	private String idCard;
+
+	/**
+	 * 面试间ID
+	 */
+	@ApiField("room_id")
+	private String roomId;
 
 	/**
 	 * 租户ID，接入方统一租户标识，空则报"租户ID不能为空"
@@ -30,6 +48,27 @@ public class AlipayEbppJobinterviewInterviewQueryModel extends AlipayObject {
 	}
 	public void setCandidateId(String candidateId) {
 		this.candidateId = candidateId;
+	}
+
+	public String getExternalCandidateId() {
+		return this.externalCandidateId;
+	}
+	public void setExternalCandidateId(String externalCandidateId) {
+		this.externalCandidateId = externalCandidateId;
+	}
+
+	public String getIdCard() {
+		return this.idCard;
+	}
+	public void setIdCard(String idCard) {
+		this.idCard = idCard;
+	}
+
+	public String getRoomId() {
+		return this.roomId;
+	}
+	public void setRoomId(String roomId) {
+		this.roomId = roomId;
 	}
 
 	public String getTenantId() {

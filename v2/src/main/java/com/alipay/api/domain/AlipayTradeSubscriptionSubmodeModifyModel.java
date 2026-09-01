@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 修改订阅子模式
  *
  * @author auto create
- * @since 1.0, 2026-07-29 10:42:49
+ * @since 1.0, 2026-08-28 12:30:48
  */
 public class AlipayTradeSubscriptionSubmodeModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2823312171973312792L;
+	private static final long serialVersionUID = 2749212961925933195L;
 
 	/**
 	 * 是否在周期结束时取消，仅用于取消/取消后恢复订阅：CANCEL传true表示周期末取消，传false表示立即取消并发起退款；REVERT_CANCEL需传false

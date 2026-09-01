@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 健康档案数据同步
  *
  * @author auto create
- * @since 1.0, 2026-08-07 13:34:21
+ * @since 1.0, 2026-08-27 16:07:51
  */
 public class AlipayCommerceMedicalHealthArchiveSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1289553533172373419L;
+	private static final long serialVersionUID = 4378279872911679925L;
+
+	/**
+	 * 阿福用户openid
+	 */
+	@ApiField("aq_open_id")
+	private String aqOpenId;
 
 	/**
 	 * 以Map形式返回具体内容
@@ -38,6 +44,12 @@ public class AlipayCommerceMedicalHealthArchiveSyncModel extends AlipayObject {
 	private String openId;
 
 	/**
+	 * 数据保存来源 枚举值参考 ArchiveSaveFromEnum
+	 */
+	@ApiField("save_from")
+	private String saveFrom;
+
+	/**
 	 * 同步状态
 	 */
 	@ApiField("sync_status")
@@ -60,6 +72,13 @@ public class AlipayCommerceMedicalHealthArchiveSyncModel extends AlipayObject {
 	 */
 	@ApiField("user_id")
 	private String userId;
+
+	public String getAqOpenId() {
+		return this.aqOpenId;
+	}
+	public void setAqOpenId(String aqOpenId) {
+		this.aqOpenId = aqOpenId;
+	}
 
 	public ContentData getContentData() {
 		return this.contentData;
@@ -87,6 +106,13 @@ public class AlipayCommerceMedicalHealthArchiveSyncModel extends AlipayObject {
 	}
 	public void setOpenId(String openId) {
 		this.openId = openId;
+	}
+
+	public String getSaveFrom() {
+		return this.saveFrom;
+	}
+	public void setSaveFrom(String saveFrom) {
+		this.saveFrom = saveFrom;
 	}
 
 	public String getSyncStatus() {

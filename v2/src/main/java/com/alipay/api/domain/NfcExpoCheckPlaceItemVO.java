@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class NfcExpoCheckPlaceItemVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5347566996356899441L;
+	private static final long serialVersionUID = 4582197382557433931L;
 
 	/**
 	 * 打卡小程序URL

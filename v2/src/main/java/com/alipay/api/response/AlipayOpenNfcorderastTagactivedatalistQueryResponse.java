@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenNfcorderastTagactivedatalistQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2724335917117154336L;
+	private static final long serialVersionUID = 1284112421946822453L;
 
 	/** 
 	 * 线圈活跃数列表

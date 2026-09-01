@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 服务商代商户MCP信息修改
  *
  * @author auto create
- * @since 1.0, 2026-08-26 21:53:39
+ * @since 1.0, 2026-08-31 09:42:54
  */
 public class AlipayOpenSpMcpInfoModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3312248582539394448L;
+	private static final long serialVersionUID = 1576292282816269918L;
 
 	/**
 	 * MCP能力编码code
@@ -27,6 +27,12 @@ public class AlipayOpenSpMcpInfoModifyModel extends AlipayObject {
 	 */
 	@ApiField("api_key")
 	private String apiKey;
+
+	/**
+	 * 传输加密关联的加密应用。由调用方（服务商）入参指定其名下应用；推荐使用三方应用
+	 */
+	@ApiField("encrypt_app_id")
+	private String encryptAppId;
 
 	/**
 	 * null
@@ -102,6 +108,13 @@ public class AlipayOpenSpMcpInfoModifyModel extends AlipayObject {
 	}
 	public void setApiKey(String apiKey) {
 		this.apiKey = apiKey;
+	}
+
+	public String getEncryptAppId() {
+		return this.encryptAppId;
+	}
+	public void setEncryptAppId(String encryptAppId) {
+		this.encryptAppId = encryptAppId;
 	}
 
 	public List<HeaderParam> getHeaderList() {

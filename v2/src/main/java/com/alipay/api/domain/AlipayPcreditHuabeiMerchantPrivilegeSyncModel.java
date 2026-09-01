@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商户会员权益同步
  *
  * @author auto create
- * @since 1.0, 2026-06-30 13:52:55
+ * @since 1.0, 2026-08-28 18:22:52
  */
 public class AlipayPcreditHuabeiMerchantPrivilegeSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6817384681751235399L;
+	private static final long serialVersionUID = 4617985435919152452L;
 
 	/**
 	 * 业务发生时间

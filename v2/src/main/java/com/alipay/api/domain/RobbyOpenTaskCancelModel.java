@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RobbyOpenTaskCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6367326477947483981L;
+	private static final long serialVersionUID = 8233635514481338293L;
 
 	/**
 	 * 机器人编号

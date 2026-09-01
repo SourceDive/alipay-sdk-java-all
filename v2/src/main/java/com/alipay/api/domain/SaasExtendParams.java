@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 收单扩展参数。具体字段按SaasExtendParams结构传入。
  *
  * @author auto create
- * @since 1.0, 2026-08-25 21:17:52
+ * @since 1.0, 2026-08-31 20:33:46
  */
 public class SaasExtendParams extends AlipayObject {
 
-	private static final long serialVersionUID = 1173544214641555417L;
+	private static final long serialVersionUID = 8189824523154364127L;
 
 	/**
 	 * 卡类型

@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 语音播报报表分页查询
  *
  * @author auto create
- * @since 1.0, 2025-11-07 14:02:01
+ * @since 1.0, 2026-08-27 15:20:41
  */
 public class AlipayOfflineProviderBroadcastBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7235429819163474114L;
+	private static final long serialVersionUID = 5844315158831469483L;
 
 	/**
 	 * 设备绑定开始时间与设备绑定结束时间间隔不得超过6个月，并且要么同时为空或者同时不为空

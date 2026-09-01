@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.customer.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 14:57:45
+ * @since 1.0, 2026-09-01 16:07:48
  */
 public class AlipayTradeCustomerCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4649796692285928348L;
+	private static final long serialVersionUID = 8117498464839844181L;
 
 	/** 
 	 * 客户id
@@ -20,11 +20,24 @@ public class AlipayTradeCustomerCreateResponse extends AlipayResponse {
 	@ApiField("customer_id")
 	private String customerId;
 
+	/** 
+	 * 商家入参传入的幂等号。若未传入，支付宝将自动生成AUTO_开头的随机幂等号
+	 */
+	@ApiField("merchant_request_no")
+	private String merchantRequestNo;
+
 	public void setCustomerId(String customerId) {
 		this.customerId = customerId;
 	}
 	public String getCustomerId( ) {
 		return this.customerId;
+	}
+
+	public void setMerchantRequestNo(String merchantRequestNo) {
+		this.merchantRequestNo = merchantRequestNo;
+	}
+	public String getMerchantRequestNo( ) {
+		return this.merchantRequestNo;
 	}
 
 }

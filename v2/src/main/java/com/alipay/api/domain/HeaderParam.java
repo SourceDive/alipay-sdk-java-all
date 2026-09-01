@@ -7,17 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-26 21:53:39
+ * @since 1.0, 2026-08-31 09:42:54
  */
 public class HeaderParam extends AlipayObject {
 
-	private static final long serialVersionUID = 6822168538422488961L;
+	private static final long serialVersionUID = 2625269279162329478L;
 
 	/**
 	 * 参数名
 	 */
 	@ApiField("name")
 	private String name;
+
+	/**
+	 * 是否开启传输加密：不传=不处理；N=关闭；Y=打开（须配 encrypt_app_id）
+	 */
+	@ApiField("need_encrypt")
+	private String needEncrypt;
 
 	/**
 	 * 参数类型
@@ -36,6 +42,13 @@ public class HeaderParam extends AlipayObject {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getNeedEncrypt() {
+		return this.needEncrypt;
+	}
+	public void setNeedEncrypt(String needEncrypt) {
+		this.needEncrypt = needEncrypt;
 	}
 
 	public String getType() {

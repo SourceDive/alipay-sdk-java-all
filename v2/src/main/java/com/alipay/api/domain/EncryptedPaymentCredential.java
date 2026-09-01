@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EncryptedPaymentCredential extends AlipayObject {
 
-	private static final long serialVersionUID = 7724124579989478997L;
+	private static final long serialVersionUID = 1792394799198734198L;
 
 	/**
 	 * 码值密文。{Base64 encrypted data}

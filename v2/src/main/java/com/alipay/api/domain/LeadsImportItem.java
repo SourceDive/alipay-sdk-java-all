@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-25 10:57:51
+ * @since 1.0, 2026-09-01 10:42:30
  */
 public class LeadsImportItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7733379394976918652L;
+	private static final long serialVersionUID = 7737944242334632176L;
 
 	/**
 	 * 司机主要营运出租业务的城市

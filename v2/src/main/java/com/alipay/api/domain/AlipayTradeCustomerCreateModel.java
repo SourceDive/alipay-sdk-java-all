@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 客户创建接口
  *
  * @author auto create
- * @since 1.0, 2026-08-25 14:57:45
+ * @since 1.0, 2026-09-01 16:07:48
  */
 public class AlipayTradeCustomerCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3539738348345277414L;
+	private static final long serialVersionUID = 2367391693281982931L;
 
 	/**
 	 * 客户描述
@@ -24,6 +24,12 @@ public class AlipayTradeCustomerCreateModel extends AlipayObject {
 	 */
 	@ApiField("email")
 	private String email;
+
+	/**
+	 * 商户维度全局幂等键
+	 */
+	@ApiField("merchant_request_no")
+	private String merchantRequestNo;
 
 	/**
 	 * 客户名称
@@ -49,6 +55,13 @@ public class AlipayTradeCustomerCreateModel extends AlipayObject {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getMerchantRequestNo() {
+		return this.merchantRequestNo;
+	}
+	public void setMerchantRequestNo(String merchantRequestNo) {
+		this.merchantRequestNo = merchantRequestNo;
 	}
 
 	public String getName() {

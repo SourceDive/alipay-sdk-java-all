@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTerminalEdgecloudHeyagentCloseResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4196555496912919258L;
+	private static final long serialVersionUID = 8193877964749987814L;
 
 	
 

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.pcredit.huabei.merchant.privilege.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-06-30 13:52:55
+ * @since 1.0, 2026-08-28 18:22:52
  */
 public class AlipayPcreditHuabeiMerchantPrivilegeSyncRequest implements AlipayRequest<AlipayPcreditHuabeiMerchantPrivilegeSyncResponse> {
 

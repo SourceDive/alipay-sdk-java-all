@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecycleOrderVoucher extends AlipayObject {
 
-	private static final long serialVersionUID = 6362333965642476352L;
+	private static final long serialVersionUID = 8643156393481992578L;
 
 	/**
 	 * 比例券会返回加价的比例，如5则代表加价5%，最高封顶金额为voucher_ceiling_amount

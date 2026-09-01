@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FoodItem extends AlipayObject {
 
-	private static final long serialVersionUID = 6782785387453787232L;
+	private static final long serialVersionUID = 5449955441428977495L;
 
 	/**
 	 * 该项热量 kcal

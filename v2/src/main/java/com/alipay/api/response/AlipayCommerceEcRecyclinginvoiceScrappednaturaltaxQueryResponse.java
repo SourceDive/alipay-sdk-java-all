@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEcRecyclinginvoiceScrappednaturaltaxQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5767659672821422433L;
+	private static final long serialVersionUID = 4443261893676866621L;
 
 	/** 
 	 * 当前年度乐企个税累计计税金额（元）

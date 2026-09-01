@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IotVspOrgUserWithVidAddUserInfoRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 5588649213251585439L;
+	private static final long serialVersionUID = 5859679151516237913L;
 
 	/**
 	 * 姓名

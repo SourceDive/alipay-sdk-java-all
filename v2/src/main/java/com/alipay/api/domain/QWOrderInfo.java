@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class QWOrderInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1541299286853548383L;
+	private static final long serialVersionUID = 1231869473583755556L;
 
 	/**
 	 * 支付宝uid

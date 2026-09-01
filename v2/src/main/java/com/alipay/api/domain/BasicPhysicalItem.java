@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-07 13:34:21
+ * @since 1.0, 2026-08-27 16:07:51
  */
 public class BasicPhysicalItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7375723671593455956L;
+	private static final long serialVersionUID = 4153654734178678535L;
 
 	/**
 	 * 异常类型/结果提示（如"↑"、"↓"、"正常"），异常类型符合医学规范，针对有区间指标有结果展示

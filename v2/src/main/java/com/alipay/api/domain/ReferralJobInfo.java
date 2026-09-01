@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ReferralJobInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8698231768652184446L;
+	private static final long serialVersionUID = 2229331174132124681L;
 
 	/**
 	 * 学历要求

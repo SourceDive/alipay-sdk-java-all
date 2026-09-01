@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayIserviceItaskAvatarGentaskSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8154982341162444535L;
+	private static final long serialVersionUID = 2116675513819915169L;
 
 	/**
 	 * 位置信息

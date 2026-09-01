@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 出租车leads信息上传
  *
  * @author auto create
- * @since 1.0, 2026-08-25 10:57:51
+ * @since 1.0, 2026-09-01 10:42:30
  */
 public class AlipayCommerceTransportTaxiLeadsUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7851941915728431842L;
+	private static final long serialVersionUID = 3246845519242867242L;
 
 	/**
 	 * null

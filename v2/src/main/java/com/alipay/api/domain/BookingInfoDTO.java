@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BookingInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8451511745655724468L;
+	private static final long serialVersionUID = 6524672468224898281L;
 
 	/**
 	 * 预约入住时间

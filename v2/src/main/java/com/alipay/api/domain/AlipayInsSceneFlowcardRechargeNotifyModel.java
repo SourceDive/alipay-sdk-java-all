@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayInsSceneFlowcardRechargeNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6387777166921857737L;
+	private static final long serialVersionUID = 5453729311453248999L;
 
 	/**
 	 * 充值业务单号

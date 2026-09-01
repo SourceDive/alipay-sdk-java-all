@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 转化信息
  *
  * @author auto create
- * @since 1.0, 2026-08-11 11:12:52
+ * @since 1.0, 2026-08-27 00:04:56
  */
 public class AdConversion extends AlipayObject {
 
-	private static final long serialVersionUID = 6875668131784614985L;
+	private static final long serialVersionUID = 7263995776648829657L;
 
 	/**
 	 * 资产类型代码(asset)。标识广告投放在哪个端/载体

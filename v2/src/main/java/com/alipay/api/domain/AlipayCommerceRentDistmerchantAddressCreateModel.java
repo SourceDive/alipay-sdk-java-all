@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 归还地址新增接口
  *
  * @author auto create
- * @since 1.0, 2026-08-26 12:37:48
+ * @since 1.0, 2026-08-28 15:02:51
  */
 public class AlipayCommerceRentDistmerchantAddressCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1294494929776479818L;
+	private static final long serialVersionUID = 1677917323983938225L;
 
 	/**
 	 * 销商户归还地址

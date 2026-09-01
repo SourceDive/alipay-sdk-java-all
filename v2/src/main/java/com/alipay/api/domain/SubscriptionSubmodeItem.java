@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-07-29 10:47:53
+ * @since 1.0, 2026-08-28 12:30:48
  */
 public class SubscriptionSubmodeItem extends AlipayObject {
 
-	private static final long serialVersionUID = 2158837557279574373L;
+	private static final long serialVersionUID = 1677931965475197494L;
 
 	/**
 	 * 优惠券 ID；创建或 UPGRADE 场景按需传入，与 pay_amount 互斥，DOWNGRADE 不允许传入

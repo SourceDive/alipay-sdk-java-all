@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class XingheLendassistCarfinauctionApplystatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2515431317133247959L;
+	private static final long serialVersionUID = 7679917826386622351L;
 
 	/** 
 	 * 星河申请单号

@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 根据手机号发放服务包
  *
  * @author auto create
- * @since 1.0, 2026-08-26 15:32:49
+ * @since 1.0, 2026-08-27 10:42:52
  */
 public class AlipayCommerceMedicalServicepackageGrantbyphonenoCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3195928873422859246L;
+	private static final long serialVersionUID = 7523133627418923221L;
 
 	/**
 	 * 证件号

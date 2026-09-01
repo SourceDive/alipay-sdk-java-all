@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 零售活动奖品发放
  *
  * @author auto create
- * @since 1.0, 2026-08-04 19:28:51
+ * @since 1.0, 2026-08-31 19:25:14
  */
 public class AlipayCommerceRetailActivitySendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4132656897464857719L;
+	private static final long serialVersionUID = 7815329911414769289L;
 
 	/**
 	 * 业务单号，用于幂等。
