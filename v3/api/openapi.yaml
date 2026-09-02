@@ -5,7 +5,7 @@ info:
     url: https://opendocs.alipay.com/open-v3/053sd1
   description: 支付宝开放平台v3协议文档
   title: 支付宝开放平台API
-  version: 2026-04-14
+  version: 2026-08-26
 servers:
 - description: Production server
   url: https://openapi.alipay.com
@@ -3419,6 +3419,15 @@ paths:
         required: false
         schema:
           example: "2088123412341234"
+          type: string
+        style: form
+      - description: true表示使用安全链接，即返回的下载链接为https。 非true值的情况下，统一为false，使用http链接。
+        explode: true
+        in: query
+        name: secure
+        required: false
+        schema:
+          example: "true"
           type: string
         style: form
       responses:
@@ -18818,6 +18827,9 @@ paths:
               fifth_screen_shot:
                 contentType: '*/*'
                 style: form
+              sixth_special_license_pic:
+                contentType: '*/*'
+                style: form
               first_license_pic:
                 contentType: '*/*'
                 style: form
@@ -18836,6 +18848,9 @@ paths:
               second_license_pic:
                 contentType: '*/*'
                 style: form
+              seventh_special_license_pic:
+                contentType: '*/*'
+                style: form
               app_logo:
                 contentType: '*/*'
                 style: form
@@ -18848,10 +18863,25 @@ paths:
               third_license_pic:
                 contentType: '*/*'
                 style: form
+              eighth_special_license_pic:
+                contentType: '*/*'
+                style: form
               out_door_pic:
                 contentType: '*/*'
                 style: form
+              fourth_special_license_pic:
+                contentType: '*/*'
+                style: form
+              tenth_special_license_pic:
+                contentType: '*/*'
+                style: form
               second_special_license_pic:
+                contentType: '*/*'
+                style: form
+              fifth_special_license_pic:
+                contentType: '*/*'
+                style: form
+              ninth_special_license_pic:
                 contentType: '*/*'
                 style: form
               fourth_license_pic:
@@ -26067,6 +26097,34 @@ paths:
       - monitor.heartbeat
       x-content-type: application/json
       x-accepts: application/json
+  /v3/stream/grandsecurity/bizrisks/fact/check:
+    post:
+      description: 模型接口将根据前端返回的问题（query），基于真假结论、核心摘要、推理过程、相关证据、警告、机构名称等，将以上字段梳理为综合判定、判断依据、结论、研处意见及参考资料的四大模块结构，并传至前端提供C端。
+      operationId: grandsecurity.bizrisks.fact.check
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GrandsecurityBizrisksFactCheckModel'
+        required: false
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GrandsecurityBizrisksFactCheckResponseModel'
+          description: common response
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/grandsecurity_bizrisks_fact_check_default_response'
+          description: 请求失败
+      summary: 事实核查服务
+      tags:
+      - grandsecurity.bizrisks.fact
+      x-content-type: application/json
+      x-accepts: application/json
   /v3/zhima/credit/payafteruse/creditagreement/query:
     get:
       description: 使用商户外部协议号或开通/授权协议号，查询服务开通/授权信息。
@@ -26088,6 +26146,33 @@ paths:
         required: false
         schema:
           example: ZMOP2020050722001440
+          type: string
+        style: form
+      - description: 当产品是芝麻守约时必填，需传入CREDIT_AGREEMENT
+        explode: true
+        in: query
+        name: product_code
+        required: false
+        schema:
+          example: CREDIT_AGREEMENT
+          type: string
+        style: form
+      - description: 芝麻信用服务id，上线前提前分配给商户
+        explode: true
+        in: query
+        name: service_id
+        required: false
+        schema:
+          example: "2026041600000000000116203200"
+          type: string
+        style: form
+      - description: 扩展参数
+        explode: true
+        in: query
+        name: extra_param
+        required: false
+        schema:
+          example: "{\"key\",\"value\"}"
           type: string
         style: form
       responses:
@@ -27432,6 +27517,8 @@ components:
       type: object
     ActivityBaseInfo:
       properties:
+        activity_delivery_ext_info:
+          $ref: '#/components/schemas/ActivityDeliveryExtInfo'
         activity_id:
           description: 活动id
           type: string
@@ -27455,6 +27542,17 @@ components:
         out_activity_id:
           description: 外部活动ID
           type: string
+      type: object
+    ActivityDeliveryExtInfo:
+      properties:
+        auto_delivery:
+          description: 是否自动推广
+          type: boolean
+        channel_list:
+          description: 推广渠道列表
+          items:
+            type: string
+          type: array
       type: object
     ActivityDiscountVoucher:
       properties:
@@ -29148,6 +29246,8 @@ components:
           - LABEL_NAME_ILLEGAL
           - EMP_NAME_VERIFY_FAIL
           - USER_NOT_AUTHENTICATED
+          - ACCOUNTING_ENTITY_COUNT_EXCEED_MAX
+          - EMPLOYEE_CERTIFY_REQUIRED
           type: string
         links:
           description: 解决方案链接
@@ -29686,6 +29786,7 @@ components:
         code:
           description: 错误码
           enum:
+          - ENTERPRISE_ADDRESS_OVER_LIMIT
           - PARAMETER_ERROR
           - SYSTEM_ERROR
           - ENTERPRISE_NOT_EXIST
@@ -31766,8 +31867,7 @@ components:
           description: "停车服务页面地址。\t1、服务商停车服务页面地址必须是支付宝小程序URL（无需转换https），详见： <a href=\"\
             https://opendocs.alipay.com/support/01rb18#URL%20%E6%A0%BC%E5%BC%8F \"\
             > https://opendocs.alipay.com/support/01rb18#URL%20%E6%A0%BC%E5%BC%8F\
-            \  </a>\t2、若服务商没有服务链接，可传输支付宝停车官方小程序的服务链接：alipays://platformapi/startapp?appId=2021001102642986&page=pages%2Fparking-fee%2Findex\
-            \ \t3、若此次对接的是无感支付，则服务链接传输为：alipays://platformapi/startapp?appId=2021001102642986&page=%2Fpages%2Fparking-bill%2Findex"
+            \  </a>\t2、若服务链接可沿用入场时提供的服务链接，可以留空。\t3、若此次对接的是无感支付，则服务链接传输为：alipays://platformapi/startapp?appId=2021001102642986&page=%2Fpages%2Fparking-bill%2Findex"
           example: alipays://platformapi/startapp?appId=2021001102642986&page=pages%2Fparking-fee%2Findex
           type: string
         total_amount:
@@ -31925,6 +32025,7 @@ components:
         code:
           description: 错误码
           enum:
+          - BAIL_USER_NOT_FOUND
           - SYSTEM_ERROR
           - INVALID_PARAMETER
           - SYSTEM_BUSY
@@ -32113,6 +32214,7 @@ components:
           - INVALID_PARAMETER
           - SYSTEM_BUSY
           - BIZ_ERROR
+          - ERECEIPT_DUPLICATE_APPLY
           type: string
         links:
           description: 解决方案链接
@@ -32195,6 +32297,7 @@ components:
           enum:
           - SYSTEM_ERROR
           - INVALID_PARAMETER
+          - ERECEIPT_DUPLICATE_APPLY
           type: string
         links:
           description: 解决方案链接
@@ -33623,6 +33726,7 @@ components:
           - BILL_MONTH_DAY_ILLEGAL
           - BIZ_ERROR
           - REMOTE_SERVICE_ERROR
+          - PARAMETER_ERROR
           type: string
         links:
           description: 解决方案链接
@@ -33648,9 +33752,25 @@ components:
           description: 账期结束日期
           example: 5
           type: integer
+        bill_scope:
+          description: 开票账单范围
+          example: PEER_PAY
+          type: string
+        combined_pay_mode:
+          description: 组合支付模式
+          example: ONLY_PEER_PAY
+          type: string
+        default_invoice_kind:
+          description: 默认开票类型
+          example: SPECIAL
+          type: string
         enterprise_id:
           description: 企业ID
           example: "2088402284248282"
+          type: string
+        invoice_remark_value_rule:
+          description: 发票备注取值规则。NONE表示不使用额度发放说明；QUOTA_ISSUE_DESC表示将因公付额度发放说明作为发票备注。不传、传null或空字符串时默认NONE。
+          example: QUOTA_ISSUE_DESC
           type: string
         invoice_rule_name:
           description: 开票规则名称
@@ -33729,9 +33849,25 @@ components:
           description: 授权签约协议号
           example: "20215425001112341234"
           type: string
+        bill_scope:
+          description: 开票账单范围
+          example: PEER_PAY
+          type: string
+        combined_pay_mode:
+          description: 组合支付模式
+          example: ONLY_PEER_PAY
+          type: string
+        default_invoice_kind:
+          description: 默认开票类型
+          example: SPECIAL
+          type: string
         enterprise_id:
           description: 企业ID
           example: "2088000194958956"
+          type: string
+        invoice_remark_value_rule:
+          description: 发票备注取值规则。NONE表示不使用额度发放说明；QUOTA_ISSUE_DESC表示将因公付额度发放说明作为发票备注。修改接口未传、传null或空字符串时保留原配置。
+          example: QUOTA_ISSUE_DESC
           type: string
         invoice_rule_id:
           description: 开票规则ID
@@ -34756,6 +34892,10 @@ components:
           description: 授权签约协议号（该字段将废弃，不建议使用，可用enterprise_id字段替换）(该字段将废弃，不建议使用，可用enterprise_id字段替换)
           example: "20215425001112341234"
           type: string
+        allow_negative:
+          description: 修改余额对应的额度时是否允许修改为负数，true表示允许，false表示不允许。默认允许
+          example: false
+          type: boolean
         amount:
           description: 变更的金额/余额，日元或者韩元以（元）为单位，其他币种以（分）为单位，当变更的资产类型为次卡时，单位为次
           example: "10"
@@ -35775,6 +35915,10 @@ components:
           description: 适配id类型(请使用institution_scope_info中owner_type)
           example: ENTERPRISE_PAY_UID
           type: string
+        payment_mode:
+          description: 费控制度的出资类型
+          example: OWNER_PAY
+          type: string
         scene_type:
           deprecated: true
           description: 因公场景(该字段将废弃，不建议使用)
@@ -35922,6 +36066,10 @@ components:
         owner_type:
           description: 适配id类型
           example: PHONE
+          type: string
+        payment_mode:
+          description: 费控制度出资类型
+          example: OWNER_PAY
           type: string
         scene_type:
           description: 因公场景
@@ -37340,11 +37488,11 @@ components:
           example: "262327843"
           type: string
         extend_field:
-          description: "扩展参数。必须以key value形式定义，\r\t转为json为格式：{\"key1\":\"value1\",\"\
-            key2\":\"value2\",\r\t\"key3\":\"value3\",\"key4\":\"value4\"}\r\t 后端会\
-            直接转换为MAP对象，转换异常会报参数格式错误"
-          example: "{\"key1\":\"value1\",\"key2\":\"value2\",\r\n\"key3\":\"value3\"\
-            ,\"key4\":\"value4\"}"
+          description: "扩展参数。必须以key value形式定义，\t转为json为格式：{\"key1\":\"value1\",\"\
+            key2\":\"value2\",\t\"key3\":\"value3\",\"key4\":\"value4\"}\t 后端会直接转换\
+            为MAP对象，转换异常会报参数格式错误。\tinstUniqueNo,机构唯一流水号"
+          example: "{\"key1\":\"value1\",\"key2\":\"value2\",\"key3\":\"value3\",\"\
+            key4\":\"value4\"}"
           type: string
         fine_amount:
           description: 滞纳金
@@ -37511,6 +37659,11 @@ components:
           description: 签约到期时间。空表示无限期，一期固定传空。
           example: 2015-03-12
           type: string
+        specified_sort_channels:
+          description: 用户设置的优先扣款渠道
+          items:
+            $ref: '#/components/schemas/SpecifiedSortChannelParam'
+          type: array
         sub_biz_type:
           description: "业务子类型。业务子类型是业务类型的下一级概念。枚举支持：\t*WATER：缴水费。\t*ELECTRIC：缴电费。\t\
             *GAS：缴燃气费。\t*COMMUN：缴固话宽带费。\t*CATV：缴有线电视费。\t*TRAFFIC：缴交通罚款。\t*WUYE：缴物业\
@@ -37664,6 +37817,15 @@ components:
           description: 签约时间
           example: 2016-02-03 18:00:00
           type: string
+        sign_expire_date:
+          description: 协议过期时间
+          example: 2026-07-23
+          type: string
+        specified_sort_channels:
+          description: 用户代扣协议设置的优先扣款渠道
+          items:
+            $ref: '#/components/schemas/SpecifiedSortChannelParam'
+          type: array
         user_id:
           description: 用户ID
           example: "2088022621144305"
@@ -42913,6 +43075,10 @@ components:
           description: 退款子单失败状态
           example: FAIL
           type: string
+        sub_pay_fund_order_id:
+          description: 支付宝支付子单资金流水号，当二阶段主子单场景时需要使用该单号去下载电子回单
+          example: "20260706020070011570100025938503"
+          type: string
         sub_status:
           description: 转账单据子状态，SUCCESS：二阶段转账领取成功；REFUNDED：二阶段转账退款
           example: SUCCESS
@@ -43416,6 +43582,8 @@ components:
         code:
           description: 错误码
           enum:
+          - PAYEE_NOT_EXIST
+          - ENTERPRISE_IDENTITY_INFO_NEED_UPDATE
           - CHECK_RECEIVER_CERT_NOT_ALLOW
           - EXPAND_INDIRECT_VERIFY_FAIL
           - INVALID_PARAMETER
@@ -43441,7 +43609,6 @@ components:
           - PAYER_NOT_EXIST
           - PRODUCT_NOT_SIGN
           - PAYMENT_TIME_EXPIRE
-          - PAYEE_NOT_EXIST
           - PAYEE_ACCOUNT_STATUS_ERROR
           - PERMIT_NON_BANK_LIMIT_PAYEE
           - PAYEE_TRUSTEESHIP_ACC_OVER_LIMIT
@@ -43584,6 +43751,9 @@ components:
           - TRANSFER_SCENE_REPORT_INFO_ILLEGAL
           - TRANSFER_SCENE_NAME_BLANK
           - TRANSFER_SCENE_INFO_ADMIT_FAIL
+          - ENTRUST_TRANSFER_NO_ACCOUNT_PAYMENT_PERMISSION
+          - IDENTITY_CARD_INFO_INVALID
+          - AUTH_LOGONID_CHANGED
           type: string
         links:
           description: 解决方案链接
@@ -43648,11 +43818,12 @@ components:
         transfer_scene_name:
           description: "该笔转账使用的转账场景，商户可前往【<a href=\"https://b.alipay.com/page/bizfund/transferScene/list\"\
             >支付宝商家平台-资金管理-转账场景</a>】中查看/申明转账场景。<br>\t目前支持以下枚举值：现金营销、企业退款、佣金报酬、业务结算、\
-            二手回收、公益补助、行政补贴和退款、保险理赔"
+            二手回收、公益补助、行政补贴和退款、保险理赔<br>\t<b>注意：</b>26年及以后新接入商户<b>必须</b>传入该字段。"
           example: 佣金报酬
           type: string
         transfer_scene_report_infos:
-          description: 转账场景信息，包含转账场景信息类型和转账场景信息描述。需按该笔转账使用的转账场景准确填写
+          description: "转账场景信息，包含转账场景信息类型和转账场景信息描述。需按该笔转账使用的转账场景准确填写<br>\t<b>注意：</b>26年\
+            及以后新接入商户<b>必须</b>传入该字段。"
           items:
             $ref: '#/components/schemas/TransferSceneReportInfo'
           type: array
@@ -43690,6 +43861,10 @@ components:
           description: "转账单据状态。\tSUCCESS（该笔转账交易成功）：成功；\tFAIL：失败（具体失败原因请参见error_code以\
             及fail_reason返回值）；\tDEALING：处理中（转账到支付宝账户不涉及）；\tREFUND：退票（转账到支付宝账户不涉及）；"
           example: SUCCESS
+          type: string
+        sub_pay_fund_order_id:
+          description: 支付宝支付子单资金流水号，当二阶段主子单场景时需要使用该单号去下载电子回单
+          example: "20260706020070011570100025938503"
           type: string
         sub_status:
           description: 转账单据子状态。 SUCCESS（二阶段转账到支付宝账户领取成功）： REFUNDED：退款（二阶段转账到支付宝账户退款）；
@@ -59317,6 +59492,7 @@ components:
           - MINIAPP_VERSION_NOT_EXSIT
           - MINI_APP_RESTRICTED_AUDIT_CONTROL
           - CAN_NOT_SUBMIT_WITH_ONLINE_MINI_APP_EXCEED_LIMIT
+          - BUSINESS_LICENSE_REVOCATED_SUBMIT
           type: string
         links:
           description: 解决方案链接
@@ -66941,7 +67117,7 @@ components:
         sub_merchant:
           $ref: '#/components/schemas/SubMerchant'
         subject:
-          description: "订单标题。\t注意：不可使用特殊字符，如 /，=，& 等。"
+          description: "订单标题。\t注意：256个字符以内，不可使用特殊字符，如 /，=，& 等。"
           example: Iphone6 16G
           type: string
         terminal_id:
@@ -67469,6 +67645,7 @@ components:
           - ACQ.ALLOC_REFUSE_BEFORE_SETTLE
           - ACQ.ALLOC_REFUSE_AFTER_REFUND
           - ACQ.ALREADY_FINISH_ALLOC
+          - ACQ.CHARGE_PUNISH_SERVICE_REFUSE
           type: string
         links:
           description: 解决方案链接
@@ -67708,6 +67885,8 @@ components:
         code:
           description: 错误码
           enum:
+          - ACQ.BUYER_BANKCARD_INVALID
+          - ACQ.BUYER_BANKCARD_DECLINED
           - ACQ.SYSTEM_ERROR
           - ACQ.INVALID_PARAMETER
           - ACQ.ACCESS_FORBIDDEN
@@ -67803,6 +67982,7 @@ components:
           - ACQ.OVER_MAX_UNDER_WAY_DEDUCT_COUNT
           - ACQ.OVER_DEDUCT_PERIOD
           - ACQ.OVER_MERCHANT_DAILY_DEDUCT_AMOUNT
+          - ACQ.BUYER_LIMIT_EXCEEDED
           type: string
         links:
           description: 解决方案链接
@@ -67954,7 +68134,7 @@ components:
         sub_merchant:
           $ref: '#/components/schemas/SubMerchant'
         subject:
-          description: "订单标题。\t注意：不可使用特殊字符，如 /，=，& 等。"
+          description: "订单标题。\t注意：256个字符以内，不可使用特殊字符，如 /，=，& 等。"
           example: Iphone6 16G
           type: string
         terminal_id:
@@ -68073,6 +68253,10 @@ components:
         credit_biz_order_id:
           description: 信用业务单号。信用支付场景才有值。先用后付产品里是芝麻订单号。
           example: ZMCB99202103310000450000041833
+          type: string
+        credit_biz_order_status:
+          description: 先享免密下单之后，芝麻信用侧的业务单状态。
+          example: INIT
           type: string
         credit_pay_mode:
           description: 信用支付模式。表示订单是采用信用支付方式（支付时买家没有出资，需要后续履约）。"creditAdvanceV2"表示芝麻先用后付模式，用户后续需要履约扣款。
@@ -68361,7 +68545,7 @@ components:
         sub_merchant:
           $ref: '#/components/schemas/SubMerchant'
         subject:
-          description: "订单标题。\t注意：不可使用特殊字符，如 /，=，& 等。"
+          description: "订单标题。\t注意：256个字符以内，不可使用特殊字符，如 /，=，& 等。"
           example: Iphone6 16G
           type: string
         terminal_id:
@@ -69298,6 +69482,7 @@ components:
           - ACQ.INVALID_STORE_ID
           - ACQ.SETTLE_ACCOUNT_INVALID
           - ACQ.UN_SUPPORT_BIZ_TYPE
+          - ACQ.CHARGE_PUNISH_SERVICE_REFUSE
           type: string
         links:
           description: 解决方案链接
@@ -69500,6 +69685,7 @@ components:
         code:
           description: 错误码
           enum:
+          - DEDUCTION_LIMIT_EXCEEDED
           - SYSTEM_ERROR
           - ILLEGAL_PARAMS
           - USER_AGREEMENT_NOT_EXIST
@@ -71914,6 +72100,7 @@ components:
         code:
           description: 错误码
           enum:
+          - LICENSE_CERT_GMT_INVALID_CANNOT_BLANK
           - NOT_ALLOWED_SETTLE
           - SHOP_CATEGORY_IS_ILLEGAL
           - ISV_NOT_EXIST
@@ -72052,6 +72239,9 @@ components:
           - SETTLED_LEGAL_CERT_NO_BACK_IMAGE_URL_IS_EMPTY
           - RECYCLE_BIZ_INDUSTRY_NO_UNDERSCORE
           - MERCHANT_ID_NULL
+          - LICENSE_CERT_NAME_NULL
+          - FOOD_LICENSE_REQUIRED
+          - IDENTITY_IMAGE_REQUIRED
           type: string
         links:
           description: 解决方案链接
@@ -72253,6 +72443,8 @@ components:
         code:
           description: 错误码
           enum:
+          - LICENSE_CERT_NAME_NULL
+          - LICENSE_CERT_GMT_INVALID_CANNOT_BLANK
           - NOT_ALLOWED_SETTLE
           - SHOP_CATEGORY_IS_ILLEGAL
           - ISV_NOT_EXIST
@@ -72391,6 +72583,8 @@ components:
           - STORE_NOT_EXIST
           - A_SHOP_EXTERNAL_ID_REPEAT
           - CANNOT_CHANGE_SPECIFIED_INDUSTRY
+          - FOOD_LICENSE_REQUIRED
+          - IDENTITY_IMAGE_REQUIRED
           type: string
         links:
           description: 解决方案链接
@@ -72450,6 +72644,11 @@ components:
           description: 封面图，其值为使用ant.merchant.expand.indirect.image.upload上传图片得到的一串oss
             key。若无需更新本信息项，可以不填写。若填写则会整体覆盖原有的封面图
           example: c6c0c7a1-b9d5-4e5d-b9d4-9eed39f00e65.jpg
+          type: string
+        expire_time:
+          description: "证件过期时间,当是神券团购门店（ext_infos传了biz_source=APLUS_SHOP）并且license_type=3118或\
+            者A521时，必填"
+          example: 2030-01-01
           type: string
         ext_infos:
           description: "扩展信息列表。key值需要向对应行业的bd进行申请。传入本项时，按key进行更新或补充。\t如果是针对神券团购门店的\
@@ -73796,6 +73995,34 @@ components:
           description: 分享人数
           example: 40
           type: integer
+      type: object
+    AssetChannelInfo:
+      properties:
+        asset_type_code:
+          description: 资产类型编码
+          example: EXPRESS_CC
+          type: string
+        card_type:
+          description: 卡类型：DC借记卡，CC贷记卡
+          example: DC
+          type: string
+        channel:
+          description: "银行卡所属的银行渠道,格式为:机构ID^渠道码,例如:ICBC^BIG_AMOUNT_CREDIT_CARTOON，\
+            花呗 INST_ALIPAY^PCREDIT_PAY)"
+          example: ICBC^BIG_AMOUNT_CREDIT_CARTOON
+          type: string
+        channel_code:
+          description: 渠道编码
+          example: BIG_AMOUNT_CREDIT_CARTOON
+          type: string
+        channel_type_code:
+          description: 渠道标识
+          example: EXPRESS_DC
+          type: string
+        inst_id:
+          description: 中国农业银行
+          example: ABC
+          type: string
       type: object
     AssetShareSourceInfo:
       properties:
@@ -76577,6 +76804,7 @@ components:
         code:
           description: 错误码
           enum:
+          - INVALID_PARAMETER
           - SYSTEM_ERROR
           - ILLEGAL_ARGUMENT_FORMAT
           - UNKNOWN_ERROR
@@ -76596,6 +76824,10 @@ components:
       type: object
     DatadigitalFincloudGeneralsaasFaceSourceCertifyModel:
       properties:
+        biz_code:
+          description: 业务产品码
+          example: DATA_SOURCE
+          type: string
         cert_name:
           description: 用户姓名，与身份证上的姓名相匹配
           example: 张大伟
@@ -76648,11 +76880,11 @@ components:
           example: T
           type: string
         quality:
-          description: double值，人脸图片质量分
+          description: double值，人脸图片质量分，0-100的百分制分数
           example: "30"
           type: string
         score:
-          description: double值，活体检测结果分数
+          description: double值，活体检测结果分数，0-100的百分制分数
           example: "30"
           type: string
       type: object
@@ -78083,6 +78315,18 @@ components:
           description: 开票规则账单日
           example: 5
           type: integer
+        bill_scope:
+          description: 开票账单范围
+          example: PEER_PAY
+          type: string
+        combined_pay_mode:
+          description: 组合支付模式
+          example: ONLY_PEER_PAY
+          type: string
+        default_invoice_kind:
+          description: 默认开票类型
+          example: SPECIAL
+          type: string
         effective_start:
           description: 开票规则生效日期
           example: 2021-08-27 00:00:00
@@ -78098,6 +78342,10 @@ components:
         gmt_modified:
           description: 修改时间
           example: 2021-08-27 00:00:00
+          type: string
+        invoice_remark_value_rule:
+          description: 开票规则的发票备注取值规则。NONE表示不使用额度发放说明；QUOTA_ISSUE_DESC表示将因公付额度发放说明作为发票备注。历史规则未配置时按NONE理解。
+          example: QUOTA_ISSUE_DESC
           type: string
         invoice_rule_id:
           description: 开票规则ID
@@ -78704,8 +78952,8 @@ components:
         cert_type:
           description: "指定买家证件类型。\t枚举值：\tIDENTITY_CARD：身份证；\tPASSPORT：护照；\tOFFICER_CARD：\
             军官证；\tSOLDIER_CARD：士兵证；\tHOKOU：户口本；\tPERMANENT_RESIDENCE_FOREIGNER：外国人\
-            永久居留身份证。\t如有其它类型需要支持，请与蚂蚁金服工作人员联系。\t注： need_check_info=T或fix_buyer=T时该\
-            参数才有效，支付宝会比较买家在支付宝留存的证件类型与该参数传入的值是否匹配。"
+            永久居留身份证；\tBUSINESS_LICENSE：营业执照。\t如有其它类型需要支持，请与蚂蚁金服工作人员联系。\t注： need_check_info=T或\
+            fix_buyer=T时该参数才有效，支付宝会比较买家在支付宝留存的证件类型与该参数传入的值是否匹配。"
           type: string
         fix_buyer:
           description: "是否强制校验买家身份。\t需要强制校验传：T;\t不需要强制校验传：F或者不传；\t当传T时，接口上必须指定cert_type、\
@@ -78716,7 +78964,7 @@ components:
           type: string
         min_age:
           description: "允许的最小买家年龄。\t买家年龄必须大于等于所传数值 \t注：\t1. need_check_info=T时该参数才\
-            有效\t2. min_age为整数，必须大于等于0"
+            有效\t2. min_age为整数，必须大于等于0\t3. 仅支持cert_type=IDENTITY_CARD(身份证)时传入"
           type: string
         mobile:
           description: "指定买家手机号。\t注：该参数暂不校验"
@@ -79242,6 +79490,38 @@ components:
         goods_picture_id:
           description: 商品图片素材Id
           example: "2019010100502200000000000001"
+          type: string
+      type: object
+    GrandsecurityBizrisksFactCheckErrorResponseModel:
+      properties:
+        code:
+          description: 错误码
+          enum:
+          - SYSTEM_ERROR
+          - INVALID_PARAMETER
+          type: string
+        links:
+          description: 解决方案链接
+          type: string
+        message:
+          description: 错误描述
+          type: string
+      required:
+      - code
+      - message
+      type: object
+    GrandsecurityBizrisksFactCheckModel:
+      properties:
+        query:
+          description: 用户输入的谣言/疑问文本，必填，最大 5000 字符
+          example: 吃橘子是否可以美颜
+          type: string
+      type: object
+    GrandsecurityBizrisksFactCheckResponseModel:
+      properties:
+        content:
+          description: 流式数据返回
+          example: 食纤维作为不可被
           type: string
       type: object
     HSchoolInfo:
@@ -83044,7 +83324,10 @@ components:
           description: 分账类型.
           type: string
         trans_in:
-          description: 收入方账户。如果收入方账户类型为userId，本参数为收入方的支付宝账号对应的支付宝唯一用户号，以2088开头的纯16位数字；如果收入方类型为cardAliasNo，本参数为收入方在支付宝绑定的卡编号；如果收入方类型为loginName，本参数为收入方的支付宝登录号；如果收入方类型为openId，本参数为收入方的支付宝openId信息
+          description: 收入方账户。如果收入方账户类型为userId，本参数为收入方的支付宝账号对应的支付宝唯一用户号，以2088开头的纯16位数字；如果收入方类型为cardAliasNo，本参数为收入方在支付宝绑定的卡编号；如果收入方类型为loginName，本参数为收入方的支付宝登录号；如果收入方类型为loginName，本参数为收入方的支付宝登录号；如果收入方类型为openId，本参数为收入方的支付宝openId信息；如果收入方类型为alipayWallet，本参数为收入方在支付宝绑定的场景钱包id
+          type: string
+        trans_in_id:
+          description: 分账转入方的支付宝userId
           type: string
         trans_in_name:
           description: 分账收款方姓名，上送则进行姓名与支付宝账号的一致性校验，校验不一致则分账失败。不上送则不进行姓名校验
@@ -84549,6 +84832,9 @@ components:
           description: "首次执行时间execute_time是周期扣款产品必填，即商户发起首次扣款的时间。精确到日，格式为yyyy-MM-dd\t\
             结合其他必填的扣款周期参数，会确定商户以后的扣款计划。发起扣款的时间需符合这里的扣款计划。"
           type: string
+        is_trial_mode:
+          description: 若签约中传该参数，且值为 Y ，则表示本次签约有试用期。若传值为 N 或不传该参数，则表示本次签约无试用期。
+          type: string
         period:
           description: 周期数period是周期扣款产品必填。与另一参数period_type组合使用确定扣款周期，例如period_type为DAY，period=90，则扣款周期为90天。
           type: integer
@@ -85787,6 +86073,10 @@ components:
         platform_gmt_create:
           description: 企业在来源渠道（如钉钉）的注册时间
           example: 2025-01-01 10:00:00
+          type: string
+        sign_fund_inst_id:
+          description: 机构id
+          example: ANTBANK
           type: string
         tax_no:
           description: 企业纳税人识别号，适用于未三证合一的企业
@@ -87343,6 +87633,12 @@ components:
       type: object
     ShopIndustryLicense:
       properties:
+        expire_time:
+          description: 证件过期时间
+          type: string
+        license_no:
+          description: 资质证件编号
+          type: string
         license_pic:
           description: 资质图片信息
           type: string
@@ -87669,6 +87965,8 @@ components:
           description: 协议签约场景，商户和支付宝签约时确定，商户可咨询技术支持。
           example: INDUSTRY|DIGITAL_MEDIA
           type: string
+        specified_deduct_rule_params:
+          $ref: '#/components/schemas/SpecifiedDeductRuleParams'
         sub_merchant:
           $ref: '#/components/schemas/SignMerchantParams'
       type: object
@@ -87949,6 +88247,40 @@ components:
           type: string
         voucher_deduct_threshold_info:
           $ref: '#/components/schemas/VoucherDeductThresholdInfo'
+      type: object
+    SpecifiedDeductRuleParams:
+      properties:
+        specified_month_limit_amount:
+          description: 用户自定义单月扣款额度，单位元，用于自动充场景下单月最大累计充值金额管控，商户侧传入
+          example: "3000.00"
+          type: string
+        specified_pay_amount:
+          description: 签约时指定代扣金额，单位元，传入后后续代扣环节的金额必须等于该金额
+          example: "10.01"
+          type: string
+        specified_pay_trigger_amount:
+          description: 扣款条件额度数值，用于自动充场景下低于该额度时触发扣款，商户侧管控
+          example: "20.88"
+          type: string
+        specified_pay_trigger_unit:
+          description: 元/积分/游戏币
+          example: 元
+          type: string
+      type: object
+    SpecifiedSortChannelParam:
+      properties:
+        asset_type_code:
+          description: 资产编码
+          type: string
+        assigned_channel:
+          description: 指定支付渠道标识
+          type: string
+        channel_full_name:
+          description: 支付渠道名称
+          type: string
+        channel_index:
+          description: 支付渠道索引
+          type: string
       type: object
     SpecifyAttachmentInfo:
       properties:
@@ -90207,6 +90539,10 @@ components:
           description: 是否为可使用的互斥券中最优的（目前返回的记录该值均为true，即可忽略该值判断）
           example: true
           type: boolean
+        pre_consult_id:
+          description: 预咨询ID
+          example: 202604222155333641c15f000YNN2911
+          type: string
         promo_amount:
           description: 优惠总金额，单位为元
           example: "30.00"
@@ -90240,6 +90576,8 @@ components:
           description: 优惠门槛，单位为元（部分券没有门槛金额）
           example: "120.00"
           type: string
+        voucher_detail:
+          $ref: '#/components/schemas/VoucherDetailModel'
         voucher_id:
           description: 券id
           example: 202010220007300232330005DGEE
@@ -90326,6 +90664,14 @@ components:
         type:
           description: 券类型
           type: string
+      type: object
+    VoucherDetailModel:
+      properties:
+        can_use_asset_channel_infos:
+          description: 可用渠道信息，可用于指定渠道优先展示
+          items:
+            $ref: '#/components/schemas/AssetChannelInfo'
+          type: array
       type: object
     VoucherDisplayInfo:
       properties:
@@ -91346,7 +91692,7 @@ components:
     ZhimaCreditPayafteruseCreditagreementQueryResponseModel:
       properties:
         agreement_status:
-          description: "开通/授权状态，VALID: 有效，INVALID: 无效"
+          description: "开通/授权状态，VALID: 有效，INVALID: 无效。不可开通CANNOT_OPEN"
           example: VALID
           type: string
         alipay_user_id:
@@ -95795,10 +96141,16 @@ components:
           type: string
         data:
           $ref: '#/components/schemas/AlipayOpenMiniVersionAuditApplyModel'
+        eighth_special_license_pic:
+          format: binary
+          type: string
         fifth_license_pic:
           format: binary
           type: string
         fifth_screen_shot:
+          format: binary
+          type: string
+        fifth_special_license_pic:
           format: binary
           type: string
         first_license_pic:
@@ -95816,6 +96168,12 @@ components:
         fourth_screen_shot:
           format: binary
           type: string
+        fourth_special_license_pic:
+          format: binary
+          type: string
+        ninth_special_license_pic:
+          format: binary
+          type: string
         out_door_pic:
           format: binary
           type: string
@@ -95826,6 +96184,15 @@ components:
           format: binary
           type: string
         second_special_license_pic:
+          format: binary
+          type: string
+        seventh_special_license_pic:
+          format: binary
+          type: string
+        sixth_special_license_pic:
+          format: binary
+          type: string
+        tenth_special_license_pic:
           format: binary
           type: string
         test_file_name:
@@ -96751,6 +97118,10 @@ components:
       anyOf:
       - $ref: '#/components/schemas/CommonErrorType'
       - $ref: '#/components/schemas/MonitorHeartbeatSynErrorResponseModel'
+    grandsecurity_bizrisks_fact_check_default_response:
+      anyOf:
+      - $ref: '#/components/schemas/CommonErrorType'
+      - $ref: '#/components/schemas/GrandsecurityBizrisksFactCheckErrorResponseModel'
     zhima_credit_payafteruse_creditagreement_query_default_response:
       anyOf:
       - $ref: '#/components/schemas/CommonErrorType'

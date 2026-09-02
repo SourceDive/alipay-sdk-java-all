@@ -10,7 +10,7 @@ All URIs are relative to *https://openapi.alipay.com*
 
 <a name="apply"></a>
 # **apply**
-> AlipayOpenMiniVersionAuditApplyResponseModel apply(appLogo, data, fifthLicensePic, fifthScreenShot, firstLicensePic, firstScreenShot, firstSpecialLicensePic, fourthLicensePic, fourthScreenShot, outDoorPic, secondLicensePic, secondScreenShot, secondSpecialLicensePic, testFileName, thirdLicensePic, thirdScreenShot, thirdSpecialLicensePic)
+> AlipayOpenMiniVersionAuditApplyResponseModel apply(appLogo, data, eighthSpecialLicensePic, fifthLicensePic, fifthScreenShot, fifthSpecialLicensePic, firstLicensePic, firstScreenShot, firstSpecialLicensePic, fourthLicensePic, fourthScreenShot, fourthSpecialLicensePic, ninthSpecialLicensePic, outDoorPic, secondLicensePic, secondScreenShot, secondSpecialLicensePic, seventhSpecialLicensePic, sixthSpecialLicensePic, tenthSpecialLicensePic, testFileName, thirdLicensePic, thirdScreenShot, thirdSpecialLicensePic)
 
 小程序提交审核
 
@@ -41,23 +41,30 @@ public class Example {
     AlipayOpenMiniVersionAuditApi apiInstance = new AlipayOpenMiniVersionAuditApi(defaultClient);
     File appLogo = new File("/path/to/file"); // File | 
     AlipayOpenMiniVersionAuditApplyModel data = new AlipayOpenMiniVersionAuditApplyModel(); // AlipayOpenMiniVersionAuditApplyModel | 
+    File eighthSpecialLicensePic = new File("/path/to/file"); // File | 
     File fifthLicensePic = new File("/path/to/file"); // File | 
     File fifthScreenShot = new File("/path/to/file"); // File | 
+    File fifthSpecialLicensePic = new File("/path/to/file"); // File | 
     File firstLicensePic = new File("/path/to/file"); // File | 
     File firstScreenShot = new File("/path/to/file"); // File | 
     File firstSpecialLicensePic = new File("/path/to/file"); // File | 
     File fourthLicensePic = new File("/path/to/file"); // File | 
     File fourthScreenShot = new File("/path/to/file"); // File | 
+    File fourthSpecialLicensePic = new File("/path/to/file"); // File | 
+    File ninthSpecialLicensePic = new File("/path/to/file"); // File | 
     File outDoorPic = new File("/path/to/file"); // File | 
     File secondLicensePic = new File("/path/to/file"); // File | 
     File secondScreenShot = new File("/path/to/file"); // File | 
     File secondSpecialLicensePic = new File("/path/to/file"); // File | 
+    File seventhSpecialLicensePic = new File("/path/to/file"); // File | 
+    File sixthSpecialLicensePic = new File("/path/to/file"); // File | 
+    File tenthSpecialLicensePic = new File("/path/to/file"); // File | 
     File testFileName = new File("/path/to/file"); // File | 
     File thirdLicensePic = new File("/path/to/file"); // File | 
     File thirdScreenShot = new File("/path/to/file"); // File | 
     File thirdSpecialLicensePic = new File("/path/to/file"); // File | 
     try {
-      AlipayOpenMiniVersionAuditApplyResponseModel result = apiInstance.apply(appLogo, data, fifthLicensePic, fifthScreenShot, firstLicensePic, firstScreenShot, firstSpecialLicensePic, fourthLicensePic, fourthScreenShot, outDoorPic, secondLicensePic, secondScreenShot, secondSpecialLicensePic, testFileName, thirdLicensePic, thirdScreenShot, thirdSpecialLicensePic);
+      AlipayOpenMiniVersionAuditApplyResponseModel result = apiInstance.apply(appLogo, data, eighthSpecialLicensePic, fifthLicensePic, fifthScreenShot, fifthSpecialLicensePic, firstLicensePic, firstScreenShot, firstSpecialLicensePic, fourthLicensePic, fourthScreenShot, fourthSpecialLicensePic, ninthSpecialLicensePic, outDoorPic, secondLicensePic, secondScreenShot, secondSpecialLicensePic, seventhSpecialLicensePic, sixthSpecialLicensePic, tenthSpecialLicensePic, testFileName, thirdLicensePic, thirdScreenShot, thirdSpecialLicensePic);
       System.out.println(result);
     } catch (ApiException e) {
       System.err.println("Exception when calling AlipayOpenMiniVersionAuditApi#apply");
@@ -76,17 +83,24 @@ public class Example {
 |------------- | ------------- | ------------- | -------------|
 | **appLogo** | **File**|  | [optional] |
 | **data** | **AlipayOpenMiniVersionAuditApplyModel**|  | [optional] |
+| **eighthSpecialLicensePic** | **File**|  | [optional] |
 | **fifthLicensePic** | **File**|  | [optional] |
 | **fifthScreenShot** | **File**|  | [optional] |
+| **fifthSpecialLicensePic** | **File**|  | [optional] |
 | **firstLicensePic** | **File**|  | [optional] |
 | **firstScreenShot** | **File**|  | [optional] |
 | **firstSpecialLicensePic** | **File**|  | [optional] |
 | **fourthLicensePic** | **File**|  | [optional] |
 | **fourthScreenShot** | **File**|  | [optional] |
+| **fourthSpecialLicensePic** | **File**|  | [optional] |
+| **ninthSpecialLicensePic** | **File**|  | [optional] |
 | **outDoorPic** | **File**|  | [optional] |
 | **secondLicensePic** | **File**|  | [optional] |
 | **secondScreenShot** | **File**|  | [optional] |
 | **secondSpecialLicensePic** | **File**|  | [optional] |
+| **seventhSpecialLicensePic** | **File**|  | [optional] |
+| **sixthSpecialLicensePic** | **File**|  | [optional] |
+| **tenthSpecialLicensePic** | **File**|  | [optional] |
 | **testFileName** | **File**|  | [optional] |
 | **thirdLicensePic** | **File**|  | [optional] |
 | **thirdScreenShot** | **File**|  | [optional] |

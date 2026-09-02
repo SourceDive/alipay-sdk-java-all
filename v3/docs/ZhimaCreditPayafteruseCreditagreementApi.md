@@ -10,7 +10,7 @@ All URIs are relative to *https://openapi.alipay.com*
 
 <a name="query"></a>
 # **query**
-> ZhimaCreditPayafteruseCreditagreementQueryResponseModel query(outAgreementNo, creditAgreementId)
+> ZhimaCreditPayafteruseCreditagreementQueryResponseModel query(outAgreementNo, creditAgreementId, productCode, serviceId, extraParam)
 
 查询服务开通/授权信息
 
@@ -41,8 +41,11 @@ public class Example {
     ZhimaCreditPayafteruseCreditagreementApi apiInstance = new ZhimaCreditPayafteruseCreditagreementApi(defaultClient);
     String outAgreementNo = "2014070700166653"; // String | 商户外部协议号
     String creditAgreementId = "ZMOP2020050722001440"; // String | 芝麻开通/授权协议号，out_agreement_no与credit_agreement_id必填一个，推荐使用credit_agreement_id。
+    String productCode = "CREDIT_AGREEMENT"; // String | 当产品是芝麻守约时必填，需传入CREDIT_AGREEMENT
+    String serviceId = "2026041600000000000116203200"; // String | 芝麻信用服务id，上线前提前分配给商户
+    String extraParam = "{\"key\",\"value\"}"; // String | 扩展参数
     try {
-      ZhimaCreditPayafteruseCreditagreementQueryResponseModel result = apiInstance.query(outAgreementNo, creditAgreementId);
+      ZhimaCreditPayafteruseCreditagreementQueryResponseModel result = apiInstance.query(outAgreementNo, creditAgreementId, productCode, serviceId, extraParam);
       System.out.println(result);
     } catch (ApiException e) {
       System.err.println("Exception when calling ZhimaCreditPayafteruseCreditagreementApi#query");
@@ -61,6 +64,9 @@ public class Example {
 |------------- | ------------- | ------------- | -------------|
 | **outAgreementNo** | **String**| 商户外部协议号 | [optional] |
 | **creditAgreementId** | **String**| 芝麻开通/授权协议号，out_agreement_no与credit_agreement_id必填一个，推荐使用credit_agreement_id。 | [optional] |
+| **productCode** | **String**| 当产品是芝麻守约时必填，需传入CREDIT_AGREEMENT | [optional] |
+| **serviceId** | **String**| 芝麻信用服务id，上线前提前分配给商户 | [optional] |
+| **extraParam** | **String**| 扩展参数 | [optional] |
 
 ### Return type
 

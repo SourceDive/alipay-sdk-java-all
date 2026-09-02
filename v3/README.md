@@ -1,7 +1,7 @@
 # alipay-sdk-java-v3
 
 支付宝开放平台API
-- API version: 2026-04-14
+- API version: 2026-08-26
 
 支付宝开放平台v3协议文档
 
@@ -55,7 +55,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.alipay.sdk</groupId>
   <artifactId>alipay-sdk-java-v3</artifactId>
-  <version>3.1.78.ALL</version>
+  <version>3.1.88.ALL</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -71,7 +71,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "com.alipay.sdk:alipay-sdk-java-v3:3.1.78.ALL"
+     implementation "com.alipay.sdk:alipay-sdk-java-v3:3.1.88.ALL"
   }
 ```
 
@@ -85,7 +85,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/alipay-sdk-java-v3-3.1.78.ALL.jar`
+* `target/alipay-sdk-java-v3-3.1.88.ALL.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -873,6 +873,7 @@ Class | Method | HTTP request | Description
 *DatadigitalFincloudGeneralsaasFaceVerificationApi* | [**query**](docs/DatadigitalFincloudGeneralsaasFaceVerificationApi.md#query) | **GET** /v3/datadigital/fincloud/generalsaas/face/verification/query | 人脸核身结果查询
 *DatadigitalFincloudGeneralsaasOcrMobileApi* | [**initialize**](docs/DatadigitalFincloudGeneralsaasOcrMobileApi.md#initialize) | **POST** /v3/datadigital/fincloud/generalsaas/ocr/mobile/initialize | App端OCR初始化
 *DatadigitalFincloudGeneralsaasOcrServerApi* | [**detect**](docs/DatadigitalFincloudGeneralsaasOcrServerApi.md#detect) | **POST** /v3/datadigital/fincloud/generalsaas/ocr/server/detect | 服务端OCR
+*GrandsecurityBizrisksFactApi* | [**check**](docs/GrandsecurityBizrisksFactApi.md#check) | **POST** /v3/stream/grandsecurity/bizrisks/fact/check | 事实核查服务
 *MonitorHeartbeatApi* | [**syn**](docs/MonitorHeartbeatApi.md#syn) | **POST** /v3/monitor/heartbeat/syn | 验签接口
 *ZhimaCreditPayafteruseCreditagreementApi* | [**query**](docs/ZhimaCreditPayafteruseCreditagreementApi.md#query) | **GET** /v3/zhima/credit/payafteruse/creditagreement/query | 查询服务开通/授权信息
 *ZhimaCreditPayafteruseCreditagreementApi* | [**transfer**](docs/ZhimaCreditPayafteruseCreditagreementApi.md#transfer) | **POST** /v3/zhima/credit/payafteruse/creditagreement/transfer | 芝麻信用服务授权
