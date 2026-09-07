@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店结算信息
  *
  * @author auto create
- * @since 1.0, 2026-04-08 14:01:03
+ * @since 1.0, 2026-09-04 11:01:11
  */
 public class ShopSettleInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4768554368744623479L;
+	private static final long serialVersionUID = 2632648354891584765L;
 
 	/**
 	 * 结算到户的账号
@@ -20,9 +20,10 @@ public class ShopSettleInfo extends AlipayObject {
 	private String account;
 
 	/**
-	 * 结算收款方主体类型，未准入可结算个人户的商户可忽略
+	 * 结算收款方主体类型，未准入可结算个人户的商户可忽略 当前字段已废弃(业务已经不需要该参数)
 	 */
 	@ApiField("account_type")
+	@Deprecated
 	private String accountType;
 
 	/**
@@ -32,21 +33,23 @@ public class ShopSettleInfo extends AlipayObject {
 	private ShopBankCard bankCards;
 
 	/**
-	 * 支付宝账号
+	 * 确认签约支付宝账号
 	 */
 	@ApiField("payee_account_no")
 	private String payeeAccountNo;
 
 	/**
-	 * 身份证反面图片id，需传入ant.merchant.expand.indirect.image.upload 接口上传图片后得到的 image_id。
+	 * 身份证反面图片id，需传入ant.merchant.expand.indirect.image.upload 接口上传图片后得到的 image_id。 当前字段已废弃(外层结构已有法人身份证信息)
 	 */
 	@ApiField("payee_identity_back_pic")
+	@Deprecated
 	private String payeeIdentityBackPic;
 
 	/**
-	 * 身份证正面图片id，需传入ant.merchant.expand.indirect.image.upload 接口上传图片后得到的 image_id
+	 * 身份证正面图片id，需传入ant.merchant.expand.indirect.image.upload 接口上传图片后得到的 image_id 当前字段已废弃(外层结构已有法人身份证信息)
 	 */
 	@ApiField("payee_identity_front_pic")
+	@Deprecated
 	private String payeeIdentityFrontPic;
 
 	/**

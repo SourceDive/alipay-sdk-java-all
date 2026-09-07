@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 分销订单发货
  *
  * @author auto create
- * @since 1.0, 2026-08-26 12:02:50
+ * @since 1.0, 2026-09-04 14:52:52
  */
 public class AlipayCommerceRentDistorderSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8853595979691312319L;
+	private static final long serialVersionUID = 7792989719428717323L;
 
 	/**
 	 * 分销订单号
@@ -69,7 +69,7 @@ public class AlipayCommerceRentDistorderSendModel extends AlipayObject {
 	private String senderPhone;
 
 	/**
-	 * 快递dan'hao
+	 * 快递单号
 	 */
 	@ApiField("waybill_id")
 	private String waybillId;

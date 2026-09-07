@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 保单扩展字段
  *
  * @author auto create
- * @since 1.0, 2023-08-23 17:22:26
+ * @since 1.0, 2026-09-02 18:29:51
  */
 public class PolicyBizData extends AlipayObject {
 
-	private static final long serialVersionUID = 7797196574441379522L;
+	private static final long serialVersionUID = 7873671782145132831L;
 
 	/**
 	 * 渠道用户标识

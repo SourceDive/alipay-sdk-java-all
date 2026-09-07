@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用户行为上报接口
  *
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:33
+ * @since 1.0, 2026-09-02 14:52:48
  */
 public class AlipayOfflineProviderIndflowActionMaintainModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8346243118875626878L;
+	private static final long serialVersionUID = 4324638416673778914L;
 
 	/**
 	 * 动作发生时间

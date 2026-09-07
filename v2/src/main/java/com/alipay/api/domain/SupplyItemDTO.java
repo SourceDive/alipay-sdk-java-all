@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:31
+ * @since 1.0, 2026-09-02 14:52:48
  */
 public class SupplyItemDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1515361171796493865L;
+	private static final long serialVersionUID = 1316485231813266559L;
 
 	/**
 	 * 是否为兜底供给

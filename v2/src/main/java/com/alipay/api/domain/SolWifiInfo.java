@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SolWifiInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7387672197551897431L;
+	private static final long serialVersionUID = 4143452349662445486L;
 
 	/**
 	 * 1：WIFI类型是账密模式时，此值无效，可不传；

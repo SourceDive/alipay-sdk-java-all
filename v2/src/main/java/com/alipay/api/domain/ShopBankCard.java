@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店结算银行卡信息
  *
  * @author auto create
- * @since 1.0, 2026-04-08 14:01:03
+ * @since 1.0, 2026-09-04 11:01:11
  */
 public class ShopBankCard extends AlipayObject {
 
-	private static final long serialVersionUID = 1141422248694178295L;
+	private static final long serialVersionUID = 7339989334176733635L;
 
 	/**
 	 * 开户支行名
@@ -20,7 +20,7 @@ public class ShopBankCard extends AlipayObject {
 	private String accountBranchName;
 
 	/**
-	 * 卡户名
+	 * 开户名
 	 */
 	@ApiField("account_holder_name")
 	private String accountHolderName;
@@ -32,9 +32,10 @@ public class ShopBankCard extends AlipayObject {
 	private String accountInstCity;
 
 	/**
-	 * 开户行简称缩写
+	 * 开户行简称缩写 当前字段已废弃(业务已经不需要该字段)
 	 */
 	@ApiField("account_inst_id")
+	@Deprecated
 	private String accountInstId;
 
 	/**
@@ -56,9 +57,10 @@ public class ShopBankCard extends AlipayObject {
 	private String accountNo;
 
 	/**
-	 * 卡类型（借记卡 DC、信用卡 CC）
+	 * 卡类型（借记卡 DC、信用卡 CC） 当前字段已废弃(业务不再需要该字段信息)
 	 */
 	@ApiField("account_type")
+	@Deprecated
 	private String accountType;
 
 	/**
@@ -69,7 +71,7 @@ public class ShopBankCard extends AlipayObject {
 	private String bankCode;
 
 	/**
-	 * 使用类型（对公 01、对私 02）
+	 * 银行卡账户类型（对公 01、对私 02）
 	 */
 	@ApiField("usage_type")
 	private String usageType;

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenMiniBillCertQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3196818258546985984L;
+	private static final long serialVersionUID = 2665159488181893959L;
 
 	/**
 	 * 凭证id（支付宝平台基于券码code生成的唯一id）

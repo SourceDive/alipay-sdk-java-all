@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 租赁订单创建
  *
  * @author auto create
- * @since 1.0, 2026-06-17 14:56:52
+ * @since 1.0, 2026-09-02 14:23:21
  */
 public class AlipayCommerceRentOrderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8469151719724836517L;
+	private static final long serialVersionUID = 5264338398326733113L;
 
 	/**
 	 * 优惠前置咨询组件返回的优惠活动咨询ID
@@ -69,6 +69,12 @@ public class AlipayCommerceRentOrderCreateModel extends AlipayObject {
 	 */
 	@ApiField("delivery_info")
 	private RentOrderDeliveryInfoDTO deliveryInfo;
+
+	/**
+	 * 外部场景商户信息
+	 */
+	@ApiField("external_scenarios_merchant")
+	private ExternalScenariosMerchantDTO externalScenariosMerchant;
 
 	/**
 	 * 商品详细信息。当前只支持单个商品。
@@ -246,6 +252,13 @@ public class AlipayCommerceRentOrderCreateModel extends AlipayObject {
 	}
 	public void setDeliveryInfo(RentOrderDeliveryInfoDTO deliveryInfo) {
 		this.deliveryInfo = deliveryInfo;
+	}
+
+	public ExternalScenariosMerchantDTO getExternalScenariosMerchant() {
+		return this.externalScenariosMerchant;
+	}
+	public void setExternalScenariosMerchant(ExternalScenariosMerchantDTO externalScenariosMerchant) {
+		this.externalScenariosMerchant = externalScenariosMerchant;
 	}
 
 	public List<RentGoodsDetailInfoDTO> getItemInfos() {

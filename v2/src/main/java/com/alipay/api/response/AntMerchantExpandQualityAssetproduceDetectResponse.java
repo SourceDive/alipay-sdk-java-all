@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: ant.merchant.expand.quality.assetproduce.detect response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-26 10:35:37
+ * @since 1.0, 2026-09-04 10:42:51
  */
 public class AntMerchantExpandQualityAssetproduceDetectResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8479868577251824485L;
+	private static final long serialVersionUID = 4563946691863534521L;
 
 	/** 
 	 * 品检内容

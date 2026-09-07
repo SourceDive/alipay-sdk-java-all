@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RepaymentCallbackBizDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 1386852777632745982L;
+	private static final long serialVersionUID = 5766932818947619192L;
 
 	/**
 	 * 单期履约结果

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenSpCanteenOpenQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7458159864264487662L;
+	private static final long serialVersionUID = 6454177533474961593L;
 
 	/** 
 	 * 用于描述用户是否已经开通功能，如果没有开通，则需要跳转到签约页面，否则进入服务商小程序

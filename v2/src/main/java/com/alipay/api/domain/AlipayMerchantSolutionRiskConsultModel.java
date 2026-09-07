@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 间连解决方案风险咨询
  *
  * @author auto create
- * @since 1.0, 2026-08-03 15:06:41
+ * @since 1.0, 2026-09-03 16:24:21
  */
 public class AlipayMerchantSolutionRiskConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1783448775241379595L;
+	private static final long serialVersionUID = 7497129627856838445L;
 
 	/**
 	 * 标识唯一的解决方案

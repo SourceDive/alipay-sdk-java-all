@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 回传入职状态
  *
  * @author auto create
- * @since 1.0, 2026-08-25 10:22:54
+ * @since 1.0, 2026-09-02 13:47:50
  */
 public class AlipayEbppJobinterviewInterviewNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1285128126251539288L;
+	private static final long serialVersionUID = 5776441565695911427L;
 
 	/**
 	 * 人工审核 AI 面试结果原因，自由文本，不传为空

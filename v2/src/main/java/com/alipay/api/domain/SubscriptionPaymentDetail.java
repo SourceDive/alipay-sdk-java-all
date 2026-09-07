@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-20 09:18:37
+ * @since 1.0, 2026-09-02 19:22:52
  */
 public class SubscriptionPaymentDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 2221122878677645868L;
+	private static final long serialVersionUID = 1777859923814658325L;
 
 	/**
 	 * 事件发生时间，针对subscription_create、subscription_upgrade、subscription_cycle为支付成功时间；subscription_refund为立即取消的请求时间（退款为异步退款），实际退款时间可以参考refund_details退款明细中的refund_time
@@ -28,6 +28,12 @@ public class SubscriptionPaymentDetail extends AlipayObject {
 	 */
 	@ApiField("order_no")
 	private String orderNo;
+
+	/**
+	 * 外部请求单号
+	 */
+	@ApiField("out_req_no")
+	private String outReqNo;
 
 	/**
 	 * 交易状态
@@ -72,6 +78,13 @@ public class SubscriptionPaymentDetail extends AlipayObject {
 	}
 	public void setOrderNo(String orderNo) {
 		this.orderNo = orderNo;
+	}
+
+	public String getOutReqNo() {
+		return this.outReqNo;
+	}
+	public void setOutReqNo(String outReqNo) {
+		this.outReqNo = outReqNo;
 	}
 
 	public String getPayStatus() {

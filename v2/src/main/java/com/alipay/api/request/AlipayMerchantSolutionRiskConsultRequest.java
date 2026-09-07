@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.merchant.solution.risk.consult request
  * 
  * @author auto create
- * @since 1.0, 2026-08-03 15:12:54
+ * @since 1.0, 2026-09-03 16:24:21
  */
 public class AlipayMerchantSolutionRiskConsultRequest implements AlipayRequest<AlipayMerchantSolutionRiskConsultResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MQTTHeaderParam extends AlipayObject {
 
-	private static final long serialVersionUID = 2849622731812121557L;
+	private static final long serialVersionUID = 1139387418225718147L;
 
 	/**
 	 * MQTT协议请求头参数名

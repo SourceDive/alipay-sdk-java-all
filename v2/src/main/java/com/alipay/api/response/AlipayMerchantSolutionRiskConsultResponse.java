@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.merchant.solution.risk.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-03 15:12:54
+ * @since 1.0, 2026-09-03 16:24:21
  */
 public class AlipayMerchantSolutionRiskConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7836296945278629163L;
+	private static final long serialVersionUID = 4449265656178897122L;
 
 	/** 
 	 * 风险提示信息，若存在多个服务商有风险，则返回list，若不存在服务商有风险，则不返回

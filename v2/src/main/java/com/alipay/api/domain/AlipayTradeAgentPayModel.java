@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 智能体支付接口
  *
  * @author auto create
- * @since 1.0, 2026-06-23 11:04:20
+ * @since 1.0, 2026-09-03 14:21:19
  */
 public class AlipayTradeAgentPayModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6563814157953863679L;
+	private static final long serialVersionUID = 7272974496549412991L;
+
+	/**
+	 * 联系对应BD进行KYA申请后下发的智能体id
+	 */
+	@ApiField("agent_id")
+	private String agentId;
 
 	/**
 	 * 支付宝系统中用以唯一标识用户签约记录的编号（用户签约成功后的协议号 ）
@@ -24,6 +30,12 @@ public class AlipayTradeAgentPayModel extends AlipayObject {
 	 */
 	@ApiField("agreement_sign_params")
 	private AgentSignParams agreementSignParams;
+
+	/**
+	 * 收银台场景，在Agent支付标准版场景下固定填“appPay”
+	 */
+	@ApiField("cashier_scene")
+	private String cashierScene;
 
 	/**
 	 * 预下单ID，通过请求alipay.trade.order.prepay接口获取预下单ID
@@ -44,6 +56,13 @@ public class AlipayTradeAgentPayModel extends AlipayObject {
 	@ApiField("user_token_type")
 	private String userTokenType;
 
+	public String getAgentId() {
+		return this.agentId;
+	}
+	public void setAgentId(String agentId) {
+		this.agentId = agentId;
+	}
+
 	public String getAgreementNo() {
 		return this.agreementNo;
 	}
@@ -56,6 +75,13 @@ public class AlipayTradeAgentPayModel extends AlipayObject {
 	}
 	public void setAgreementSignParams(AgentSignParams agreementSignParams) {
 		this.agreementSignParams = agreementSignParams;
+	}
+
+	public String getCashierScene() {
+		return this.cashierScene;
+	}
+	public void setCashierScene(String cashierScene) {
+		this.cashierScene = cashierScene;
 	}
 
 	public String getPrepayId() {

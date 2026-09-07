@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EpAssistantServiceSubtitleStyle extends AlipayObject {
 
-	private static final long serialVersionUID = 1381691689851893389L;
+	private static final long serialVersionUID = 2196763136461173841L;
 
 	/**
 	 * 副标题文本颜色编码

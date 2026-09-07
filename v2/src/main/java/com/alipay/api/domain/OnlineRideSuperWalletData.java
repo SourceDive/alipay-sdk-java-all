@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OnlineRideSuperWalletData extends AlipayObject {
 
-	private static final long serialVersionUID = 3749642925328375859L;
+	private static final long serialVersionUID = 1547134879669614641L;
 
 	/**
 	 * 超级打车卡余额是否>0

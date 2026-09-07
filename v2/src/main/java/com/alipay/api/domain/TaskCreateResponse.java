@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TaskCreateResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 7626855285649169344L;
+	private static final long serialVersionUID = 5889984337823226338L;
 
 	/**
 	 * 蚂蚁健康 Open ID

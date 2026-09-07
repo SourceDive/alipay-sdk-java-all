@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * N项目leads创建
  *
  * @author auto create
- * @since 1.0, 2026-06-03 19:45:46
+ * @since 1.0, 2026-09-02 16:43:18
  */
 public class AntMerchantExpandLeadsCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4491115437133668732L;
+	private static final long serialVersionUID = 1812887743443457577L;
 
 	/**
 	 * leads详细地址信息
@@ -74,7 +74,7 @@ public class AntMerchantExpandLeadsCreateModel extends AlipayObject {
 	private String isvPid;
 
 	/**
-	 * 地理信息维度
+	 * 地理信息维度,单位是十进制度
 	 */
 	@ApiField("latitude")
 	private String latitude;

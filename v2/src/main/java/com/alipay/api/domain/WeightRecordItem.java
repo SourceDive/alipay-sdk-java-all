@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WeightRecordItem extends AlipayObject {
 
-	private static final long serialVersionUID = 6535167933534614852L;
+	private static final long serialVersionUID = 3492414286358242891L;
 
 	/**
 	 * 记录日期 yyyy-MM-dd

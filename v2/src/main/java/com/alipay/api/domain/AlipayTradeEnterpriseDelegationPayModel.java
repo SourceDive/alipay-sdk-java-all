@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企业委托代理支付
  *
  * @author auto create
- * @since 1.0, 2026-05-22 13:57:49
+ * @since 1.0, 2026-09-01 19:40:10
  */
 public class AlipayTradeEnterpriseDelegationPayModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1247468482416115657L;
+	private static final long serialVersionUID = 4216993376277782995L;
 
 	/**
 	 * 支付宝系统中用以唯一标识用户签约记录的编号（用户签约成功后的协议号 ）

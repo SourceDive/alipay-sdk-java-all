@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class NatrualPersonInvoiceAmountMonthly extends AlipayObject {
 
-	private static final long serialVersionUID = 1466614564399363284L;
+	private static final long serialVersionUID = 6226137873531278289L;
 
 	/**
 	 * 月累计开票总金额，单位：元

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecyclingScrappedTaxCalcItem extends AlipayObject {
 
-	private static final long serialVersionUID = 5588241356669964351L;
+	private static final long serialVersionUID = 4892994165898697119L;
 
 	/**
 	 * 减征比例（个税无，增值税无）

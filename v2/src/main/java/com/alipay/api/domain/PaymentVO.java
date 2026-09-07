@@ -10,32 +10,32 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 支付信息
  *
  * @author auto create
- * @since 1.0, 2025-07-21 10:19:00
+ * @since 1.0, 2026-09-03 20:06:43
  */
 public class PaymentVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7563924721649216211L;
+	private static final long serialVersionUID = 2345766831934684519L;
 
 	/**
-	 * 订单优惠总金额
+	 * 订单优惠总金额，单位 元
 	 */
 	@ApiField("amount_discount")
 	private String amountDiscount;
 
 	/**
-	 * 商品总金额
+	 * 商品总金额，单位 元
 	 */
 	@ApiField("amount_item")
 	private String amountItem;
 
 	/**
-	 * 订单总金额
+	 * 订单总金额，单位 元
 	 */
 	@ApiField("amount_original")
 	private String amountOriginal;
 
 	/**
-	 * 用户实付金额
+	 * 用户实付金额，单位 元
 	 */
 	@ApiField("amount_user")
 	private String amountUser;
@@ -48,7 +48,7 @@ public class PaymentVO extends AlipayObject {
 	private List<String> commissionTradeNos;
 
 	/**
-	 * 配送优惠金额
+	 * 配送优惠金额，单位 元
 	 */
 	@ApiField("delivery_discount_fee")
 	private String deliveryDiscountFee;

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTerminalEdgecloudSimcardNetflowmonitorSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8564674274161951713L;
+	private static final long serialVersionUID = 5815485599294121612L;
 
 	/** 
 	 * 同步文件所属日期。yyyymmdd或yyyymm

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RentPayBillDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 8715321552211326268L;
+	private static final long serialVersionUID = 6523855477579399228L;
 
 	/**
 	 * 租房账单时间

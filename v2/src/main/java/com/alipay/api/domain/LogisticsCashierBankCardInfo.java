@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LogisticsCashierBankCardInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8869332444312879851L;
+	private static final long serialVersionUID = 1817336113427912826L;
 
 	/**
 	 * 开户支行

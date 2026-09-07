@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceMedicalHdfPushSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2322542199768315813L;
+	private static final long serialVersionUID = 7154782217547157832L;
 
 	/**
 	 * PUSH消息控制

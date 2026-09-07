@@ -10,20 +10,20 @@ import com.alipay.api.internal.mapping.ApiListField;
  * B2C订单配送状态同步
  *
  * @author auto create
- * @since 1.0, 2025-12-30 14:11:17
+ * @since 1.0, 2026-09-04 11:49:44
  */
 public class AlipayCommerceMedicalOrderWaybillSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2178625574457991873L;
+	private static final long serialVersionUID = 3583854929748667784L;
 
 	/**
-	 * 第三方配送商物流单号
+	 * 第三方配送商物流单号（整单使用）
 	 */
 	@ApiField("carrier_order_no")
 	private String carrierOrderNo;
 
 	/**
-	 * 订单全部的商品信息
+	 * 订单全部的商品信息（整单使用）
 	 */
 	@ApiListField("items")
 	@ApiField("waybill_item_v_o")
@@ -34,6 +34,13 @@ public class AlipayCommerceMedicalOrderWaybillSyncModel extends AlipayObject {
 	 */
 	@ApiField("order_no")
 	private String orderNo;
+
+	/**
+	 * 拆分订单的多物流信息列表（拆单使用）
+	 */
+	@ApiListField("shipment_list")
+	@ApiField("shipment_v_o")
+	private List<ShipmentVO> shipmentList;
 
 	public String getCarrierOrderNo() {
 		return this.carrierOrderNo;
@@ -54,6 +61,13 @@ public class AlipayCommerceMedicalOrderWaybillSyncModel extends AlipayObject {
 	}
 	public void setOrderNo(String orderNo) {
 		this.orderNo = orderNo;
+	}
+
+	public List<ShipmentVO> getShipmentList() {
+		return this.shipmentList;
+	}
+	public void setShipmentList(List<ShipmentVO> shipmentList) {
+		this.shipmentList = shipmentList;
 	}
 
 }

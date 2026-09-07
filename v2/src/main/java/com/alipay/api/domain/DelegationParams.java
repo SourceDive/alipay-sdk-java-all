@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * AI付代买委托信息
  *
  * @author auto create
- * @since 1.0, 2026-08-24 16:02:50
+ * @since 1.0, 2026-09-03 14:22:56
  */
 public class DelegationParams extends AlipayObject {
 
-	private static final long serialVersionUID = 4191755614782852347L;
+	private static final long serialVersionUID = 8596989233482629732L;
 
 	/**
 	 * 对AI付代买委托意图做描述

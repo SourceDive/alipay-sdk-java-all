@@ -5,6 +5,7 @@ import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.RecyclingInvoiceBizTransfer;
+import com.alipay.api.domain.OrderDepositOpenResult;
 import com.alipay.api.domain.OrderElectronicReceipt;
 import com.alipay.api.domain.OrderInvoice;
 import com.alipay.api.domain.RecyclinginvoiceOrderItem;
@@ -17,11 +18,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.ec.recyclinginvoice.order.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-10 16:12:53
+ * @since 1.0, 2026-09-04 16:52:51
  */
 public class AlipayCommerceEcRecyclinginvoiceOrderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7855957311237736281L;
+	private static final long serialVersionUID = 8644872247998514282L;
 
 	/** 
 	 * []
@@ -54,6 +55,13 @@ public class AlipayCommerceEcRecyclinginvoiceOrderQueryResponse extends AlipayRe
 	 */
 	@ApiField("company_supplier_id")
 	private String companySupplierId;
+
+	/** 
+	 * 订单关联的入账单列表
+	 */
+	@ApiListField("deposit_list")
+	@ApiField("order_deposit_open_result")
+	private List<OrderDepositOpenResult> depositList;
 
 	/** 
 	 * 交易成功时间
@@ -243,6 +251,13 @@ public class AlipayCommerceEcRecyclinginvoiceOrderQueryResponse extends AlipayRe
 	}
 	public String getCompanySupplierId( ) {
 		return this.companySupplierId;
+	}
+
+	public void setDepositList(List<OrderDepositOpenResult> depositList) {
+		this.depositList = depositList;
+	}
+	public List<OrderDepositOpenResult> getDepositList( ) {
+		return this.depositList;
 	}
 
 	public void setGmtSuccess(Date gmtSuccess) {

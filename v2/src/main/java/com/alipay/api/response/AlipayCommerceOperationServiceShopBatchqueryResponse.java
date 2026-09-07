@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.operation.service.shop.batchquery response.
  * 
  * @author auto create
- * @since 1.0, 2026-05-20 11:02:45
+ * @since 1.0, 2026-09-03 16:27:14
  */
 public class AlipayCommerceOperationServiceShopBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1213625383469742298L;
+	private static final long serialVersionUID = 2687769679892331828L;
 
 	/** 
 	 * 请求结果，是个JSON 序列化后大字段。

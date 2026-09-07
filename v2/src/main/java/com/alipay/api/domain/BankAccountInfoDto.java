@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BankAccountInfoDto extends AlipayObject {
 
-	private static final long serialVersionUID = 6392114585794672897L;
+	private static final long serialVersionUID = 7776325126545288796L;
 
 	/**
 	 * 账户名称

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayTradeCreditGoodsConfirmModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5283271178371781144L;
+	private static final long serialVersionUID = 3894561191223934633L;
 
 	/**
 	 * 信用服务订单号

@@ -11,17 +11,23 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 租赁订单拓展信息
  *
  * @author auto create
- * @since 1.0, 2026-07-03 16:28:44
+ * @since 1.0, 2026-09-03 19:19:13
  */
 public class RentOrderExtendInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1854351661474121396L;
+	private static final long serialVersionUID = 1488914162874253478L;
 
 	/**
 	 * 当前订单用户是否授权静默签署电子合同
 	 */
 	@ApiField("ec_sign_user_authorized")
 	private String ecSignUserAuthorized;
+
+	/**
+	 * 附加业务信息，需跟具体的运营活动方约定
+	 */
+	@ApiField("extra_biz_info")
+	private String extraBizInfo;
 
 	/**
 	 * 已上传电子合同
@@ -65,6 +71,13 @@ public class RentOrderExtendInfoVO extends AlipayObject {
 	}
 	public void setEcSignUserAuthorized(String ecSignUserAuthorized) {
 		this.ecSignUserAuthorized = ecSignUserAuthorized;
+	}
+
+	public String getExtraBizInfo() {
+		return this.extraBizInfo;
+	}
+	public void setExtraBizInfo(String extraBizInfo) {
+		this.extraBizInfo = extraBizInfo;
 	}
 
 	public List<RentMerchantUploadContractVO> getMerchantUploadContracts() {

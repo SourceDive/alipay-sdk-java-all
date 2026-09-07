@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 支付宝个人委托代买任务申请接口
  *
  * @author auto create
- * @since 1.0, 2026-08-24 16:02:50
+ * @since 1.0, 2026-09-03 14:22:56
  */
 public class AlipayUserAgreementDelegationApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6753681578618616727L;
+	private static final long serialVersionUID = 7325121227151763958L;
 
 	/**
 	 * 【描述】请按当前接入的方式进行填充，且输入值必须为文档中的参数取值范围。
@@ -42,7 +42,7 @@ public class AlipayUserAgreementDelegationApplyModel extends AlipayObject {
 	private DelegationParams delegationParams;
 
 	/**
-	 * 商户签约号，代扣协议中标示用户的唯一签约号（确保在商户系统中唯一）。 格式规则：支持大写小写字母和数字，最长32位。 商户系统按需自定义传入，用于区分用户在同一产品码、同一签约场景下，签订的多份代扣协议。
+	 * 商户签约号，AI付协议中标示用户的唯一签约号（确保在商户系统中唯一）。 格式规则：支持大写小写字母和数字，最长32位。 商户系统按需自定义传入，用于区分用户在同一产品码、同一签约场景下，签订的多份AI付协议。
 	 */
 	@ApiField("external_agreement_no")
 	private String externalAgreementNo;

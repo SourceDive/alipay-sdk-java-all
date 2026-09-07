@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class TourOrderSyncDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 5425416669374985665L;
+	private static final long serialVersionUID = 6356918711573297276L;
 
 	/**
 	 * 可核销总数。凭证可核销数量总和

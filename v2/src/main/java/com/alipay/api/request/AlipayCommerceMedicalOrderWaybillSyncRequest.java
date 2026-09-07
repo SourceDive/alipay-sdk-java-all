@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.order.waybill.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-08-12 15:51:59
+ * @since 1.0, 2026-09-04 12:17:53
  */
 public class AlipayCommerceMedicalOrderWaybillSyncRequest implements AlipayRequest<AlipayCommerceMedicalOrderWaybillSyncResponse> {
 

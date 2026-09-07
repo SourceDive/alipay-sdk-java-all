@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-09-01 10:42:30
+ * @since 1.0, 2026-09-02 15:22:52
  */
 public class LeadsImportItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7737944242334632176L;
+	private static final long serialVersionUID = 6848645778522671494L;
 
 	/**
 	 * 司机主要营运出租业务的城市
@@ -48,6 +48,30 @@ public class LeadsImportItem extends AlipayObject {
 	 */
 	@ApiField("driver_tax_no")
 	private String driverTaxNo;
+
+	/**
+	 * 实体车队长所属企业
+	 */
+	@ApiField("fleet_captain_company")
+	private String fleetCaptainCompany;
+
+	/**
+	 * 车队长的身份证号
+	 */
+	@ApiField("fleet_captain_id_card")
+	private String fleetCaptainIdCard;
+
+	/**
+	 * 车队长的姓名
+	 */
+	@ApiField("fleet_captain_name")
+	private String fleetCaptainName;
+
+	/**
+	 * 实体车队长车牌
+	 */
+	@ApiField("fleet_captain_plate")
+	private String fleetCaptainPlate;
 
 	/**
 	 * 联系电话号码
@@ -119,6 +143,34 @@ public class LeadsImportItem extends AlipayObject {
 	}
 	public void setDriverTaxNo(String driverTaxNo) {
 		this.driverTaxNo = driverTaxNo;
+	}
+
+	public String getFleetCaptainCompany() {
+		return this.fleetCaptainCompany;
+	}
+	public void setFleetCaptainCompany(String fleetCaptainCompany) {
+		this.fleetCaptainCompany = fleetCaptainCompany;
+	}
+
+	public String getFleetCaptainIdCard() {
+		return this.fleetCaptainIdCard;
+	}
+	public void setFleetCaptainIdCard(String fleetCaptainIdCard) {
+		this.fleetCaptainIdCard = fleetCaptainIdCard;
+	}
+
+	public String getFleetCaptainName() {
+		return this.fleetCaptainName;
+	}
+	public void setFleetCaptainName(String fleetCaptainName) {
+		this.fleetCaptainName = fleetCaptainName;
+	}
+
+	public String getFleetCaptainPlate() {
+		return this.fleetCaptainPlate;
+	}
+	public void setFleetCaptainPlate(String fleetCaptainPlate) {
+		this.fleetCaptainPlate = fleetCaptainPlate;
 	}
 
 	public String getPhoneOne() {

@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMerchantIndirectSharetokenCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1585842359652897614L;
+	private static final long serialVersionUID = 4273764991153579731L;
 
 	/** 
 	 * 业务token,用来串联业务操作行为及分析

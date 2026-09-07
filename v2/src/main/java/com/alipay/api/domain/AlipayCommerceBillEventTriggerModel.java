@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceBillEventTriggerModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4661157158633877134L;
+	private static final long serialVersionUID = 7125274981268612899L;
 
 	/**
 	 * 当前触发动作的额外信息

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppIndustryTrafficFacecertifyresultQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2238172459723116166L;
+	private static final long serialVersionUID = 6684923526265986443L;
 
 	/** 
 	 * 扫脸校验是否通过。true:通过， false:未通过

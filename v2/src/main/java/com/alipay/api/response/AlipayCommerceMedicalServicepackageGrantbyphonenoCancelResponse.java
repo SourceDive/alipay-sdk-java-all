@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.servicepackage.grantbyphoneno.cancel response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-26 15:42:55
+ * @since 1.0, 2026-09-04 11:27:56
  */
 public class AlipayCommerceMedicalServicepackageGrantbyphonenoCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5239159161869764246L;
+	private static final long serialVersionUID = 2339532447718724886L;
 
 	/** 
 	 * null

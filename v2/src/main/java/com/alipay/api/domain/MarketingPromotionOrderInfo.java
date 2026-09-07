@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 回收推广订单信息
  *
  * @author auto create
- * @since 1.0, 2025-11-06 10:07:44
+ * @since 1.0, 2026-09-04 10:17:43
  */
 public class MarketingPromotionOrderInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4255844425677289929L;
+	private static final long serialVersionUID = 8782475949954779135L;
 
 	/**
 	 * 预估金额（固定值）单位为元
@@ -57,6 +57,30 @@ public class MarketingPromotionOrderInfo extends AlipayObject {
 	 */
 	@ApiField("assess_type")
 	private String assessType;
+
+	/**
+	 * 城市code
+	 */
+	@ApiField("city_code")
+	private String cityCode;
+
+	/**
+	 * 城市名称
+	 */
+	@ApiField("city_name")
+	private String cityName;
+
+	/**
+	 * 区code
+	 */
+	@ApiField("district_code")
+	private String districtCode;
+
+	/**
+	 * 区名称
+	 */
+	@ApiField("district_name")
+	private String districtName;
 
 	/**
 	 * 一级推广员工ID
@@ -144,6 +168,18 @@ public class MarketingPromotionOrderInfo extends AlipayObject {
 	private String promoType;
 
 	/**
+	 * 省份code
+	 */
+	@ApiField("province_code")
+	private String provinceCode;
+
+	/**
+	 * 省份名称
+	 */
+	@ApiField("province_name")
+	private String provinceName;
+
+	/**
 	 * 二级推广员工ID
 	 */
 	@ApiField("second_level_emp_id")
@@ -220,6 +256,34 @@ public class MarketingPromotionOrderInfo extends AlipayObject {
 	}
 	public void setAssessType(String assessType) {
 		this.assessType = assessType;
+	}
+
+	public String getCityCode() {
+		return this.cityCode;
+	}
+	public void setCityCode(String cityCode) {
+		this.cityCode = cityCode;
+	}
+
+	public String getCityName() {
+		return this.cityName;
+	}
+	public void setCityName(String cityName) {
+		this.cityName = cityName;
+	}
+
+	public String getDistrictCode() {
+		return this.districtCode;
+	}
+	public void setDistrictCode(String districtCode) {
+		this.districtCode = districtCode;
+	}
+
+	public String getDistrictName() {
+		return this.districtName;
+	}
+	public void setDistrictName(String districtName) {
+		this.districtName = districtName;
 	}
 
 	public String getFirstLevelEmpId() {
@@ -318,6 +382,20 @@ public class MarketingPromotionOrderInfo extends AlipayObject {
 	}
 	public void setPromoType(String promoType) {
 		this.promoType = promoType;
+	}
+
+	public String getProvinceCode() {
+		return this.provinceCode;
+	}
+	public void setProvinceCode(String provinceCode) {
+		this.provinceCode = provinceCode;
+	}
+
+	public String getProvinceName() {
+		return this.provinceName;
+	}
+	public void setProvinceName(String provinceName) {
+		this.provinceName = provinceName;
 	}
 
 	public String getSecondLevelEmpId() {

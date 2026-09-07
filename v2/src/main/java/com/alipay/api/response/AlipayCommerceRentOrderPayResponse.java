@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.order.pay response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-14 13:35:48
+ * @since 1.0, 2026-09-03 19:47:50
  */
 public class AlipayCommerceRentOrderPayResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8816355723496919532L;
+	private static final long serialVersionUID = 2892177723678356411L;
 
 	/** 
 	 * 交易组件业务订单号
@@ -31,6 +31,12 @@ public class AlipayCommerceRentOrderPayResponse extends AlipayResponse {
 	 */
 	@ApiField("pay_amount")
 	private String payAmount;
+
+	/** 
+	 * 租赁支付准入Token
+	 */
+	@ApiField("pay_token")
+	private String payToken;
 
 	/** 
 	 * 支付宝交易号
@@ -57,6 +63,13 @@ public class AlipayCommerceRentOrderPayResponse extends AlipayResponse {
 	}
 	public String getPayAmount( ) {
 		return this.payAmount;
+	}
+
+	public void setPayToken(String payToken) {
+		this.payToken = payToken;
+	}
+	public String getPayToken( ) {
+		return this.payToken;
 	}
 
 	public void setTradeNo(String tradeNo) {

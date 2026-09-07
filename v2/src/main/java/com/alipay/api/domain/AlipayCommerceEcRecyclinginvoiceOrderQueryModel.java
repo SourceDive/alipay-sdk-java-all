@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 反向订单查询
  *
  * @author auto create
- * @since 1.0, 2026-08-10 15:33:41
+ * @since 1.0, 2026-09-04 16:48:28
  */
 public class AlipayCommerceEcRecyclinginvoiceOrderQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5237232456863881526L;
+	private static final long serialVersionUID = 4535972651763866214L;
 
 	/**
 	 * 订单号，调用反向订单创建接口时返回

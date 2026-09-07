@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OrderStatusSyncCancelInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8231583843577148777L;
+	private static final long serialVersionUID = 4363187299445827719L;
 
 	/**
 	 * PAY_FAILED-未支付（超时关闭）

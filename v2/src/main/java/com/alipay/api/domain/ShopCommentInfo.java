@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ShopCommentInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4443338398871368191L;
+	private static final long serialVersionUID = 7467652863571614928L;
 
 	/**
 	 * 店铺30天平均人气值

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 业务参数
  *
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:31
+ * @since 1.0, 2026-09-02 14:52:48
  */
 public class IndflowBizInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7225674713866451295L;
+	private static final long serialVersionUID = 2842988286554524481L;
 
 	/**
 	 * 城市编码

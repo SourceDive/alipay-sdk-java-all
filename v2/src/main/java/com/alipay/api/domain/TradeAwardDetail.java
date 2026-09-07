@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-07-13 16:52:51
+ * @since 1.0, 2026-09-03 16:25:19
  */
 public class TradeAwardDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 3298415242112591991L;
+	private static final long serialVersionUID = 5165843735614687676L;
 
 	/**
 	 * 激励金额，单位：分

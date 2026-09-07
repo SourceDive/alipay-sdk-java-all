@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 湖北购药 iot场景下 详细折扣信息
  *
  * @author auto create
- * @since 1.0, 2025-06-11 16:13:06
+ * @since 1.0, 2026-09-03 20:06:42
  */
 public class DiscountVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1581435889996567924L;
+	private static final long serialVersionUID = 6872541843789234154L;
 
 	/**
 	 * 活动类型code码，如券名称

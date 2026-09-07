@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 服务包订单取消接口
  *
  * @author auto create
- * @since 1.0, 2026-08-26 15:42:55
+ * @since 1.0, 2026-09-04 11:27:56
  */
 public class AlipayCommerceMedicalServicepackageGrantbyphonenoCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3277922281989735263L;
+	private static final long serialVersionUID = 5178538833528217517L;
 
 	/**
 	 * null

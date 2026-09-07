@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class NxActivityVoucherInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2485643554455459112L;
+	private static final long serialVersionUID = 7174886324591121474L;
 
 	/**
 	 * 商品LOGO地址。

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ChatError extends AlipayObject {
 
-	private static final long serialVersionUID = 4291486191998684321L;
+	private static final long serialVersionUID = 4289775874242162743L;
 
 	/**
 	 * 流式回答应答码

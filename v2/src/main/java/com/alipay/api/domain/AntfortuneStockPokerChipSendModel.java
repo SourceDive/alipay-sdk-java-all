@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AntfortuneStockPokerChipSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4184559783734125726L;
+	private static final long serialVersionUID = 3873436675131253145L;
 
 	/**
 	 * 筹码数值，单位个

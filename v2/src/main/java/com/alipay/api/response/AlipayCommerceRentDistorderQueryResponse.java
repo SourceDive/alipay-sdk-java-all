@@ -15,11 +15,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.distorder.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-28 15:02:51
+ * @since 1.0, 2026-09-04 14:52:52
  */
 public class AlipayCommerceRentDistorderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1289767676428148425L;
+	private static final long serialVersionUID = 1143683257917385788L;
 
 	/** 
 	 * 是否租三免一订单
@@ -124,7 +124,7 @@ INIT(初始)、AUTHORIZED(已授权)、FINISH(完成)、CLOSED(关闭);
 	 * 首期租金支付时间 
 	 */
 	@ApiField("pay_time")
-	private String payTime;
+	private Date payTime;
 
 	/** 
 	 * 租赁计划信息
@@ -262,10 +262,10 @@ INIT(初始)、AUTHORIZED(已授权)、FINISH(完成)、CLOSED(关闭);
 		return this.logisticsInfo;
 	}
 
-	public void setPayTime(String payTime) {
+	public void setPayTime(Date payTime) {
 		this.payTime = payTime;
 	}
-	public String getPayTime( ) {
+	public Date getPayTime( ) {
 		return this.payTime;
 	}
 

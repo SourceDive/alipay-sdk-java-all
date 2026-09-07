@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 发奖一阶段recommend接口
  *
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:32
+ * @since 1.0, 2026-09-02 14:57:52
  */
 public class AlipayOfflineProviderIndflowPrizeRecommendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8749712978488299119L;
+	private static final long serialVersionUID = 3225545842819497217L;
 
 	/**
 	 * null

@@ -6,14 +6,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 推荐奖品详情
+ * null
  *
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:32
+ * @since 1.0, 2026-09-02 14:57:52
  */
 public class AdVoucherPrizeDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 5611525176359386562L;
+	private static final long serialVersionUID = 4768343426372231489L;
 
 	/**
 	 * 推荐过期时间

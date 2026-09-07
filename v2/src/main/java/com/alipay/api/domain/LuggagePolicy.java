@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LuggagePolicy extends AlipayObject {
 
-	private static final long serialVersionUID = 7512788722695883627L;
+	private static final long serialVersionUID = 3633941976839764211L;
 
 	/**
 	 * 航段编号

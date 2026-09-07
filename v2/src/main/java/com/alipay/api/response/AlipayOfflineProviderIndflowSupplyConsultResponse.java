@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.indflow.supply.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:31
+ * @since 1.0, 2026-09-02 14:52:48
  */
 public class AlipayOfflineProviderIndflowSupplyConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5218685557344934519L;
+	private static final long serialVersionUID = 5692122398329551751L;
 
 	/** 
 	 * 展位ID

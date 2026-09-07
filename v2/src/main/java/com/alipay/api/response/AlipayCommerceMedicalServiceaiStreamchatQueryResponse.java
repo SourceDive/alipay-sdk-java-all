@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.serviceai.streamchat.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-26 15:22:42
+ * @since 1.0, 2026-09-04 13:53:14
  */
 public class AlipayCommerceMedicalServiceaiStreamchatQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6387454654835411382L;
+	private static final long serialVersionUID = 1362453438981266755L;
 
 	/** 
 	 * 结构

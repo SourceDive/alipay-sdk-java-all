@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class LandingTypeDto extends AlipayObject {
 
-	private static final long serialVersionUID = 7288711671946489134L;
+	private static final long serialVersionUID = 4291627838943295799L;
 
 	/**
 	 * 聚合落地页中的图片地址，landing_type值为3的时候必填，至少一张图片地址

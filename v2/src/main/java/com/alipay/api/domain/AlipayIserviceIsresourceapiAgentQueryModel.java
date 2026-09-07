@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayIserviceIsresourceapiAgentQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1642965251824922957L;
+	private static final long serialVersionUID = 3341491796962577699L;
 
 	/**
 	 * 用于查询小二的手机号

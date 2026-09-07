@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 设置门店结算信息
  *
  * @author auto create
- * @since 1.0, 2026-04-08 14:01:03
+ * @since 1.0, 2026-09-04 11:01:11
  */
 public class AntMerchantExpandAstoreshopSettleAddModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8118779211716912278L;
+	private static final long serialVersionUID = 5633247859384717557L;
 
 	/**
 	 * 银行卡信息（特殊可选），结算到卡时必填 当前字段已废弃(银行卡信息字段位置转入门店结算信息字段中)
@@ -68,7 +68,7 @@ public class AntMerchantExpandAstoreshopSettleAddModel extends AlipayObject {
 	private List<ShopSettleInfo> settleInfos;
 
 	/**
-	 * 门店id
+	 * 支付宝门店id
 	 */
 	@ApiField("shop_id")
 	private String shopId;

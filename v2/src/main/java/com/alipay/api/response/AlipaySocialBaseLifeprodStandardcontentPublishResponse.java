@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySocialBaseLifeprodStandardcontentPublishResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5469723623349813398L;
+	private static final long serialVersionUID = 1164232387262127237L;
 
 	/** 
 	 * 内容发布后生成的ID，请业务方保存到本地（用于关联查询内容详情、删除内容等其他开放接口）

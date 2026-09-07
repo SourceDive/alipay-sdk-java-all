@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.indflow.action.maintain request
  * 
  * @author auto create
- * @since 1.0, 2026-08-28 10:33:33
+ * @since 1.0, 2026-09-02 14:52:48
  */
 public class AlipayOfflineProviderIndflowActionMaintainRequest implements AlipayRequest<AlipayOfflineProviderIndflowActionMaintainResponse> {
 

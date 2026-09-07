@@ -9,11 +9,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 问诊订单变更同步域内互联网医院平台
  *
  * @author auto create
- * @since 1.0, 2026-08-31 10:30:18
+ * @since 1.0, 2026-09-01 20:42:50
  */
 public class AlipayCommerceMedicalHyInquiryorderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6331367636228686685L;
+	private static final long serialVersionUID = 1444997697663475864L;
+
+	/**
+	 * 医生接诊时间
+	 */
+	@ApiField("gmt_adoption")
+	private Date gmtAdoption;
+
+	/**
+	 * 问诊服务结束时间
+	 */
+	@ApiField("gmt_finished")
+	private Date gmtFinished;
 
 	/**
 	 * 域内问诊订单唯一标识，用户告诉域内操作的是哪一笔订单
@@ -34,10 +46,22 @@ public class AlipayCommerceMedicalHyInquiryorderSyncModel extends AlipayObject {
 	private String outDoctorId;
 
 	/**
+	 * 极速问诊医生接单后同步过来
+	 */
+	@ApiField("out_medical_rel_id")
+	private String outMedicalRelId;
+
+	/**
 	 * 问诊平台编码，由支付宝侧统一分配
 	 */
 	@ApiField("platform_code")
 	private String platformCode;
+
+	/**
+	 * 服务预计结束时间
+	 */
+	@ApiField("service_expect_end_time")
+	private String serviceExpectEndTime;
 
 	/**
 	 * 医生端操作订单状态发生变更后，对应状态映射此字段同步到域内
@@ -56,6 +80,20 @@ public class AlipayCommerceMedicalHyInquiryorderSyncModel extends AlipayObject {
 	 */
 	@ApiField("sub_status")
 	private String subStatus;
+
+	public Date getGmtAdoption() {
+		return this.gmtAdoption;
+	}
+	public void setGmtAdoption(Date gmtAdoption) {
+		this.gmtAdoption = gmtAdoption;
+	}
+
+	public Date getGmtFinished() {
+		return this.gmtFinished;
+	}
+	public void setGmtFinished(Date gmtFinished) {
+		this.gmtFinished = gmtFinished;
+	}
 
 	public String getOrderId() {
 		return this.orderId;
@@ -78,11 +116,25 @@ public class AlipayCommerceMedicalHyInquiryorderSyncModel extends AlipayObject {
 		this.outDoctorId = outDoctorId;
 	}
 
+	public String getOutMedicalRelId() {
+		return this.outMedicalRelId;
+	}
+	public void setOutMedicalRelId(String outMedicalRelId) {
+		this.outMedicalRelId = outMedicalRelId;
+	}
+
 	public String getPlatformCode() {
 		return this.platformCode;
 	}
 	public void setPlatformCode(String platformCode) {
 		this.platformCode = platformCode;
+	}
+
+	public String getServiceExpectEndTime() {
+		return this.serviceExpectEndTime;
+	}
+	public void setServiceExpectEndTime(String serviceExpectEndTime) {
+		this.serviceExpectEndTime = serviceExpectEndTime;
 	}
 
 	public String getStatus() {

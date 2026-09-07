@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ebpp.jobinterview.interview.notify response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 10:22:54
+ * @since 1.0, 2026-09-02 13:47:50
  */
 public class AlipayEbppJobinterviewInterviewNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3678482373829935314L;
+	private static final long serialVersionUID = 2172551433417371143L;
 
 	/** 
 	 * 候选人唯一ID（即创建会话时下发的 candidateId），空则报"候选人ID不能为空"
