@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InstallmentNoInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3698472488266371624L;
+	private static final long serialVersionUID = 5226724844571845492L;
 
 	/**
 	 * 当前分期数

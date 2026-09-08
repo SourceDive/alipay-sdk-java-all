@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class ZhimaCreditPeUserChangeSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7871428131973124464L;
+	private static final long serialVersionUID = 4737248721468268128L;
 
 	/** 
 	 * 用于标记支付宝用户在应用下的唯一标识

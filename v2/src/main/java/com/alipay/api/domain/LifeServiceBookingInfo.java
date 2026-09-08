@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-07-06 15:51:04
+ * @since 1.0, 2026-09-08 10:42:54
  */
 public class LifeServiceBookingInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4717799656993796524L;
+	private static final long serialVersionUID = 5135278672496643175L;
 
 	/**
 	 * 商家已经发起了核销，此时在待用户确认状态。如果用户一直没确认，会在yyyy-MM-dd HH:mm:ss自动确认核销
@@ -52,6 +52,13 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	 */
 	@ApiField("booking_id")
 	private String bookingId;
+
+	/**
+	 * null
+	 */
+	@ApiListField("booking_resources")
+	@ApiField("life_service_booking_resource")
+	private List<LifeServiceBookingResource> bookingResources;
 
 	/**
 	 * 核销单id
@@ -219,6 +226,13 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	}
 	public void setBookingId(String bookingId) {
 		this.bookingId = bookingId;
+	}
+
+	public List<LifeServiceBookingResource> getBookingResources() {
+		return this.bookingResources;
+	}
+	public void setBookingResources(List<LifeServiceBookingResource> bookingResources) {
+		this.bookingResources = bookingResources;
 	}
 
 	public String getDeductionOrderId() {

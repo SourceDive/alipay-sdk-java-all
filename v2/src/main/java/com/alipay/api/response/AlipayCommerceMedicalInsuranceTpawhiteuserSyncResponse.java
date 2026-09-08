@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.insurance.tpawhiteuser.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-05-22 14:02:50
+ * @since 1.0, 2026-09-04 18:22:55
  */
 public class AlipayCommerceMedicalInsuranceTpawhiteuserSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4629356559372514619L;
+	private static final long serialVersionUID = 6872254143685288825L;
 
 	
 

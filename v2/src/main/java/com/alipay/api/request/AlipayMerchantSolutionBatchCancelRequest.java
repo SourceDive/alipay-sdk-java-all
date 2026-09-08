@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.merchant.solution.batch.cancel request
  * 
  * @author auto create
- * @since 1.0, 2026-08-24 10:52:50
+ * @since 1.0, 2026-09-07 13:27:52
  */
 public class AlipayMerchantSolutionBatchCancelRequest implements AlipayRequest<AlipayMerchantSolutionBatchCancelResponse> {
 

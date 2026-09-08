@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HeXiQueryVo extends AlipayObject {
 
-	private static final long serialVersionUID = 4741518815678694568L;
+	private static final long serialVersionUID = 8374296879733328235L;
 
 	/**
 	 * db模式

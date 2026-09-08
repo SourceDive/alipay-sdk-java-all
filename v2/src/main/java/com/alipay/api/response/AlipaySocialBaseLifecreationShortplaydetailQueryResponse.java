@@ -14,11 +14,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.social.base.lifecreation.shortplaydetail.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-04 11:07:52
+ * @since 1.0, 2026-09-04 23:37:50
  */
 public class AlipaySocialBaseLifecreationShortplaydetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4479555877959932419L;
+	private static final long serialVersionUID = 2586346293269342682L;
 
 	/** 
 	 * 短剧唯一标识

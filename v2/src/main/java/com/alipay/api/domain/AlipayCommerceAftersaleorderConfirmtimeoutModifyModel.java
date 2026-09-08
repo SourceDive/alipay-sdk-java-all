@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceAftersaleorderConfirmtimeoutModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5465172593443822373L;
+	private static final long serialVersionUID = 2625328962844785525L;
 
 	/**
 	 * 售后单id

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalBookInfoSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3325243958626271414L;
+	private static final long serialVersionUID = 4458427578524881944L;
 
 	/**
 	 * 预约时间

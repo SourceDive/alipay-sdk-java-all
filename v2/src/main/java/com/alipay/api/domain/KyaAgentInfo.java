@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KyaAgentInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2561477944422721922L;
+	private static final long serialVersionUID = 7191525475113485976L;
 
 	/**
 	 * 支付宝侧智能体唯一ID。

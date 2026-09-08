@@ -6,11 +6,11 @@ import com.alipay.api.AlipayObject;
  * 归还地址查询
  *
  * @author auto create
- * @since 1.0, 2026-08-26 12:42:50
+ * @since 1.0, 2026-09-04 17:07:50
  */
 public class AlipayCommerceRentDistmerchantAddressQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3663562599356261261L;
+	private static final long serialVersionUID = 2544756237855464156L;
 
 	
 

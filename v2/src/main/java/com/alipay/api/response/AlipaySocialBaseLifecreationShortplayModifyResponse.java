@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.social.base.lifecreation.shortplay.modify response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-04 11:02:53
+ * @since 1.0, 2026-09-04 23:42:52
  */
 public class AlipaySocialBaseLifecreationShortplayModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1778744635811892342L;
+	private static final long serialVersionUID = 5448114385744592243L;
 
 	/** 
 	 * 短剧唯一标识（剧库ID）

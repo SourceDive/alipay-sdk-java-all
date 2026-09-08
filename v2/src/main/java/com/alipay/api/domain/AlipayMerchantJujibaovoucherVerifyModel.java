@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayMerchantJujibaovoucherVerifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2152784598383892133L;
+	private static final long serialVersionUID = 4183444272684937348L;
 
 	/**
 	 * 移动核销入参根节点

@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOverseasTuitionSchoolpaymentBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7599923536619857875L;
+	private static final long serialVersionUID = 3437958581797157682L;
 
 	/** 
 	 * 商户在支付宝开设的账号ID

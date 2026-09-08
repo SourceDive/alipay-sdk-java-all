@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MsgApplyKeyword extends AlipayObject {
 
-	private static final long serialVersionUID = 4723928676957539158L;
+	private static final long serialVersionUID = 1319981749447424631L;
 
 	/**
 	 * 模板关键字名称

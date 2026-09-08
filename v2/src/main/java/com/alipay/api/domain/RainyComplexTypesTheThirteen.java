@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RainyComplexTypesTheThirteen extends AlipayObject {
 
-	private static final long serialVersionUID = 3327589271274489729L;
+	private static final long serialVersionUID = 6145978842844779314L;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识

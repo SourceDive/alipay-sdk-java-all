@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.merchant.solution.batch.cancel response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-24 10:52:50
+ * @since 1.0, 2026-09-07 13:27:52
  */
 public class AlipayMerchantSolutionBatchCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3739747528377569864L;
+	private static final long serialVersionUID = 6744758115428314759L;
 
 	/** 
 	 * 退出成功后，在支付宝侧生成的批次号

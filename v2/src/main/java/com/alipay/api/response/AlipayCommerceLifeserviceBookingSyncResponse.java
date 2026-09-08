@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.lifeservice.booking.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-06-22 10:32:55
+ * @since 1.0, 2026-09-08 10:42:53
  */
 public class AlipayCommerceLifeserviceBookingSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5443814412513685216L;
+	private static final long serialVersionUID = 8646967142883918228L;
 
 	/** 
 	 * 预约单id

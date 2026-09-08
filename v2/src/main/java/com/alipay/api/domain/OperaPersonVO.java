@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OperaPersonVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7117985187522141227L;
+	private static final long serialVersionUID = 1767985159629452877L;
 
 	/**
 	 * 员工姓名

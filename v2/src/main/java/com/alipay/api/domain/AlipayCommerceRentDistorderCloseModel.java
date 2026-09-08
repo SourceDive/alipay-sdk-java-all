@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 分销订单取消
  *
  * @author auto create
- * @since 1.0, 2026-08-28 14:57:52
+ * @since 1.0, 2026-09-04 17:07:50
  */
 public class AlipayCommerceRentDistorderCloseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8377463985261851779L;
+	private static final long serialVersionUID = 3665453276219873917L;
 
 	/**
 	 * 分销订单号

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.trade.saas.ebank.consult request
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 20:07:50
+ * @since 1.0, 2026-09-07 16:52:50
  */
 public class AlipayTradeSaasEbankConsultRequest implements AlipayRequest<AlipayTradeSaasEbankConsultResponse> {
 

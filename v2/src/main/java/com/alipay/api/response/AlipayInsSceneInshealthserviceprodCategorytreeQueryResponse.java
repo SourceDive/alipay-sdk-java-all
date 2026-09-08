@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneInshealthserviceprodCategorytreeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4384743678337999332L;
+	private static final long serialVersionUID = 8212864275537246887L;
 
 	/** 
 	 * 类目树节点列表

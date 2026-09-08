@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class BianqueConfigItem extends AlipayObject {
 
-	private static final long serialVersionUID = 6344297119375469213L;
+	private static final long serialVersionUID = 2778379869992573625L;
 
 	/**
 	 * 阿福端免订阅消息打开

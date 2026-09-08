@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOverseasTaxNeworderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5322185743949938169L;
+	private static final long serialVersionUID = 1331114561856827576L;
 
 	/**
 	 * 支付宝userId

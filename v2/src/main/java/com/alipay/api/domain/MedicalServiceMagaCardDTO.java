@@ -7,17 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 服务推荐maga投放card信息
  *
  * @author auto create
- * @since 1.0, 2024-12-06 16:59:55
+ * @since 1.0, 2026-09-08 14:11:44
  */
 public class MedicalServiceMagaCardDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3619535533598518999L;
+	private static final long serialVersionUID = 6333418355859159599L;
 
 	/**
 	 * 描述
 	 */
 	@ApiField("desc")
 	private String desc;
+
+	/**
+	 * 智能体服务配置信息
+	 */
+	@ApiField("ext_info")
+	private String extInfo;
 
 	/**
 	 * 图标Url
@@ -54,6 +60,13 @@ public class MedicalServiceMagaCardDTO extends AlipayObject {
 	}
 	public void setDesc(String desc) {
 		this.desc = desc;
+	}
+
+	public String getExtInfo() {
+		return this.extInfo;
+	}
+	public void setExtInfo(String extInfo) {
+		this.extInfo = extInfo;
 	}
 
 	public String getIconUrl() {

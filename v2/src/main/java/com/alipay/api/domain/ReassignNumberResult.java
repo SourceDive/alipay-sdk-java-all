@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ReassignNumberResult extends AlipayObject {
 
-	private static final long serialVersionUID = 2618133479313878147L;
+	private static final long serialVersionUID = 5739711791382277166L;
 
 	/**
 	 * 根据入参返回查询到的商户pid

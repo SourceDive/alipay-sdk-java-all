@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserAntbooksSoundQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4188271658378677774L;
+	private static final long serialVersionUID = 1812152635887155594L;
 
 	/** 
 	 * 当前页码

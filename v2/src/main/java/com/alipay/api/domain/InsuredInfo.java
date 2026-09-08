@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-05-22 14:02:50
+ * @since 1.0, 2026-09-04 18:22:55
  */
 public class InsuredInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1635683878636116451L;
+	private static final long serialVersionUID = 6215699816259863576L;
 
 	/**
 	 * 被保人扩展信息

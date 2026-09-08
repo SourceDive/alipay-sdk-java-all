@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 归还地址废弃
  *
  * @author auto create
- * @since 1.0, 2026-08-28 15:02:51
+ * @since 1.0, 2026-09-04 17:07:50
  */
 public class AlipayCommerceRentDistmerchantAddressDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2852269342316695735L;
+	private static final long serialVersionUID = 5513765981811537136L;
 
 	/**
 	 * 地址ID

@@ -19,7 +19,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEducateRosterDetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6491751556945851165L;
+	private static final long serialVersionUID = 4143725687479884758L;
 
 	/** 
 	 * 花名册是否绑定支付宝

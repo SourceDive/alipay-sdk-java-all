@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySocialAntfarmOrnamentresourceBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6144734975158173699L;
+	private static final long serialVersionUID = 1368573418254825765L;
 
 	/** 
 	 * 蚂蚁庄园装扮资源

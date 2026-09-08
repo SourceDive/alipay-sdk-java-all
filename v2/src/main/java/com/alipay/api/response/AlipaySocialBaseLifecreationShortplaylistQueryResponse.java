@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.social.base.lifecreation.shortplaylist.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-04 11:02:53
+ * @since 1.0, 2026-09-04 23:37:49
  */
 public class AlipaySocialBaseLifecreationShortplaylistQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3323571581946915839L;
+	private static final long serialVersionUID = 3124656237354683675L;
 
 	/** 
 	 * 剧目列表

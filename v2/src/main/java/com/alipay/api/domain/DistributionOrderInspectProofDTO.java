@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 验货异常描述凭证
  *
  * @author auto create
- * @since 1.0, 2026-08-26 12:42:50
+ * @since 1.0, 2026-09-04 17:07:56
  */
 public class DistributionOrderInspectProofDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1461233767837178898L;
+	private static final long serialVersionUID = 8133863973296197669L;
 
 	/**
 	 * null

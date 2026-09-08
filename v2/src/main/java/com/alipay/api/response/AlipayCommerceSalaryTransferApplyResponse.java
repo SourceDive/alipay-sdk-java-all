@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceSalaryTransferApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2354834741182956943L;
+	private static final long serialVersionUID = 1884158295746373637L;
 
 	/** 
 	 * 申请时间，申请成功时提供

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class MybankCreditLoanapplyQrcodeInvalidDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7266332983141892233L;
+	private static final long serialVersionUID = 7521829611772178494L;
 
 	/** 
 	 * true:失效成功 false:失效失败

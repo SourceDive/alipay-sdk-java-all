@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DamagesInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8632656629731788549L;
+	private static final long serialVersionUID = 8293838629985657815L;
 
 	/**
 	 * 创建时间

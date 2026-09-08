@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class DirectionVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7186258897635389153L;
+	private static final long serialVersionUID = 1275919168652126975L;
 
 	/**
 	 * 运行方向。枚举：UP=上行，DOWN=下行。

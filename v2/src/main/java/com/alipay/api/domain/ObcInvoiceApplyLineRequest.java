@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 多云发票明细行
  *
  * @author auto create
- * @since 1.0, 2026-02-03 14:13:02
+ * @since 1.0, 2026-09-07 16:56:02
  */
 public class ObcInvoiceApplyLineRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 3856235869479127233L;
+	private static final long serialVersionUID = 1376555812784558359L;
 
 	/**
 	 * 货币单位，必填

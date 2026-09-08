@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.saas.ebank.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 20:07:50
+ * @since 1.0, 2026-09-07 16:52:50
  */
 public class AlipayTradeSaasEbankConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8823966716768934137L;
+	private static final long serialVersionUID = 8495148997319214782L;
 
 	/** 
 	 * null

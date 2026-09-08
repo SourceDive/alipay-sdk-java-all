@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceCityfacilitatorWifiShopQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8469981456846245247L;
+	private static final long serialVersionUID = 8734391656716578665L;
 
 	/** 
 	 * null

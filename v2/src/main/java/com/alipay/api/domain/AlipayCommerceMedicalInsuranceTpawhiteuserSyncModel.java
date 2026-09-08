@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * TPA渠道开通白名单同步
  *
  * @author auto create
- * @since 1.0, 2026-05-22 14:02:50
+ * @since 1.0, 2026-09-04 18:22:55
  */
 public class AlipayCommerceMedicalInsuranceTpawhiteuserSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5174978618488198327L;
+	private static final long serialVersionUID = 4299534697768762251L;
 
 	/**
 	 * 支付宝给出固定值，见文档

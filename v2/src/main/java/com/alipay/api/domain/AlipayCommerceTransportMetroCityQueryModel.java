@@ -10,7 +10,7 @@ import com.alipay.api.AlipayObject;
  */
 public class AlipayCommerceTransportMetroCityQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7529172715443777697L;
+	private static final long serialVersionUID = 5539691223945151755L;
 
 	
 

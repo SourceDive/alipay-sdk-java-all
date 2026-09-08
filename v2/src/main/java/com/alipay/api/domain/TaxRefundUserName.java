@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TaxRefundUserName extends AlipayObject {
 
-	private static final long serialVersionUID = 7684765177424838212L;
+	private static final long serialVersionUID = 3367546217513812446L;
 
 	/**
 	 * 用户的名字

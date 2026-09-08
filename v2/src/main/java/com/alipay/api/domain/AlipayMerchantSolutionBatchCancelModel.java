@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 间连解决方案批量取消
  *
  * @author auto create
- * @since 1.0, 2026-08-24 10:50:28
+ * @since 1.0, 2026-09-07 13:22:56
  */
 public class AlipayMerchantSolutionBatchCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2795657234444121424L;
+	private static final long serialVersionUID = 5595977182917839288L;
 
 	/**
 	 * 解决方案数据退出中，提报的文件信息

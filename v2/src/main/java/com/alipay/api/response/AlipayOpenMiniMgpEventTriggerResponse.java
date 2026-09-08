@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenMiniMgpEventTriggerResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6884817773536794487L;
+	private static final long serialVersionUID = 2141255492532886849L;
 
 	
 

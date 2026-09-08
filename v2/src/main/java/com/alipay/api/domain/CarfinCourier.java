@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CarfinCourier extends AlipayObject {
 
-	private static final long serialVersionUID = 8278244813291897986L;
+	private static final long serialVersionUID = 6878414526782921862L;
 
 	/**
 	 * 快递员姓名

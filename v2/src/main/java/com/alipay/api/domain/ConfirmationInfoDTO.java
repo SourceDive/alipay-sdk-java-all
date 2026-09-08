@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ConfirmationInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7612262245326217864L;
+	private static final long serialVersionUID = 8668575747271268714L;
 
 	/**
 	 * 酒店确认号

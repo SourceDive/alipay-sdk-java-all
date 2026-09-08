@@ -10,7 +10,7 @@ import com.alipay.api.AlipayObject;
  */
 public class AlipayMerchantGpStoreidQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3574563447832545323L;
+	private static final long serialVersionUID = 5135237876564459398L;
 
 	
 

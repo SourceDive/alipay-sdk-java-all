@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OppositeSubjectDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8627752353828355716L;
+	private static final long serialVersionUID = 4163756564825264585L;
 
 	/**
 	 * 对方信息备注

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 租安托订单派单接口
  *
  * @author auto create
- * @since 1.0, 2026-07-31 10:57:54
+ * @since 1.0, 2026-09-04 17:07:50
  */
 public class AlipayCommerceRentZatSellerPublishModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2162586326111262442L;
+	private static final long serialVersionUID = 2845567712496534877L;
 
 	/**
 	 * 交易组件订单Id，取值租赁下单接口返回的 orderId

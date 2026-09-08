@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RainyPraviteTestForUploadComplexInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8467643291315188138L;
+	private static final long serialVersionUID = 1288539612762529823L;
 
 	/**
 	 * 支付宝用户的demo。

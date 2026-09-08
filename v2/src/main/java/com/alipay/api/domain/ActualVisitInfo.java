@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ActualVisitInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3839149189688361952L;
+	private static final long serialVersionUID = 4491495543821321775L;
 
 	/**
 	 * 就医信息-就诊城市

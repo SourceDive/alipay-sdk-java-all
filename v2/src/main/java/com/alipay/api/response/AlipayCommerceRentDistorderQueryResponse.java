@@ -15,11 +15,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.distorder.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-04 14:52:52
+ * @since 1.0, 2026-09-07 16:55:40
  */
 public class AlipayCommerceRentDistorderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1143683257917385788L;
+	private static final long serialVersionUID = 1845234816585559982L;
 
 	/** 
 	 * 是否租三免一订单
@@ -84,6 +84,12 @@ INIT(初始)、AUTHORIZED(已授权)、FINISH(完成)、CLOSED(关闭);
 	private String creditDepositStatus;
 
 	/** 
+	 * 分销免押通过标:Y,如果不通过，则不返回
+	 */
+	@ApiField("dist_deposit_free_pass")
+	private String distDepositFreePass;
+
+	/** 
 	 * 分销渠道
 	 */
 	@ApiField("distribution_channel")
@@ -137,6 +143,12 @@ INIT(初始)、AUTHORIZED(已授权)、FINISH(完成)、CLOSED(关闭);
 	 */
 	@ApiField("return_address")
 	private DistributionMerchantAddressDTO returnAddress;
+
+	/** 
+	 * 归还物流信息
+	 */
+	@ApiField("return_logistics_info")
+	private DistLogisticsInfoDTO returnLogisticsInfo;
 
 	/** 
 	 * 发货时间
@@ -220,6 +232,13 @@ INIT(初始)、AUTHORIZED(已授权)、FINISH(完成)、CLOSED(关闭);
 		return this.creditDepositStatus;
 	}
 
+	public void setDistDepositFreePass(String distDepositFreePass) {
+		this.distDepositFreePass = distDepositFreePass;
+	}
+	public String getDistDepositFreePass( ) {
+		return this.distDepositFreePass;
+	}
+
 	public void setDistributionChannel(String distributionChannel) {
 		this.distributionChannel = distributionChannel;
 	}
@@ -281,6 +300,13 @@ INIT(初始)、AUTHORIZED(已授权)、FINISH(完成)、CLOSED(关闭);
 	}
 	public DistributionMerchantAddressDTO getReturnAddress( ) {
 		return this.returnAddress;
+	}
+
+	public void setReturnLogisticsInfo(DistLogisticsInfoDTO returnLogisticsInfo) {
+		this.returnLogisticsInfo = returnLogisticsInfo;
+	}
+	public DistLogisticsInfoDTO getReturnLogisticsInfo( ) {
+		return this.returnLogisticsInfo;
 	}
 
 	public void setShipTime(Date shipTime) {

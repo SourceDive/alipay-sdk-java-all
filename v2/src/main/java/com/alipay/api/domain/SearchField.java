@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SearchField extends AlipayObject {
 
-	private static final long serialVersionUID = 4214716925528338825L;
+	private static final long serialVersionUID = 2423295956915771561L;
 
 	/**
 	 * gmt_create

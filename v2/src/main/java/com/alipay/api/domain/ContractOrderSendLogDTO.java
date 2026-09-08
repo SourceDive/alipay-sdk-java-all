@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ContractOrderSendLogDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8483137531795373372L;
+	private static final long serialVersionUID = 3643739771832799765L;
 
 	/**
 	 * 附件，逗号分隔的ResourceId

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayDataMdaMapdistributionQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6497326581134417534L;
+	private static final long serialVersionUID = 6136539487776244418L;
 
 	/** 
 	 * 中国34个省293个地级市用户数

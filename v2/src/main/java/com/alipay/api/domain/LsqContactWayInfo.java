@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LsqContactWayInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8468333416815453296L;
+	private static final long serialVersionUID = 3842492525291398192L;
 
 	/**
 	 * 联系方式类型: MOBILE-手机号码 / PHONE-固定电话

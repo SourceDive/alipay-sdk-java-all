@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.rent.distmerchant.address.query request
  * 
  * @author auto create
- * @since 1.0, 2026-08-26 12:42:50
+ * @since 1.0, 2026-09-04 17:07:50
  */
 public class AlipayCommerceRentDistmerchantAddressQueryRequest implements AlipayRequest<AlipayCommerceRentDistmerchantAddressQueryResponse> {
 
