@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 使用规则修改信息
  *
  * @author auto create
- * @since 1.0, 2025-11-11 14:02:43
+ * @since 1.0, 2026-09-08 17:16:39
  */
 public class ModifyStandardInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5585917839993451491L;
+	private static final long serialVersionUID = 4881622997352712821L;
 
 	/**
 	 * 要添加的条件列表
@@ -60,6 +60,12 @@ public class ModifyStandardInfo extends AlipayObject {
 	 */
 	@ApiField("payment_policy")
 	private String paymentPolicy;
+
+	/**
+	 * 支付时间模式，用于控制支付时的时间。该字段缺省时采用“支付时间或预计送达时间”，两个时间只要有一个命中即可使用因公付
+	 */
+	@ApiField("payment_time_mode")
+	private String paymentTimeMode;
 
 	/**
 	 * 个人收款码转账是否支持因公付。可选值：0（不支持）、1（支持）
@@ -132,6 +138,13 @@ public class ModifyStandardInfo extends AlipayObject {
 	}
 	public void setPaymentPolicy(String paymentPolicy) {
 		this.paymentPolicy = paymentPolicy;
+	}
+
+	public String getPaymentTimeMode() {
+		return this.paymentTimeMode;
+	}
+	public void setPaymentTimeMode(String paymentTimeMode) {
+		this.paymentTimeMode = paymentTimeMode;
 	}
 
 	public Long getPersonalQrcodeMode() {

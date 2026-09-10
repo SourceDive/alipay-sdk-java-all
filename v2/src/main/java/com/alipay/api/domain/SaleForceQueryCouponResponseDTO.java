@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SaleForceQueryCouponResponseDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5845718668761726693L;
+	private static final long serialVersionUID = 3641478964833413794L;
 
 	/**
 	 * 审批状态

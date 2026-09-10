@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppInstserviceCpataskQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2376566334833987569L;
+	private static final long serialVersionUID = 3555718454318799354L;
 
 	/** 
 	 * 该值是CPA任务投放全链路进行唯一归因的标记，广告主侧后续广告数据回传也需要携带该字段进行任务定位。

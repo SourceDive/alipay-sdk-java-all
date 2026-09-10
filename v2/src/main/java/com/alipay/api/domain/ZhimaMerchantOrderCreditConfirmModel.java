@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZhimaMerchantOrderCreditConfirmModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2383933132919522318L;
+	private static final long serialVersionUID = 8573941361112312115L;
 
 	/**
 	 * 商户订单号，必需参数，用于确认芝麻订单，该参数必须与调用接口（zhima.merchant.order.credit.create）时传入的out_order_no一致

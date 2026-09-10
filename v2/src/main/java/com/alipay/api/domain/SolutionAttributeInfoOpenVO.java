@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SolutionAttributeInfoOpenVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5358885978796163648L;
+	private static final long serialVersionUID = 1541453389821591193L;
 
 	/**
 	 * 至少用户需要选择一个方式进行签约。

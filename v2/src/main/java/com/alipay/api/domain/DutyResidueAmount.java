@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商保支付-查询用户保单信息-责任剩余保额
  *
  * @author auto create
- * @since 1.0, 2026-04-21 14:02:43
+ * @since 1.0, 2026-09-10 10:42:55
  */
 public class DutyResidueAmount extends AlipayObject {
 
-	private static final long serialVersionUID = 8578599735833935479L;
+	private static final long serialVersionUID = 5357935417798245535L;
 
 	/**
 	 * 保障详情
@@ -36,6 +36,14 @@ public class DutyResidueAmount extends AlipayObject {
 	 */
 	@ApiField("claim_duty_name")
 	private String claimDutyName;
+
+	/**
+	 * 理赔责任类别
+门诊权益 outpatient_benefit
+住院权益 admission_benefit
+	 */
+	@ApiField("claim_duty_type")
+	private String claimDutyType;
 
 	/**
 	 * 100%赔付次数
@@ -155,6 +163,13 @@ public class DutyResidueAmount extends AlipayObject {
 	}
 	public void setClaimDutyName(String claimDutyName) {
 		this.claimDutyName = claimDutyName;
+	}
+
+	public String getClaimDutyType() {
+		return this.claimDutyType;
+	}
+	public void setClaimDutyType(String claimDutyType) {
+		this.claimDutyType = claimDutyType;
 	}
 
 	public String getClaimTimes100Percent() {

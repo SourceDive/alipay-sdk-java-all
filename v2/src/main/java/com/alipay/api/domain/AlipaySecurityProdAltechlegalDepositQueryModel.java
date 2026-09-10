@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySecurityProdAltechlegalDepositQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8511956862937571253L;
+	private static final long serialVersionUID = 1457486815481416979L;
 
 	/**
 	 * 存证接口返回到存证编号

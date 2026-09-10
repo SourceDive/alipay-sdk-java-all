@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查面试状态与结果
  *
  * @author auto create
- * @since 1.0, 2026-08-28 21:22:53
+ * @since 1.0, 2026-09-08 19:12:52
  */
 public class AlipayEbppJobinterviewInterviewQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2889124972831733719L;
+	private static final long serialVersionUID = 7268136797369416717L;
 
 	/**
 	 * 候选人唯一ID（三个ID必填一个：外部候选人ID / 身份证ID / 候选人唯一ID）

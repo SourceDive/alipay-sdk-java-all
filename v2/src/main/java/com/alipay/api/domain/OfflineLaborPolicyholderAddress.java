@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OfflineLaborPolicyholderAddress extends AlipayObject {
 
-	private static final long serialVersionUID = 6362198661548311581L;
+	private static final long serialVersionUID = 7249432718391867523L;
 
 	/**
 	 * 投保人的详细地址

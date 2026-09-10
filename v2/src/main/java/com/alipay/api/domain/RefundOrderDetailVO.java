@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 在线购药：退款订单详细信息
  *
  * @author auto create
- * @since 1.0, 2025-08-19 17:04:28
+ * @since 1.0, 2026-09-09 16:43:19
  */
 public class RefundOrderDetailVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7363141267439123639L;
+	private static final long serialVersionUID = 7778517562147165215L;
 
 	/**
 	 * 退款总金额，单位：元
@@ -98,6 +98,12 @@ public class RefundOrderDetailVO extends AlipayObject {
 	private String miAmount;
 
 	/**
+	 * 退款单据操作类型
+	 */
+	@ApiField("operate_type")
+	private String operateType;
+
+	/**
 	 * 退款发起角色:1 用户,2 商户
 	 */
 	@ApiField("operator_role")
@@ -169,6 +175,12 @@ public class RefundOrderDetailVO extends AlipayObject {
 	 */
 	@ApiField("refuse_reason_code")
 	private String refuseReasonCode;
+
+	/**
+	 * 退货物流信息，退货退款场景用户寄回商品后返回，非退货退款场景为 null
+	 */
+	@ApiField("return_logistics")
+	private ReturnLogisticsVO returnLogistics;
 
 	/**
 	 * 退款到账时间
@@ -273,6 +285,13 @@ public class RefundOrderDetailVO extends AlipayObject {
 		this.miAmount = miAmount;
 	}
 
+	public String getOperateType() {
+		return this.operateType;
+	}
+	public void setOperateType(String operateType) {
+		this.operateType = operateType;
+	}
+
 	public String getOperatorRole() {
 		return this.operatorRole;
 	}
@@ -355,6 +374,13 @@ public class RefundOrderDetailVO extends AlipayObject {
 	}
 	public void setRefuseReasonCode(String refuseReasonCode) {
 		this.refuseReasonCode = refuseReasonCode;
+	}
+
+	public ReturnLogisticsVO getReturnLogistics() {
+		return this.returnLogistics;
+	}
+	public void setReturnLogistics(ReturnLogisticsVO returnLogistics) {
+		this.returnLogistics = returnLogistics;
 	}
 
 	public Date getSuccessTime() {

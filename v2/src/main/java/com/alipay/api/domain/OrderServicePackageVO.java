@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-09-04 12:05:14
+ * @since 1.0, 2026-09-09 20:42:52
  */
 public class OrderServicePackageVO extends AlipayObject {
 
-	private static final long serialVersionUID = 2234895721237371548L;
+	private static final long serialVersionUID = 3664357236277363982L;
 
 	/**
 	 * 用户实付金额(分)
@@ -113,6 +113,12 @@ public class OrderServicePackageVO extends AlipayObject {
 	 */
 	@ApiField("service_package_time")
 	private Date servicePackageTime;
+
+	/**
+	 * 服务包类型
+	 */
+	@ApiField("service_package_type")
+	private String servicePackageType;
 
 	public Long getAmountUser() {
 		return this.amountUser;
@@ -224,6 +230,13 @@ public class OrderServicePackageVO extends AlipayObject {
 	}
 	public void setServicePackageTime(Date servicePackageTime) {
 		this.servicePackageTime = servicePackageTime;
+	}
+
+	public String getServicePackageType() {
+		return this.servicePackageType;
+	}
+	public void setServicePackageType(String servicePackageType) {
+		this.servicePackageType = servicePackageType;
 	}
 
 }

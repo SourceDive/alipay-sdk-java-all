@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEbppInvoiceApplyStatusNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7269642614627329646L;
+	private static final long serialVersionUID = 1776416353739274881L;
 
 	/**
 	 * 发票申请ID，由阿里发票平台生成。字母或数字组成。

@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 淘汰机制明细(评测明细+检测明细合并富化,status=COMPLETED 时返回)
+ * 淘汰机制明细
  *
  * @author auto create
- * @since 1.0, 2026-08-28 21:22:53
+ * @since 1.0, 2026-09-08 19:12:52
  */
 public class EliminationRuleDetailItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7844316646839334739L;
+	private static final long serialVersionUID = 7228869783579246137L;
 
 	/**
 	 * 业务标识(能力环节=题目ID,检测环节=检测项编码,收集环节=字段编码)
@@ -44,7 +44,7 @@ public class EliminationRuleDetailItem extends AlipayObject {
 	private String ruleName;
 
 	/**
-	 * 淘汰结果:NOT_PASS-不通过/PENDING-待定/PASS-通过
+	 * 一票否决淘汰结论，非平台侧异常编码
 	 */
 	@ApiField("rule_qualified")
 	private String ruleQualified;

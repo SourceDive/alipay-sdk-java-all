@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class VideoData extends AlipayObject {
 
-	private static final long serialVersionUID = 2382167889561712113L;
+	private static final long serialVersionUID = 8759151412771725632L;
 
 	/**
 	 * 当前视频时长，单位秒

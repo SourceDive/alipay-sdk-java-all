@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RedRelatedInvoiceInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3381984236692536772L;
+	private static final long serialVersionUID = 8246119271137283444L;
 
 	/**
 	 * 原蓝票发票种类；红票可由原票快照补齐

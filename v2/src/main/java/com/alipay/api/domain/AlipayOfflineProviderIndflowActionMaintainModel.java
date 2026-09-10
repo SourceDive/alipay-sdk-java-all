@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用户行为上报接口
  *
  * @author auto create
- * @since 1.0, 2026-09-02 14:52:48
+ * @since 1.0, 2026-09-10 16:27:55
  */
 public class AlipayOfflineProviderIndflowActionMaintainModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2576667825318881533L;
+	private static final long serialVersionUID = 3296252836679913797L;
 
 	/**
 	 * 动作发生时间
@@ -38,6 +38,12 @@ public class AlipayOfflineProviderIndflowActionMaintainModel extends AlipayObjec
 	 */
 	@ApiField("mobile_phone")
 	private String mobilePhone;
+
+	/**
+	 * 发奖记录ID
+	 */
+	@ApiField("record_id")
+	private String recordId;
 
 	/**
 	 * 供给ID
@@ -71,6 +77,13 @@ public class AlipayOfflineProviderIndflowActionMaintainModel extends AlipayObjec
 	}
 	public void setMobilePhone(String mobilePhone) {
 		this.mobilePhone = mobilePhone;
+	}
+
+	public String getRecordId() {
+		return this.recordId;
+	}
+	public void setRecordId(String recordId) {
+		this.recordId = recordId;
 	}
 
 	public String getSupplyId() {

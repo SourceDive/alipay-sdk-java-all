@@ -1,6 +1,8 @@
 package com.alipay.api.response;
 
+import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.AdVoucherPrizeDetail;
 
 import com.alipay.api.AlipayResponse;
@@ -9,17 +11,18 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.indflow.prize.recommend response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 14:57:52
+ * @since 1.0, 2026-09-10 10:12:57
  */
 public class AlipayOfflineProviderIndflowPrizeRecommendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5829434186748362898L;
+	private static final long serialVersionUID = 4393363498867568572L;
 
 	/** 
-	 * 推荐奖品详情
+	 * null
 	 */
-	@ApiField("recommend_prizes")
-	private AdVoucherPrizeDetail recommendPrizes;
+	@ApiListField("recommend_prizes")
+	@ApiField("ad_voucher_prize_detail")
+	private List<AdVoucherPrizeDetail> recommendPrizes;
 
 	/** 
 	 * 发奖记录ID
@@ -27,10 +30,10 @@ public class AlipayOfflineProviderIndflowPrizeRecommendResponse extends AlipayRe
 	@ApiField("record_id")
 	private String recordId;
 
-	public void setRecommendPrizes(AdVoucherPrizeDetail recommendPrizes) {
+	public void setRecommendPrizes(List<AdVoucherPrizeDetail> recommendPrizes) {
 		this.recommendPrizes = recommendPrizes;
 	}
-	public AdVoucherPrizeDetail getRecommendPrizes( ) {
+	public List<AdVoucherPrizeDetail> getRecommendPrizes( ) {
 		return this.recommendPrizes;
 	}
 

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商品动态价格删除
  *
  * @author auto create
- * @since 1.0, 2026-08-25 14:37:38
+ * @since 1.0, 2026-09-09 11:12:53
  */
 public class AlipayCommerceMerchantcardTemplatepriceDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1231884392396837543L;
+	private static final long serialVersionUID = 1364657215636694993L;
 
 	/**
 	 * 需要删除动态价格的商品模板ID。
@@ -30,7 +30,7 @@ public class AlipayCommerceMerchantcardTemplatepriceDeleteModel extends AlipayOb
 	private List<String> cityCodeList;
 
 	/**
-	 * 删除普通日历价时传true，与区域价、门店价删除条件三选一。
+	 * 删除普通日历价时传true
 	 */
 	@ApiField("delete_calendar_price")
 	private Boolean deleteCalendarPrice;
@@ -48,6 +48,13 @@ public class AlipayCommerceMerchantcardTemplatepriceDeleteModel extends AlipayOb
 	@ApiListField("province_code_list")
 	@ApiField("string")
 	private List<String> provinceCodeList;
+
+	/**
+	 * null
+	 */
+	@ApiListField("room_id_list")
+	@ApiField("string")
+	private List<String> roomIdList;
 
 	/**
 	 * null
@@ -89,6 +96,13 @@ public class AlipayCommerceMerchantcardTemplatepriceDeleteModel extends AlipayOb
 	}
 	public void setProvinceCodeList(List<String> provinceCodeList) {
 		this.provinceCodeList = provinceCodeList;
+	}
+
+	public List<String> getRoomIdList() {
+		return this.roomIdList;
+	}
+	public void setRoomIdList(List<String> roomIdList) {
+		this.roomIdList = roomIdList;
 	}
 
 	public List<String> getShopIdList() {

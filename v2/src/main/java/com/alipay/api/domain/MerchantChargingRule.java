@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MerchantChargingRule extends AlipayObject {
 
-	private static final long serialVersionUID = 3726649639141845426L;
+	private static final long serialVersionUID = 4625894667274793171L;
 
 	/**
 	 * 收费金额，单位为元

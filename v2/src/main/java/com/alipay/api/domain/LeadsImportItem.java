@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LeadsImportItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7816795157139519233L;
+	private static final long serialVersionUID = 4299138444494584149L;
 
 	/**
 	 * 司机主要营运出租业务的城市

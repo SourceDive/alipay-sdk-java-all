@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询服务包商品信息
  *
  * @author auto create
- * @since 1.0, 2026-08-28 16:51:57
+ * @since 1.0, 2026-09-09 20:42:52
  */
 public class AlipayCommerceMedicalHmItemQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7133522844726711124L;
+	private static final long serialVersionUID = 1544851767989395898L;
 
 	/**
 	 * 医生ID
@@ -24,6 +24,12 @@ public class AlipayCommerceMedicalHmItemQueryModel extends AlipayObject {
 	 */
 	@ApiField("package_order_id")
 	private String packageOrderId;
+
+	/**
+	 * 服务项id
+	 */
+	@ApiField("package_service_item_id")
+	private String packageServiceItemId;
 
 	/**
 	 * 页码,默认1
@@ -56,6 +62,13 @@ EXPERT_INQUIRY(专家问诊)
 	}
 	public void setPackageOrderId(String packageOrderId) {
 		this.packageOrderId = packageOrderId;
+	}
+
+	public String getPackageServiceItemId() {
+		return this.packageServiceItemId;
+	}
+	public void setPackageServiceItemId(String packageServiceItemId) {
+		this.packageServiceItemId = packageServiceItemId;
 	}
 
 	public Long getPage() {

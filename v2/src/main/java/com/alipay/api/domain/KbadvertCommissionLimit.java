@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KbadvertCommissionLimit extends AlipayObject {
 
-	private static final long serialVersionUID = 4759987468584173636L;
+	private static final long serialVersionUID = 5759152558895833635L;
 
 	/**
 	 * 推广者类型

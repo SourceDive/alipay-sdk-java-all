@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.indflow.prize.recommend request
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 14:57:52
+ * @since 1.0, 2026-09-10 10:12:57
  */
 public class AlipayOfflineProviderIndflowPrizeRecommendRequest implements AlipayRequest<AlipayOfflineProviderIndflowPrizeRecommendResponse> {
 

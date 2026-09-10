@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CoreMaterialStockData extends AlipayObject {
 
-	private static final long serialVersionUID = 2886945373431821548L;
+	private static final long serialVersionUID = 1829411769379175565L;
 
 	/**
 	 * 实际库存数量,单位是个

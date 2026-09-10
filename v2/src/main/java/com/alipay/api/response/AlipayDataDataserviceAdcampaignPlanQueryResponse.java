@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayDataDataserviceAdcampaignPlanQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2684787235454611618L;
+	private static final long serialVersionUID = 4882977825988221955L;
 
 	/** 
 	 * 计划日预算。单位：元【人民币】不限日预算时此值为空

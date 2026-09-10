@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 批量查询服务包订单列表服务项字段
  *
  * @author auto create
- * @since 1.0, 2026-04-10 16:25:07
+ * @since 1.0, 2026-09-09 20:41:29
  */
 public class ServicePackageItem extends AlipayObject {
 
-	private static final long serialVersionUID = 3479214621249711767L;
+	private static final long serialVersionUID = 2789739211576756696L;
 
 	/**
 	 * 权益ID（商品ID或折扣权益ID）
@@ -33,6 +33,12 @@ public class ServicePackageItem extends AlipayObject {
 	 */
 	@ApiField("rights_type")
 	private Long rightsType;
+
+	/**
+	 * 服务项id
+	 */
+	@ApiField("service_item_id")
+	private String serviceItemId;
 
 	/**
 	 * 规格数量，单位：次
@@ -73,6 +79,13 @@ public class ServicePackageItem extends AlipayObject {
 	}
 	public void setRightsType(Long rightsType) {
 		this.rightsType = rightsType;
+	}
+
+	public String getServiceItemId() {
+		return this.serviceItemId;
+	}
+	public void setServiceItemId(String serviceItemId) {
+		this.serviceItemId = serviceItemId;
 	}
 
 	public Long getSpecQuantity() {

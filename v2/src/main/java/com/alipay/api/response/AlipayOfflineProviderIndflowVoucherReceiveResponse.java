@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.indflow.voucher.receive response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 14:52:48
+ * @since 1.0, 2026-09-10 10:12:57
  */
 public class AlipayOfflineProviderIndflowVoucherReceiveResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3663481848186726475L;
+	private static final long serialVersionUID = 1593483787831627222L;
 
 	/** 
 	 * null

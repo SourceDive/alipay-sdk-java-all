@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.merchantcard.templateprice.batchquery request
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 14:38:07
+ * @since 1.0, 2026-09-09 11:12:53
  */
 public class AlipayCommerceMerchantcardTemplatepriceBatchqueryRequest implements AlipayRequest<AlipayCommerceMerchantcardTemplatepriceBatchqueryResponse> {
 

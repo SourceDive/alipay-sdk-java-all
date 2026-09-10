@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class FlexibleRentInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4381598293344228147L;
+	private static final long serialVersionUID = 3118744962177875351L;
 
 	/**
 	 * 双周租金,单位:元

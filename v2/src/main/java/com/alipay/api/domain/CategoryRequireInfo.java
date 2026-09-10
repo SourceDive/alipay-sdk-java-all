@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CategoryRequireInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1539186364634537783L;
+	private static final long serialVersionUID = 2696458149411695184L;
 
 	/**
 	 * 营业执照页面是否必填

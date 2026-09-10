@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEcoDingMessageNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3691648593558945793L;
+	private static final long serialVersionUID = 5836855554645871219L;
 
 	/**
 	 * 钉钉通知@人列表

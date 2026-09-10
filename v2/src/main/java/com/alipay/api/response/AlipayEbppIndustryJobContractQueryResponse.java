@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppIndustryJobContractQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1561491349391413757L;
+	private static final long serialVersionUID = 3291796952149625428L;
 
 	/** 
 	 * 合同状态：签署中，已签署，已失效

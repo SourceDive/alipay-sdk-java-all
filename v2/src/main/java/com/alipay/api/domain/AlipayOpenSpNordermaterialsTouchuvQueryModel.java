@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenSpNordermaterialsTouchuvQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5691795642761782261L;
+	private static final long serialVersionUID = 2831488571648927981L;
 
 	/**
 	 * null

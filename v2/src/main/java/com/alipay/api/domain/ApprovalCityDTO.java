@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ApprovalCityDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8645669724292859565L;
+	private static final long serialVersionUID = 2691168291238939793L;
 
 	/**
 	 * 城市行政编码

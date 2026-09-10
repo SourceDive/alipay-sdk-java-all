@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 还款变更通知来报
  *
  * @author auto create
- * @since 1.0, 2026-08-31 11:02:53
+ * @since 1.0, 2026-09-10 14:32:52
  */
 public class XingheLendassistCarfinRepaymentNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7447996727686271167L;
+	private static final long serialVersionUID = 4741619223675877558L;
 
 	/**
 	 * 星河侧唯一业务编号

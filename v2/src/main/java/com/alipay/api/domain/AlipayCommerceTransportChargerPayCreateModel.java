@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceTransportChargerPayCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3862897335392348778L;
+	private static final long serialVersionUID = 1388264354813567625L;
 
 	/**
 	 * 商户优惠的订单金额。 单位为元，精确到小数点后两位

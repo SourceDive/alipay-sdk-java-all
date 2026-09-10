@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BizOrderMessage extends AlipayObject {
 
-	private static final long serialVersionUID = 8873651879325463816L;
+	private static final long serialVersionUID = 4541326792121299523L;
 
 	/**
 	 * message_type = PHONECARD_SHIPMENT 时为物流单号；

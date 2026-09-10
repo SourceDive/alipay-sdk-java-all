@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商品动态价格批量查询
  *
  * @author auto create
- * @since 1.0, 2026-08-25 14:38:07
+ * @since 1.0, 2026-09-09 11:12:53
  */
 public class AlipayCommerceMerchantcardTemplatepriceBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1857779915163615793L;
+	private static final long serialVersionUID = 5822154677936615379L;
 
 	/**
 	 * 需要查询动态价格的商品模板ID。
@@ -44,7 +44,7 @@ public class AlipayCommerceMerchantcardTemplatepriceBatchqueryModel extends Alip
 	private Long pageSize;
 
 	/**
-	 * 动态价格模式：2为普通日历价，3为区域价，4为门店价。
+	 * 动态价格模式：2为普通日历价，3为区域价，4为门店价，5为场地价。
 	 */
 	@ApiField("price_mode")
 	private String priceMode;
@@ -54,6 +54,12 @@ public class AlipayCommerceMerchantcardTemplatepriceBatchqueryModel extends Alip
 	 */
 	@ApiField("province_code")
 	private String provinceCode;
+
+	/**
+	 * 场地价查询条件，仅price_mode=5时可传。
+	 */
+	@ApiField("room_id")
+	private String roomId;
 
 	/**
 	 * 门店价查询条件，仅price_mode=4时可传。
@@ -108,6 +114,13 @@ public class AlipayCommerceMerchantcardTemplatepriceBatchqueryModel extends Alip
 	}
 	public void setProvinceCode(String provinceCode) {
 		this.provinceCode = provinceCode;
+	}
+
+	public String getRoomId() {
+		return this.roomId;
+	}
+	public void setRoomId(String roomId) {
+		this.roomId = roomId;
 	}
 
 	public String getShopId() {

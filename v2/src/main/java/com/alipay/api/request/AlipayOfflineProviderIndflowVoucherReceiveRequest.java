@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.indflow.voucher.receive request
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 14:52:48
+ * @since 1.0, 2026-09-10 10:12:57
  */
 public class AlipayOfflineProviderIndflowVoucherReceiveRequest implements AlipayRequest<AlipayOfflineProviderIndflowVoucherReceiveResponse> {
 

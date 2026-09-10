@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 领奖二阶段receive接口
  *
  * @author auto create
- * @since 1.0, 2026-09-02 14:52:48
+ * @since 1.0, 2026-09-10 10:12:57
  */
 public class AlipayOfflineProviderIndflowVoucherReceiveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8843852448767645344L;
+	private static final long serialVersionUID = 3231325798676581375L;
 
 	/**
 	 * 用户手机号

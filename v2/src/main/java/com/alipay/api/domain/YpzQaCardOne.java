@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 个性化推荐卡
  *
  * @author auto create
- * @since 1.0, 2026-08-26 17:18:06
+ * @since 1.0, 2026-09-08 21:14:39
  */
 public class YpzQaCardOne extends AlipayObject {
 
-	private static final long serialVersionUID = 1435265481643774672L;
+	private static final long serialVersionUID = 6717372952289338876L;
 
 	/**
 	 * 显示状态

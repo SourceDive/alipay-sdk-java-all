@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DrawdownInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1758676864996331797L;
+	private static final long serialVersionUID = 8667325381977337155L;
 
 	/**
 	 * 实际还款日期

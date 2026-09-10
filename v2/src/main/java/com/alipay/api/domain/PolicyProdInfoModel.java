@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 保险产品信息
  *
  * @author auto create
- * @since 1.0, 2025-12-25 14:16:46
+ * @since 1.0, 2026-09-10 10:42:55
  */
 public class PolicyProdInfoModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6535572512765255413L;
+	private static final long serialVersionUID = 4872151677365732561L;
 
 	/**
 	 * 责任剩余保额列表

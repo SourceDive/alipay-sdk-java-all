@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class GovernGoodsCheckMessage extends AlipayObject {
 
-	private static final long serialVersionUID = 5371774673174526578L;
+	private static final long serialVersionUID = 8689361912672941557L;
 
 	/**
 	 * 商户ID

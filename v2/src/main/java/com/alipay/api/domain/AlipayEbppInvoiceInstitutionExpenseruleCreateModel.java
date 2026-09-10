@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 创建费控使用规则
  *
  * @author auto create
- * @since 1.0, 2024-06-24 10:30:16
+ * @since 1.0, 2026-09-08 17:16:11
  */
 public class AlipayEbppInvoiceInstitutionExpenseruleCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6728741391345116375L;
+	private static final long serialVersionUID = 4872459576498395668L;
 
 	/**
 	 * 企业共同账户id（该字段将废弃，不建议使用，可用enterprise_id字段替换） 当前字段已废弃(该字段将废弃，不建议使用，可用enterprise_id字段替换)
@@ -83,6 +83,12 @@ public class AlipayEbppInvoiceInstitutionExpenseruleCreateModel extends AlipayOb
 	 */
 	@ApiField("payment_policy")
 	private String paymentPolicy;
+
+	/**
+	 * 支付时间模式，用于控制支付时的时间。该字段缺省时采用“支付时间或预计送达时间”，两个时间只要有一个命中即可使用因公付
+	 */
+	@ApiField("payment_time_mode")
+	private String paymentTimeMode;
 
 	/**
 	 * 个人收款码转账是否支持因公付，默认为0。可选值：0（不支持）、1（支持）
@@ -184,6 +190,13 @@ public class AlipayEbppInvoiceInstitutionExpenseruleCreateModel extends AlipayOb
 	}
 	public void setPaymentPolicy(String paymentPolicy) {
 		this.paymentPolicy = paymentPolicy;
+	}
+
+	public String getPaymentTimeMode() {
+		return this.paymentTimeMode;
+	}
+	public void setPaymentTimeMode(String paymentTimeMode) {
+		this.paymentTimeMode = paymentTimeMode;
 	}
 
 	public Long getPersonalQrcodeMode() {

@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySocialBaseLifecreationShortplayPublishResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5495887869822968666L;
+	private static final long serialVersionUID = 2457266624441944764L;
 
 	/** 
 	 * 短剧唯一标识（剧库ID）

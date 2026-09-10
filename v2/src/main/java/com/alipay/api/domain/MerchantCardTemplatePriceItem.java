@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-08-25 14:38:07
+ * @since 1.0, 2026-09-09 11:12:53
  */
 public class MerchantCardTemplatePriceItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7464453374152846344L;
+	private static final long serialVersionUID = 5256694375614142487L;
 
 	/**
 	 * 市级区域价对应的行政区划码。
@@ -42,7 +42,7 @@ public class MerchantCardTemplatePriceItem extends AlipayObject {
 	private Long originalPrice;
 
 	/**
-	 * 动态价格模式：2为普通日历价，3为区域价，4为门店价。
+	 * 动态价格模式：2为普通日历价，3为区域价，4为门店价，5为场地价。
 	 */
 	@ApiField("price_mode")
 	private String priceMode;
@@ -58,6 +58,12 @@ public class MerchantCardTemplatePriceItem extends AlipayObject {
 	 */
 	@ApiField("region_level")
 	private String regionLevel;
+
+	/**
+	 * 场地价对应的场地ID。
+	 */
+	@ApiField("room_id")
+	private String roomId;
 
 	/**
 	 * 基础售价，单位为分。
@@ -125,6 +131,13 @@ public class MerchantCardTemplatePriceItem extends AlipayObject {
 	}
 	public void setRegionLevel(String regionLevel) {
 		this.regionLevel = regionLevel;
+	}
+
+	public String getRoomId() {
+		return this.roomId;
+	}
+	public void setRoomId(String roomId) {
+		this.roomId = roomId;
 	}
 
 	public Long getSalePrice() {

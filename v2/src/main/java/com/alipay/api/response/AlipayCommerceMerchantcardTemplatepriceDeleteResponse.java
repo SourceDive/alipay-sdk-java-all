@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.merchantcard.templateprice.delete response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-25 14:37:38
+ * @since 1.0, 2026-09-09 11:12:53
  */
 public class AlipayCommerceMerchantcardTemplatepriceDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7654492151116538799L;
+	private static final long serialVersionUID = 7575576857811585624L;
 
 	/** 
 	 * 已处理的商品模板ID。

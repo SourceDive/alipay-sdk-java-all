@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AirticketPriceQueryInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3323924163493358265L;
+	private static final long serialVersionUID = 3667544277945682145L;
 
 	/**
 	 * 到达城市三字码

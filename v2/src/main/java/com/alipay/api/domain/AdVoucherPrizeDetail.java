@@ -1,7 +1,5 @@
 package com.alipay.api.domain;
 
-import java.util.Date;
-
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
@@ -9,17 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-09-02 14:57:52
+ * @since 1.0, 2026-09-10 10:12:57
  */
 public class AdVoucherPrizeDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 4145165856439195186L;
+	private static final long serialVersionUID = 8837284348973284123L;
 
 	/**
 	 * 推荐过期时间
 	 */
 	@ApiField("gmt_expired")
-	private Date gmtExpired;
+	private String gmtExpired;
 
 	/**
 	 * 发奖系数(一次可能发多个奖品，该字段指明一次发奖个数)
@@ -85,7 +83,7 @@ public class AdVoucherPrizeDetail extends AlipayObject {
 	 * 发奖时间
 	 */
 	@ApiField("send_time")
-	private Date sendTime;
+	private String sendTime;
 
 	/**
 	 * 奖品状态
@@ -97,7 +95,7 @@ public class AdVoucherPrizeDetail extends AlipayObject {
 	 * 核销时间
 	 */
 	@ApiField("use_time")
-	private Date useTime;
+	private String useTime;
 
 	/**
 	 * 券id
@@ -105,10 +103,10 @@ public class AdVoucherPrizeDetail extends AlipayObject {
 	@ApiField("voucher_id")
 	private String voucherId;
 
-	public Date getGmtExpired() {
+	public String getGmtExpired() {
 		return this.gmtExpired;
 	}
-	public void setGmtExpired(Date gmtExpired) {
+	public void setGmtExpired(String gmtExpired) {
 		this.gmtExpired = gmtExpired;
 	}
 
@@ -182,10 +180,10 @@ public class AdVoucherPrizeDetail extends AlipayObject {
 		this.sendOrderId = sendOrderId;
 	}
 
-	public Date getSendTime() {
+	public String getSendTime() {
 		return this.sendTime;
 	}
-	public void setSendTime(Date sendTime) {
+	public void setSendTime(String sendTime) {
 		this.sendTime = sendTime;
 	}
 
@@ -196,10 +194,10 @@ public class AdVoucherPrizeDetail extends AlipayObject {
 		this.status = status;
 	}
 
-	public Date getUseTime() {
+	public String getUseTime() {
 		return this.useTime;
 	}
-	public void setUseTime(Date useTime) {
+	public void setUseTime(String useTime) {
 		this.useTime = useTime;
 	}
 

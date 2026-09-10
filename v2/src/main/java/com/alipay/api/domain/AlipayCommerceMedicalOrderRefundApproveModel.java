@@ -7,17 +7,18 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商家审核逆向订单
  *
  * @author auto create
- * @since 1.0, 2025-01-15 15:56:54
+ * @since 1.0, 2026-09-09 16:42:40
  */
 public class AlipayCommerceMedicalOrderRefundApproveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5421689789295492125L;
+	private static final long serialVersionUID = 3747441359245742184L;
 
 	/**
 	 * 退款单审批操作类型，枚举值：
 【
 1-同意全单退款申请 、
 2-拒绝全单退款申请、 
+3-直接退款（仅适用于退货退款场景，无需用户退货）
 】
 	 */
 	@ApiField("action_type")

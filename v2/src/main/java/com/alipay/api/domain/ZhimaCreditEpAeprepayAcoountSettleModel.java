@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ZhimaCreditEpAeprepayAcoountSettleModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7227621734625924753L;
+	private static final long serialVersionUID = 6693613891583162623L;
 
 	/**
 	 * 实际平账金额。单位：元

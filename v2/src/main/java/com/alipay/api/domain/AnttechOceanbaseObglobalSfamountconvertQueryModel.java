@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AnttechOceanbaseObglobalSfamountconvertQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8183452458835863616L;
+	private static final long serialVersionUID = 3317961957172279239L;
 
 	/**
 	 * 最小货币单位整数

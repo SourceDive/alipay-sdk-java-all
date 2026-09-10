@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserCertifyRarenameAssociateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1542122369659732414L;
+	private static final long serialVersionUID = 4251785417829919311L;
 
 	/** 
 	 * rare_name_infos

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class YpzSdkEventRatioDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1594221847122467841L;
+	private static final long serialVersionUID = 5525482217213259162L;
 
 	/**
 	 * 事件代码

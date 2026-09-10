@@ -1,7 +1,12 @@
 package com.alipay.api.response;
 
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.domain.BasicInfo;
+import com.alipay.api.domain.CompetencyDetails;
+import com.alipay.api.domain.ComprehensiveEvaluation;
+import com.alipay.api.domain.DetectionDetail;
 import com.alipay.api.domain.EliminationRuleDetailItem;
+import com.alipay.api.domain.QuestionDetails;
 import com.alipay.api.domain.ReportUrlItem;
 
 import com.alipay.api.AlipayResponse;
@@ -10,11 +15,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ebpp.jobinterview.interview.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-28 21:22:53
+ * @since 1.0, 2026-09-08 19:12:52
  */
 public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4758248849768244848L;
+	private static final long serialVersionUID = 2425113716442684423L;
+
+	/** 
+	 * 候选人基本信息
+	 */
+	@ApiField("basic_info")
+	private BasicInfo basicInfo;
 
 	/** 
 	 * 候选人唯一 ID
@@ -23,7 +34,25 @@ public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse
 	private String candidateId;
 
 	/** 
-	 * 淘汰机制明细(评测明细+检测明细合并富化,status=COMPLETED 时返回)
+	 * 胜任力评估详情
+	 */
+	@ApiField("competency_details")
+	private CompetencyDetails competencyDetails;
+
+	/** 
+	 * 综合评估
+	 */
+	@ApiField("comprehensive_evaluation")
+	private ComprehensiveEvaluation comprehensiveEvaluation;
+
+	/** 
+	 * 检测详情
+	 */
+	@ApiField("detection_detail")
+	private DetectionDetail detectionDetail;
+
+	/** 
+	 * 淘汰机制明细
 	 */
 	@ApiField("elimination_rule_detail")
 	private EliminationRuleDetailItem eliminationRuleDetail;
@@ -59,7 +88,7 @@ public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse
 	private String interviewStartTime;
 
 	/** 
-	 * 面试总评（AI 面试总结，仅 FINISHED 且报告就绪时返回，其余为 null）
+	 * 综合评论
 	 */
 	@ApiField("interview_summary")
 	private String interviewSummary;
@@ -69,6 +98,12 @@ public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse
 	 */
 	@ApiField("interview_url")
 	private String interviewUrl;
+
+	/** 
+	 * 答题环节详情
+	 */
+	@ApiField("question_details")
+	private QuestionDetails questionDetails;
 
 	/** 
 	 * 面试报告生成时间（yyyy-MM-dd HH:mm:ss）
@@ -100,11 +135,39 @@ public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse
 	@ApiField("status")
 	private String status;
 
+	public void setBasicInfo(BasicInfo basicInfo) {
+		this.basicInfo = basicInfo;
+	}
+	public BasicInfo getBasicInfo( ) {
+		return this.basicInfo;
+	}
+
 	public void setCandidateId(String candidateId) {
 		this.candidateId = candidateId;
 	}
 	public String getCandidateId( ) {
 		return this.candidateId;
+	}
+
+	public void setCompetencyDetails(CompetencyDetails competencyDetails) {
+		this.competencyDetails = competencyDetails;
+	}
+	public CompetencyDetails getCompetencyDetails( ) {
+		return this.competencyDetails;
+	}
+
+	public void setComprehensiveEvaluation(ComprehensiveEvaluation comprehensiveEvaluation) {
+		this.comprehensiveEvaluation = comprehensiveEvaluation;
+	}
+	public ComprehensiveEvaluation getComprehensiveEvaluation( ) {
+		return this.comprehensiveEvaluation;
+	}
+
+	public void setDetectionDetail(DetectionDetail detectionDetail) {
+		this.detectionDetail = detectionDetail;
+	}
+	public DetectionDetail getDetectionDetail( ) {
+		return this.detectionDetail;
 	}
 
 	public void setEliminationRuleDetail(EliminationRuleDetailItem eliminationRuleDetail) {
@@ -161,6 +224,13 @@ public class AlipayEbppJobinterviewInterviewQueryResponse extends AlipayResponse
 	}
 	public String getInterviewUrl( ) {
 		return this.interviewUrl;
+	}
+
+	public void setQuestionDetails(QuestionDetails questionDetails) {
+		this.questionDetails = questionDetails;
+	}
+	public QuestionDetails getQuestionDetails( ) {
+		return this.questionDetails;
 	}
 
 	public void setReportGenerationTime(String reportGenerationTime) {

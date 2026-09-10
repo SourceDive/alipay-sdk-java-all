@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 报告链接(status=COMPLETED 时返回)
  *
  * @author auto create
- * @since 1.0, 2026-08-28 21:22:53
+ * @since 1.0, 2026-09-08 19:12:52
  */
 public class ReportUrlItem extends AlipayObject {
 
-	private static final long serialVersionUID = 5448396266494538724L;
+	private static final long serialVersionUID = 3695482144971256488L;
 
 	/**
 	 * 报告文件类型

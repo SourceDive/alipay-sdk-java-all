@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEcoMycarOrderRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3332867872218146716L;
+	private static final long serialVersionUID = 6343547663154574664L;
 
 	/**
 	 * 退款交易编号

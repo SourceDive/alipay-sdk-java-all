@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AntfortuneEquityInstpointTransQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6682737522746736615L;
+	private static final long serialVersionUID = 4214673186425499716L;
 
 	/**
 	 * 查询流水的结束时间。与start_time的时间跨度不超过6个月

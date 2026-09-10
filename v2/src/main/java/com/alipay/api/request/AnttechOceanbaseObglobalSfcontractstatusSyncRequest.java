@@ -4,22 +4,22 @@ import java.util.Map;
 
 import com.alipay.api.AlipayRequest;
 import com.alipay.api.internal.util.AlipayHashMap;
-import com.alipay.api.response.DatadigitalAicsDevinStrategyPageQueryResponse;
+import com.alipay.api.response.AnttechOceanbaseObglobalSfcontractstatusSyncResponse;
 import com.alipay.api.AlipayObject;
 
 /**
- * ALIPAY API: datadigital.aics.devin.strategy.page.query request
+ * ALIPAY API: anttech.oceanbase.obglobal.sfcontractstatus.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-08-13 19:22:54
+ * @since 1.0, 2026-09-09 14:17:53
  */
-public class DatadigitalAicsDevinStrategyPageQueryRequest implements AlipayRequest<DatadigitalAicsDevinStrategyPageQueryResponse> {
+public class AnttechOceanbaseObglobalSfcontractstatusSyncRequest implements AlipayRequest<AnttechOceanbaseObglobalSfcontractstatusSyncResponse> {
 
 	private AlipayHashMap udfParams; // add user-defined text parameters
 	private String apiVersion="1.0";
 
 	/** 
-	* 策略列表查询（含列表页结构）
+	* salesforce同步甄零合同状态
 	 */
 	private String bizContent;
 
@@ -86,7 +86,7 @@ public class DatadigitalAicsDevinStrategyPageQueryRequest implements AlipayReque
 	}
 
 	public String getApiMethodName() {
-		return "datadigital.aics.devin.strategy.page.query";
+		return "anttech.oceanbase.obglobal.sfcontractstatus.sync";
 	}
 
 	public Map<String, String> getTextParams() {		
@@ -105,8 +105,8 @@ public class DatadigitalAicsDevinStrategyPageQueryRequest implements AlipayReque
 		this.udfParams.put(key, value);
 	}
 
-	public Class<DatadigitalAicsDevinStrategyPageQueryResponse> getResponseClass() {
-		return DatadigitalAicsDevinStrategyPageQueryResponse.class;
+	public Class<AnttechOceanbaseObglobalSfcontractstatusSyncResponse> getResponseClass() {
+		return AnttechOceanbaseObglobalSfcontractstatusSyncResponse.class;
 	}
 	
 

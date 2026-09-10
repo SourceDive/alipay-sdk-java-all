@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.indflow.action.maintain response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 14:52:48
+ * @since 1.0, 2026-09-10 16:27:55
  */
 public class AlipayOfflineProviderIndflowActionMaintainResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3638938837456581232L;
+	private static final long serialVersionUID = 5236398723784571776L;
 
 	/** 
 	 * 是否成功

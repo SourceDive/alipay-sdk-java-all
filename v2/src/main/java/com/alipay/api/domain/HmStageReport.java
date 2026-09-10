@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HmStageReport extends AlipayObject {
 
-	private static final long serialVersionUID = 5531239231153664422L;
+	private static final long serialVersionUID = 7519414657796817557L;
 
 	/**
 	 * 活动ID

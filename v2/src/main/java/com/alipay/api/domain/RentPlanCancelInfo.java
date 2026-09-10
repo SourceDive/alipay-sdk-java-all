@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RentPlanCancelInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8226614184911946373L;
+	private static final long serialVersionUID = 1575791673923662124L;
 
 	/**
 	 * 取消当前分期以及之后的所有分期
