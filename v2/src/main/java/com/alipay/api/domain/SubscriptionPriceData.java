@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SubscriptionPriceData extends AlipayObject {
 
-	private static final long serialVersionUID = 6732462159636285872L;
+	private static final long serialVersionUID = 3214229764593235997L;
 
 	/**
 	 * 价格元数据，必须是合法的 JSON object 字符串，且每个 value 必须是字符串

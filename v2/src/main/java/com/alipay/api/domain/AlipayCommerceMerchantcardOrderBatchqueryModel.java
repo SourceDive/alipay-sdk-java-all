@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订购单分页查询
  *
  * @author auto create
- * @since 1.0, 2026-05-11 14:10:36
+ * @since 1.0, 2026-09-28 12:42:22
  */
 public class AlipayCommerceMerchantcardOrderBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2138646962751725987L;
+	private static final long serialVersionUID = 2625972448241962759L;
 
 	/**
 	 * 卡名称
@@ -32,7 +32,7 @@ public class AlipayCommerceMerchantcardOrderBatchqueryModel extends AlipayObject
 	private String cardTemplateId;
 
 	/**
-	 * 默认的订单类型范围：TIMES_CARD、PERIOD_PAY、AXF_MERCHANT_PERIOD_PAY、AXF_PERIOD_PAY_INDIRECT
+	 * 默认的订单类型范围：TIMES_CARD、PERIOD_PAY、AXF_MERCHANT_PERIOD_PAY、AXF_PERIOD_PAY_INDIRECT、TAIL_PAYMENT
 	 */
 	@ApiField("card_type")
 	private String cardType;

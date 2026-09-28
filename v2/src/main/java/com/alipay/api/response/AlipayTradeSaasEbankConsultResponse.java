@@ -3,6 +3,7 @@ package com.alipay.api.response;
 import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
+import com.alipay.api.domain.SaasEbankInstInfo;
 
 import com.alipay.api.AlipayResponse;
 
@@ -10,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.saas.ebank.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-07 16:52:50
+ * @since 1.0, 2026-09-22 18:07:56
  */
 public class AlipayTradeSaasEbankConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3751151884368869996L;
+	private static final long serialVersionUID = 5197462622387872963L;
 
 	/** 
 	 * null
@@ -23,11 +24,39 @@ public class AlipayTradeSaasEbankConsultResponse extends AlipayResponse {
 	@ApiField("string")
 	private List<String> bankCodeList;
 
+	/** 
+	 * null
+	 */
+	@ApiListField("inst_id_list")
+	@ApiField("string")
+	private List<String> instIdList;
+
+	/** 
+	 * null
+	 */
+	@ApiListField("inst_info_list")
+	@ApiField("saas_ebank_inst_info")
+	private List<SaasEbankInstInfo> instInfoList;
+
 	public void setBankCodeList(List<String> bankCodeList) {
 		this.bankCodeList = bankCodeList;
 	}
 	public List<String> getBankCodeList( ) {
 		return this.bankCodeList;
+	}
+
+	public void setInstIdList(List<String> instIdList) {
+		this.instIdList = instIdList;
+	}
+	public List<String> getInstIdList( ) {
+		return this.instIdList;
+	}
+
+	public void setInstInfoList(List<SaasEbankInstInfo> instInfoList) {
+		this.instInfoList = instInfoList;
+	}
+	public List<SaasEbankInstInfo> getInstInfoList( ) {
+		return this.instInfoList;
 	}
 
 }

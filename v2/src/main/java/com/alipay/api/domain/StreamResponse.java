@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class StreamResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 4455469559744387768L;
+	private static final long serialVersionUID = 5838448851323318312L;
 
 	/**
 	 * 智能体id

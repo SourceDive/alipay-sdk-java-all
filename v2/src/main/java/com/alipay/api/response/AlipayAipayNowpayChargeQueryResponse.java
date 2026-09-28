@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.aipay.nowpay.charge.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 00:47:51
+ * @since 1.0, 2026-09-28 15:32:54
  */
 public class AlipayAipayNowpayChargeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6897283961235912694L;
+	private static final long serialVersionUID = 6356394315867657314L;
 
 	/** 
 	 * 最终收费模式

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class CommonTextReq extends AlipayObject {
 
-	private static final long serialVersionUID = 4282822799751846361L;
+	private static final long serialVersionUID = 1648365594879639552L;
 
 	/**
 	 * 是一个List<Body>

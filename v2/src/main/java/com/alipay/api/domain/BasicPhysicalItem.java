@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BasicPhysicalItem extends AlipayObject {
 
-	private static final long serialVersionUID = 4237687772614839198L;
+	private static final long serialVersionUID = 8277195476494371215L;
 
 	/**
 	 * 异常类型/结果提示（如"↑"、"↓"、"正常"），异常类型符合医学规范，针对有区间指标有结果展示

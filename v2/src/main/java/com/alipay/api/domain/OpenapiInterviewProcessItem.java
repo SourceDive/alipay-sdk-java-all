@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OpenapiInterviewProcessItem extends AlipayObject {
 
-	private static final long serialVersionUID = 6461199912657232656L;
+	private static final long serialVersionUID = 7587784846786848499L;
 
 	/**
 	 * AI面试流程编码

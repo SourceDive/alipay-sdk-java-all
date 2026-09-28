@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenMiniBillCertQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3614669845367745352L;
+	private static final long serialVersionUID = 1128593798836122663L;
 
 	/** 
 	 * 查询返回的账单

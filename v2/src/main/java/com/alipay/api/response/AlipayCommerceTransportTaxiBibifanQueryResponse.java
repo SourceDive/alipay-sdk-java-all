@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportTaxiBibifanQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2344992738761145213L;
+	private static final long serialVersionUID = 1453225364362882197L;
 
 	/** 
 	 * 司机匹配的支付宝账户 现在暂时为伪uid

@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 权益账户开户
  *
  * @author auto create
- * @since 1.0, 2026-06-24 17:23:16
+ * @since 1.0, 2026-09-24 16:28:31
  */
 public class AlipayMarketingBenefitaccountAccountCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1596239463127699262L;
+	private static final long serialVersionUID = 7169333934576227828L;
 
 	/**
 	 * 授权信息
@@ -34,6 +34,12 @@ public class AlipayMarketingBenefitaccountAccountCreateModel extends AlipayObjec
 	 */
 	@ApiField("biz_identity")
 	private String bizIdentity;
+
+	/**
+	 * 关键的业务参数标识，比如合并出资模式等
+	 */
+	@ApiField("biz_info")
+	private String bizInfo;
 
 	/**
 	 * 业务订单号-用于户号幂等，一个户号一个bizNo业务订单号
@@ -110,6 +116,13 @@ public class AlipayMarketingBenefitaccountAccountCreateModel extends AlipayObjec
 	}
 	public void setBizIdentity(String bizIdentity) {
 		this.bizIdentity = bizIdentity;
+	}
+
+	public String getBizInfo() {
+		return this.bizInfo;
+	}
+	public void setBizInfo(String bizInfo) {
+		this.bizInfo = bizInfo;
 	}
 
 	public String getBizNo() {

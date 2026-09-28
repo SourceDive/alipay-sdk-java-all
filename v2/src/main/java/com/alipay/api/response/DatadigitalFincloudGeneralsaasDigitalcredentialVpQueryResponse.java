@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class DatadigitalFincloudGeneralsaasDigitalcredentialVpQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1551963717245278957L;
+	private static final long serialVersionUID = 7821989947339229297L;
 
 	/** 
 	 * 加密后的VP数据。

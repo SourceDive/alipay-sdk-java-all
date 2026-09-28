@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.aipay.nowpay.purchase.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 00:47:51
+ * @since 1.0, 2026-09-28 15:32:54
  */
 public class AlipayAipayNowpayPurchaseCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6723837875815658457L;
+	private static final long serialVersionUID = 5374281477139182232L;
 
 	/** 
 	 * null

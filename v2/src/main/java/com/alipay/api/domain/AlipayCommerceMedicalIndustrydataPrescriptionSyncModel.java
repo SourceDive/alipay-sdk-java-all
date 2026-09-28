@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 处方单回流接口
  *
  * @author auto create
- * @since 1.0, 2025-01-06 16:06:20
+ * @since 1.0, 2026-09-28 16:08:46
  */
 public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3482919665113421166L;
+	private static final long serialVersionUID = 2398229428173744199L;
 
 	/**
 	 * 支付宝用户openId
@@ -61,6 +61,12 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	private List<PlatformPrescriptionDrugInfo> drugList;
 
 	/**
+	 * 处方过期时间
+	 */
+	@ApiField("expire_time")
+	private Date expireTime;
+
+	/**
 	 * 分组号
 	 */
 	@ApiField("group_no")
@@ -71,6 +77,12 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	 */
 	@ApiField("medical_institution_name")
 	private String medicalInstitutionName;
+
+	/**
+	 * 用药医嘱
+	 */
+	@ApiField("medical_instructions")
+	private String medicalInstructions;
 
 	/**
 	 * 开方外部医生ID
@@ -97,6 +109,12 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	private String outOrderId;
 
 	/**
+	 * 院内处方单购买链接
+	 */
+	@ApiField("out_prescription_buy_url")
+	private String outPrescriptionBuyUrl;
+
+	/**
 	 * 外部处方id
 	 */
 	@ApiField("out_prescription_id")
@@ -113,6 +131,12 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	 */
 	@ApiField("patient_age")
 	private String patientAge;
+
+	/**
+	 * 患者年龄
+	 */
+	@ApiField("patient_birthday")
+	private String patientBirthday;
 
 	/**
 	 * 患者身份证号
@@ -146,6 +170,18 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	 */
 	@ApiField("platform_code")
 	private String platformCode;
+
+	/**
+	 * 处方笺图片链接
+	 */
+	@ApiField("prescription_image_url")
+	private String prescriptionImageUrl;
+
+	/**
+	 * 院内处方笺pdf链接
+	 */
+	@ApiField("prescription_pdf_url")
+	private String prescriptionPdfUrl;
 
 	/**
 	 * 处方状态
@@ -221,6 +257,13 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 		this.drugList = drugList;
 	}
 
+	public Date getExpireTime() {
+		return this.expireTime;
+	}
+	public void setExpireTime(Date expireTime) {
+		this.expireTime = expireTime;
+	}
+
 	public String getGroupNo() {
 		return this.groupNo;
 	}
@@ -233,6 +276,13 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	}
 	public void setMedicalInstitutionName(String medicalInstitutionName) {
 		this.medicalInstitutionName = medicalInstitutionName;
+	}
+
+	public String getMedicalInstructions() {
+		return this.medicalInstructions;
+	}
+	public void setMedicalInstructions(String medicalInstructions) {
+		this.medicalInstructions = medicalInstructions;
 	}
 
 	public String getMerchantDoctorId() {
@@ -263,6 +313,13 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 		this.outOrderId = outOrderId;
 	}
 
+	public String getOutPrescriptionBuyUrl() {
+		return this.outPrescriptionBuyUrl;
+	}
+	public void setOutPrescriptionBuyUrl(String outPrescriptionBuyUrl) {
+		this.outPrescriptionBuyUrl = outPrescriptionBuyUrl;
+	}
+
 	public String getOutPrescriptionId() {
 		return this.outPrescriptionId;
 	}
@@ -282,6 +339,13 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	}
 	public void setPatientAge(String patientAge) {
 		this.patientAge = patientAge;
+	}
+
+	public String getPatientBirthday() {
+		return this.patientBirthday;
+	}
+	public void setPatientBirthday(String patientBirthday) {
+		this.patientBirthday = patientBirthday;
 	}
 
 	public String getPatientIdcard() {
@@ -317,6 +381,20 @@ public class AlipayCommerceMedicalIndustrydataPrescriptionSyncModel extends Alip
 	}
 	public void setPlatformCode(String platformCode) {
 		this.platformCode = platformCode;
+	}
+
+	public String getPrescriptionImageUrl() {
+		return this.prescriptionImageUrl;
+	}
+	public void setPrescriptionImageUrl(String prescriptionImageUrl) {
+		this.prescriptionImageUrl = prescriptionImageUrl;
+	}
+
+	public String getPrescriptionPdfUrl() {
+		return this.prescriptionPdfUrl;
+	}
+	public void setPrescriptionPdfUrl(String prescriptionPdfUrl) {
+		this.prescriptionPdfUrl = prescriptionPdfUrl;
 	}
 
 	public String getPrescriptionStatus() {

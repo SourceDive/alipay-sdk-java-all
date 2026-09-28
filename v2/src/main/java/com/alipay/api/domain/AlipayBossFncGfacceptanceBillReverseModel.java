@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayBossFncGfacceptanceBillReverseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6253727143912381555L;
+	private static final long serialVersionUID = 3815596318132747556L;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识

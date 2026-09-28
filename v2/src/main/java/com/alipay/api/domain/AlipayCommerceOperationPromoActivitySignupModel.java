@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 营销活动报名
  *
  * @author auto create
- * @since 1.0, 2026-06-30 10:37:59
+ * @since 1.0, 2026-09-21 22:12:54
  */
 public class AlipayCommerceOperationPromoActivitySignupModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4353996711886914893L;
+	private static final long serialVersionUID = 5469396886796135821L;
 
 	/**
 	 * 活动唯一编码，固定值
@@ -32,7 +32,7 @@ public class AlipayCommerceOperationPromoActivitySignupModel extends AlipayObjec
 	private String sceneCode;
 
 	/**
-	 * 报名信息，需传入JSON转义后的字符串；点餐激励场景必填！
+	 * 报名信息，需传入JSON转义后的字符串；点餐激励场景必填！,首次报名时必填，跨期续报此字段不感知
 	 */
 	@ApiField("sign_up_info")
 	private String signUpInfo;
@@ -44,7 +44,7 @@ public class AlipayCommerceOperationPromoActivitySignupModel extends AlipayObjec
 	private String subjectId;
 
 	/**
-	 * 客户报名使用的支付宝账号类型
+	 * 客户报名使用的支付宝账号类型，首次报名时传PHONE/EMAIL，跨期续报填LEADS_ID/POIMID
 	 */
 	@ApiField("subject_type")
 	private String subjectType;

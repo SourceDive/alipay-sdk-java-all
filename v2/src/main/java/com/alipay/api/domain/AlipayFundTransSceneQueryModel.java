@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 转账场景信息查询
  *
  * @author auto create
- * @since 1.0, 2026-04-13 10:57:35
+ * @since 1.0, 2026-09-28 15:18:06
  */
 public class AlipayFundTransSceneQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1715884542529661778L;
+	private static final long serialVersionUID = 5843482629898768993L;
 
 	/**
 	 * 场景码

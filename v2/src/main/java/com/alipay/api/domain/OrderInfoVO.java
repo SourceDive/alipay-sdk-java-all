@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订单信息
  *
  * @author auto create
- * @since 1.0, 2026-09-16 10:40:04
+ * @since 1.0, 2026-09-21 19:08:37
  */
 public class OrderInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5553738752933847916L;
+	private static final long serialVersionUID = 2371844288254174378L;
 
 	/**
 	 * 订单取消时间
@@ -50,6 +50,13 @@ public class OrderInfoVO extends AlipayObject {
 	 */
 	@ApiField("finish_time")
 	private Date finishTime;
+
+	/**
+	 * 是否免费订单
+保司服务包内领取的免费实物订单标记为true
+	 */
+	@ApiField("free_order")
+	private Boolean freeOrder;
 
 	/**
 	 * 1是自费订单，2是医保订单
@@ -98,6 +105,12 @@ public class OrderInfoVO extends AlipayObject {
 	 */
 	@ApiField("pick_type")
 	private Long pickType;
+
+	/**
+	 * 保单号
+	 */
+	@ApiField("policy_no")
+	private String policyNo;
 
 	/**
 	 * 送达时间类型
@@ -204,6 +217,13 @@ public class OrderInfoVO extends AlipayObject {
 		this.finishTime = finishTime;
 	}
 
+	public Boolean getFreeOrder() {
+		return this.freeOrder;
+	}
+	public void setFreeOrder(Boolean freeOrder) {
+		this.freeOrder = freeOrder;
+	}
+
 	public Long getMiType() {
 		return this.miType;
 	}
@@ -258,6 +278,13 @@ public class OrderInfoVO extends AlipayObject {
 	}
 	public void setPickType(Long pickType) {
 		this.pickType = pickType;
+	}
+
+	public String getPolicyNo() {
+		return this.policyNo;
+	}
+	public void setPolicyNo(String policyNo) {
+		this.policyNo = policyNo;
 	}
 
 	public Long getPreOrderType() {

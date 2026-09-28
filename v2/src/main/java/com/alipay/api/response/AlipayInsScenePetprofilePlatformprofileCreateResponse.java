@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsScenePetprofilePlatformprofileCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4655191247668334588L;
+	private static final long serialVersionUID = 5642299198834199228L;
 
 	/** 
 	 * 宠物ID，唯一标记一份档案。

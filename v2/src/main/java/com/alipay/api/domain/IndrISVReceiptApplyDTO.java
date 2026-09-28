@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IndrISVReceiptApplyDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7454495516571256118L;
+	private static final long serialVersionUID = 1329273243861856582L;
 
 	/**
 	 * 需发送的邮箱地址

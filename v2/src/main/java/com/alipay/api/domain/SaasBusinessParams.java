@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商户业务参数。用于透传业务扩展信息。
  *
  * @author auto create
- * @since 1.0, 2026-09-18 19:57:53
+ * @since 1.0, 2026-09-22 18:07:56
  */
 public class SaasBusinessParams extends AlipayObject {
 
-	private static final long serialVersionUID = 5581454375315645777L;
+	private static final long serialVersionUID = 4484627743384549157L;
 
 	/**
 	 * 校园卡编号
@@ -25,6 +25,12 @@ public class SaasBusinessParams extends AlipayObject {
 	@ApiField("saas_ebank_bank_code")
 	private String saasEbankBankCode;
 
+	/**
+	 * 用户选定的用于付款的银行机构ID. 主要用于网银支付单通场景, 通过此字段指定付款行. 可用的付款行可通过alipay.trade.saas.ebank.consult接口查询获取. 不指定, 返回的链接不会自动跳转支付, 需要用户页面选择唯一付款行后提交支付.
+	 */
+	@ApiField("saas_ebank_inst_id")
+	private String saasEbankInstId;
+
 	public String getCampusCard() {
 		return this.campusCard;
 	}
@@ -37,6 +43,13 @@ public class SaasBusinessParams extends AlipayObject {
 	}
 	public void setSaasEbankBankCode(String saasEbankBankCode) {
 		this.saasEbankBankCode = saasEbankBankCode;
+	}
+
+	public String getSaasEbankInstId() {
+		return this.saasEbankInstId;
+	}
+	public void setSaasEbankInstId(String saasEbankInstId) {
+		this.saasEbankInstId = saasEbankInstId;
 	}
 
 }

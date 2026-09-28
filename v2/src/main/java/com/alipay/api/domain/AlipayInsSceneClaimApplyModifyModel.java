@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 更新报案申请信息接口
  *
  * @author auto create
- * @since 1.0, 2024-07-05 18:02:50
+ * @since 1.0, 2026-09-28 11:03:09
  */
 public class AlipayInsSceneClaimApplyModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6371565525866991949L;
+	private static final long serialVersionUID = 2343886128837913976L;
 
 	/**
 	 * 事故发生地址
@@ -65,6 +65,12 @@ public class AlipayInsSceneClaimApplyModifyModel extends AlipayObject {
 	@ApiListField("attachments")
 	@ApiField("ins_open_attachment_d_t_o")
 	private List<InsOpenAttachmentDTO> attachments;
+
+	/**
+	 * 收款人
+	 */
+	@ApiField("claim_payee")
+	private InsOpenUserDTO claimPayee;
 
 	/**
 	 * 报案业务信息
@@ -144,6 +150,13 @@ public class AlipayInsSceneClaimApplyModifyModel extends AlipayObject {
 	}
 	public void setAttachments(List<InsOpenAttachmentDTO> attachments) {
 		this.attachments = attachments;
+	}
+
+	public InsOpenUserDTO getClaimPayee() {
+		return this.claimPayee;
+	}
+	public void setClaimPayee(InsOpenUserDTO claimPayee) {
+		this.claimPayee = claimPayee;
 	}
 
 	public String getClaimReportBizInfo() {

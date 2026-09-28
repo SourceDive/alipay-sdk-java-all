@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订阅扣款
  *
  * @author auto create
- * @since 1.0, 2026-06-30 16:22:57
+ * @since 1.0, 2026-09-22 18:12:55
  */
 public class AlipayTradeSubscriptionPayModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3747355473582478154L;
+	private static final long serialVersionUID = 5276812613291556958L;
 
 	/**
 	 * 发起扣款的交易单据超时自动关单时间，支持m（分钟）和h（小时），默认为空时命中兜底的10m

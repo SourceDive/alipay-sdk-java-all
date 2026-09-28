@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceCcmRobotVoteSubmitResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7311123265472968473L;
+	private static final long serialVersionUID = 5832956749949799392L;
 
 	
 

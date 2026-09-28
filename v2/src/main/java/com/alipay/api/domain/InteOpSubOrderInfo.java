@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 一体化作业项订单结构信息
  *
  * @author auto create
- * @since 1.0, 2025-12-15 23:21:38
+ * @since 1.0, 2026-09-22 15:01:50
  */
 public class InteOpSubOrderInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8339348914561363124L;
+	private static final long serialVersionUID = 8559415297498962891L;
 
 	/**
 	 * 备注

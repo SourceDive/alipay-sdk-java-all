@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IvrItem extends AlipayObject {
 
-	private static final long serialVersionUID = 2154127836916311777L;
+	private static final long serialVersionUID = 8876516916764182963L;
 
 	/**
 	 * 关联流程code（下拉选中值，对应任务taskIVRCode/transferCode）

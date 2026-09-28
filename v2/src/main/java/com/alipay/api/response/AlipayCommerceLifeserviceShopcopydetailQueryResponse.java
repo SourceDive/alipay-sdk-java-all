@@ -14,11 +14,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.lifeservice.shopcopydetail.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-15 19:16:52
+ * @since 1.0, 2026-09-28 15:47:53
  */
 public class AlipayCommerceLifeserviceShopcopydetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4829462778591747863L;
+	private static final long serialVersionUID = 6147611834162651111L;
 
 	/** 
 	 * 授权委托书图片osskey

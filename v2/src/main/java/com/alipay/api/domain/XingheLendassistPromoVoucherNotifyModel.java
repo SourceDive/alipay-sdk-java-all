@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 发券通知来报
  *
  * @author auto create
- * @since 1.0, 2026-06-03 11:37:55
+ * @since 1.0, 2026-09-28 15:42:53
  */
 public class XingheLendassistPromoVoucherNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7697945558753624743L;
+	private static final long serialVersionUID = 6117687381198173775L;
 
 	/**
 	 * 星河侧唯一申请单号

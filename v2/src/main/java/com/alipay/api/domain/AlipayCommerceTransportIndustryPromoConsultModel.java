@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 前置优惠咨询
  *
  * @author auto create
- * @since 1.0, 2026-09-11 10:21:05
+ * @since 1.0, 2026-09-28 11:32:56
  */
 public class AlipayCommerceTransportIndustryPromoConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2862843697554771367L;
+	private static final long serialVersionUID = 5211766987833136949L;
 
 	/**
 	 * 行业场景编码

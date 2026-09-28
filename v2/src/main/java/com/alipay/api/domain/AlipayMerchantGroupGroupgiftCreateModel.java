@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 创建入群有礼
  *
  * @author auto create
- * @since 1.0, 2024-07-30 14:28:51
+ * @since 1.0, 2026-09-22 19:29:44
  */
 public class AlipayMerchantGroupGroupgiftCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6579384284372339633L;
+	private static final long serialVersionUID = 6557581931966898639L;
 
 	/**
 	 * 入群有礼列表。

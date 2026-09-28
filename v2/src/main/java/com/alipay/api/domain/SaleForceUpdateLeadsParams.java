@@ -11,17 +11,30 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 提供给saleforce更新商机接口的入参
  *
  * @author auto create
- * @since 1.0, 2026-09-16 14:22:54
+ * @since 1.0, 2026-09-22 17:07:56
  */
 public class SaleForceUpdateLeadsParams extends AlipayObject {
 
-	private static final long serialVersionUID = 4849622795187958161L;
+	private static final long serialVersionUID = 4833385246677534566L;
 
 	/**
 	 * 实际主导方
 	 */
 	@ApiField("actual_lead_party")
 	private String actualLeadParty;
+
+	/**
+	 * null
+	 */
+	@ApiListField("ai_products")
+	@ApiField("string")
+	private List<String> aiProducts;
+
+	/**
+	 * AI产品版本
+	 */
+	@ApiField("ai_products_source_version")
+	private String aiProductsSourceVersion;
 
 	/**
 	 * 阿里云结算模式枚举值
@@ -34,6 +47,24 @@ public class SaleForceUpdateLeadsParams extends AlipayObject {
 	 */
 	@ApiField("bd_work_no")
 	private String bdWorkNo;
+
+	/**
+	 * 本次关闭申请的唯一标识
+	 */
+	@ApiField("close_request_id")
+	private String closeRequestId;
+
+	/**
+	 * 关闭申请版本号
+	 */
+	@ApiField("close_request_version")
+	private Long closeRequestVersion;
+
+	/**
+	 * 关闭校验状态
+	 */
+	@ApiField("close_validation_status")
+	private String closeValidationStatus;
 
 	/**
 	 * 云平台区域 (公共云)
@@ -285,6 +316,12 @@ public class SaleForceUpdateLeadsParams extends AlipayObject {
 	private String resourceFoundation;
 
 	/**
+	 * Salesforce 商机 ID
+	 */
+	@ApiField("salesforce_opportunity_id")
+	private String salesforceOpportunityId;
+
+	/**
 	 * salesforce商机阶段
 	 */
 	@ApiField("salesforce_phase")
@@ -340,6 +377,20 @@ public class SaleForceUpdateLeadsParams extends AlipayObject {
 		this.actualLeadParty = actualLeadParty;
 	}
 
+	public List<String> getAiProducts() {
+		return this.aiProducts;
+	}
+	public void setAiProducts(List<String> aiProducts) {
+		this.aiProducts = aiProducts;
+	}
+
+	public String getAiProductsSourceVersion() {
+		return this.aiProductsSourceVersion;
+	}
+	public void setAiProductsSourceVersion(String aiProductsSourceVersion) {
+		this.aiProductsSourceVersion = aiProductsSourceVersion;
+	}
+
 	public String getAlicloudSettlementMode() {
 		return this.alicloudSettlementMode;
 	}
@@ -352,6 +403,27 @@ public class SaleForceUpdateLeadsParams extends AlipayObject {
 	}
 	public void setBdWorkNo(String bdWorkNo) {
 		this.bdWorkNo = bdWorkNo;
+	}
+
+	public String getCloseRequestId() {
+		return this.closeRequestId;
+	}
+	public void setCloseRequestId(String closeRequestId) {
+		this.closeRequestId = closeRequestId;
+	}
+
+	public Long getCloseRequestVersion() {
+		return this.closeRequestVersion;
+	}
+	public void setCloseRequestVersion(Long closeRequestVersion) {
+		this.closeRequestVersion = closeRequestVersion;
+	}
+
+	public String getCloseValidationStatus() {
+		return this.closeValidationStatus;
+	}
+	public void setCloseValidationStatus(String closeValidationStatus) {
+		this.closeValidationStatus = closeValidationStatus;
 	}
 
 	public String getCloudPlatformRegion() {
@@ -639,6 +711,13 @@ public class SaleForceUpdateLeadsParams extends AlipayObject {
 	}
 	public void setResourceFoundation(String resourceFoundation) {
 		this.resourceFoundation = resourceFoundation;
+	}
+
+	public String getSalesforceOpportunityId() {
+		return this.salesforceOpportunityId;
+	}
+	public void setSalesforceOpportunityId(String salesforceOpportunityId) {
+		this.salesforceOpportunityId = salesforceOpportunityId;
 	}
 
 	public String getSalesforcePhase() {

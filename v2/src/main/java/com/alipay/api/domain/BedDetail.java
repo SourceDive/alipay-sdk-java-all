@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BedDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 6515815752255152366L;
+	private static final long serialVersionUID = 5426881583178941737L;
 
 	/**
 	 * 床型长度（m）

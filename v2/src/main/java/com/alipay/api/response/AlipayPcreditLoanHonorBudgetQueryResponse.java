@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayPcreditLoanHonorBudgetQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3871764512538422947L;
+	private static final long serialVersionUID = 7794545892672932874L;
 
 	/** 
 	 * 按期还，提前还款手续费率：4【即4%】

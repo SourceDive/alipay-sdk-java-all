@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ParkingOrderPromo extends AlipayObject {
 
-	private static final long serialVersionUID = 3516386261685942439L;
+	private static final long serialVersionUID = 1225845279837394963L;
 
 	/**
 	 * 停车交易返佣pid

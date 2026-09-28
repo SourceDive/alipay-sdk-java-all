@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AdVoucherPrizeDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 5693712349384289556L;
+	private static final long serialVersionUID = 1731389245627986317L;
 
 	/**
 	 * 推荐过期时间

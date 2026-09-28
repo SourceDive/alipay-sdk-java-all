@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayAccountCashpoolDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2265668219546595457L;
+	private static final long serialVersionUID = 4477911692152512187L;
 
 	/**
 	 * 资金池ID

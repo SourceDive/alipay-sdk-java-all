@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecycleRoyaltyQueryVO extends AlipayObject {
 
-	private static final long serialVersionUID = 3721638217616956928L;
+	private static final long serialVersionUID = 1498928511923531144L;
 
 	/**
 	 * 绑定的门店/店员userId

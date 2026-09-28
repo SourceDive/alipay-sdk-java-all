@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CardRechargeDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 4422289148955718489L;
+	private static final long serialVersionUID = 6518865252288985575L;
 
 	/**
 	 * 充值订单号

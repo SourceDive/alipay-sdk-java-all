@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEducateSceneUserSignResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4472947976687887637L;
+	private static final long serialVersionUID = 4837992675667899487L;
 
 	/** 
 	 * 支付宝为学生（教职工）生成的刷脸openId

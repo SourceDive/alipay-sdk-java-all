@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 社区三方待缴账单创建
  *
  * @author auto create
- * @since 1.0, 2025-07-15 16:12:33
+ * @since 1.0, 2026-09-24 11:43:51
  */
 public class AlipayEbppCommunityThirdpartybillCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3897419129943957921L;
+	private static final long serialVersionUID = 7764735294147398456L;
 
 	/**
 	 * 待缴账单通知用户 Uid 

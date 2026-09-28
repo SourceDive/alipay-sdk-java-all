@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySocialAntforestGrasslandcertQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6766831126139341726L;
+	private static final long serialVersionUID = 5723358991465749268L;
 
 	/** 
 	 * null

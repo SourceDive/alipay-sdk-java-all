@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppIndustryEducertifyTokenCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7785361928232851678L;
+	private static final long serialVersionUID = 8892249894289917665L;
 
 	/** 
 	 * 学历认证票据,有效期2小时

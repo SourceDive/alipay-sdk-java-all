@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 妈妈添加委托人接口
  *
  * @author auto create
- * @since 1.0, 2025-05-13 16:46:05
+ * @since 1.0, 2026-09-25 13:38:02
  */
 public class AlipayDataDataserviceAdPrincipalformmCreateormodifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2693249422488428631L;
+	private static final long serialVersionUID = 1399961511437321156L;
 
 	/**
 	 * 登录用户支付宝统一ID,2088开头字符串。登录校验和可反查出user_id。

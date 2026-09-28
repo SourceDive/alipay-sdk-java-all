@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMoneycardRecordBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3212222274841118418L;
+	private static final long serialVersionUID = 5145543867661157613L;
 
 	/** 
 	 * 金额卡使用记录详情

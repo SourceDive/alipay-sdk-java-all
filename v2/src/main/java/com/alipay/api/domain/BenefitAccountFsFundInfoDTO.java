@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 权益账户资金明细
  *
  * @author auto create
- * @since 1.0, 2026-06-24 17:23:08
+ * @since 1.0, 2026-09-24 16:28:18
  */
 public class BenefitAccountFsFundInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2716888355296442638L;
+	private static final long serialVersionUID = 2278923286976573576L;
 
 	/**
 	 * 账户查询时为出资金额；提现时为该出资方提现金额；单位：元
@@ -24,6 +24,12 @@ public class BenefitAccountFsFundInfoDTO extends AlipayObject {
 	 */
 	@ApiField("current_amount")
 	private String currentAmount;
+
+	/**
+	 * 资金渠道预算及出入金信息
+	 */
+	@ApiField("fund_budget_info")
+	private BenefitAccountFundBudgetInfoDTO fundBudgetInfo;
 
 	/**
 	 * 出资主体
@@ -73,6 +79,13 @@ public class BenefitAccountFsFundInfoDTO extends AlipayObject {
 	}
 	public void setCurrentAmount(String currentAmount) {
 		this.currentAmount = currentAmount;
+	}
+
+	public BenefitAccountFundBudgetInfoDTO getFundBudgetInfo() {
+		return this.fundBudgetInfo;
+	}
+	public void setFundBudgetInfo(BenefitAccountFundBudgetInfoDTO fundBudgetInfo) {
+		this.fundBudgetInfo = fundBudgetInfo;
 	}
 
 	public String getFundPrincipal() {

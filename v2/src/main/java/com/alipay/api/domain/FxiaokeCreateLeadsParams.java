@@ -11,17 +11,24 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 纷享销客创建商机的参数和返回值
  *
  * @author auto create
- * @since 1.0, 2026-01-26 17:54:08
+ * @since 1.0, 2026-09-22 16:59:38
  */
 public class FxiaokeCreateLeadsParams extends AlipayObject {
 
-	private static final long serialVersionUID = 4171792978692732852L;
+	private static final long serialVersionUID = 1821365839381764966L;
 
 	/**
 	 * 实际主导方
 	 */
 	@ApiField("actual_lead_party")
 	private String actualLeadParty;
+
+	/**
+	 * AI产品
+	 */
+	@ApiListField("ai_products")
+	@ApiField("string")
+	private List<String> aiProducts;
 
 	/**
 	 * 阿里云BPID,多个，以英文逗号隔开
@@ -387,6 +394,13 @@ public class FxiaokeCreateLeadsParams extends AlipayObject {
 	}
 	public void setActualLeadParty(String actualLeadParty) {
 		this.actualLeadParty = actualLeadParty;
+	}
+
+	public List<String> getAiProducts() {
+		return this.aiProducts;
+	}
+	public void setAiProducts(List<String> aiProducts) {
+		this.aiProducts = aiProducts;
 	}
 
 	public String getAliCloudBpidList() {

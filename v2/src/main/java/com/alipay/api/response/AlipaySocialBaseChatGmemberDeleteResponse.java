@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySocialBaseChatGmemberDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2581296911774518784L;
+	private static final long serialVersionUID = 3658596932148943832L;
 
 	/** 
 	 * 删除结果

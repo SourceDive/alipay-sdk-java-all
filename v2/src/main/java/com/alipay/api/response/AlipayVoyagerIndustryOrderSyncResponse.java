@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.voyager.industry.order.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-07-17 17:57:51
+ * @since 1.0, 2026-09-22 13:47:52
  */
 public class AlipayVoyagerIndustryOrderSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2529256819525429812L;
+	private static final long serialVersionUID = 2739974188928893133L;
 
 	/** 
 	 * 消费状态
@@ -25,6 +25,12 @@ public class AlipayVoyagerIndustryOrderSyncResponse extends AlipayResponse {
 	 */
 	@ApiField("error_code")
 	private String errorCode;
+
+	/** 
+	 * 错误信息
+	 */
+	@ApiField("error_message")
+	private String errorMessage;
 
 	/** 
 	 * true: 调用方应重试; false: 调用方不应重试
@@ -44,6 +50,13 @@ public class AlipayVoyagerIndustryOrderSyncResponse extends AlipayResponse {
 	}
 	public String getErrorCode( ) {
 		return this.errorCode;
+	}
+
+	public void setErrorMessage(String errorMessage) {
+		this.errorMessage = errorMessage;
+	}
+	public String getErrorMessage( ) {
+		return this.errorMessage;
 	}
 
 	public void setNeedRetry(Boolean needRetry) {

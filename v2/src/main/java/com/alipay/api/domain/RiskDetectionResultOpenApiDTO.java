@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RiskDetectionResultOpenApiDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1812928667258279987L;
+	private static final long serialVersionUID = 7584981611519842932L;
 
 	/**
 	 * 同入参的业务单据号

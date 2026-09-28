@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 处方药品信息
  *
  * @author auto create
- * @since 1.0, 2025-01-06 16:06:20
+ * @since 1.0, 2026-09-28 16:08:46
  */
 public class PlatformPrescriptionDrugInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4237262931948734795L;
+	private static final long serialVersionUID = 5843362552288134357L;
+
+	/**
+	 * 给药途径，如"口服" 非枚举
+	 */
+	@ApiField("administration_route")
+	private String administrationRoute;
 
 	/**
 	 * 备注
@@ -20,7 +26,7 @@ public class PlatformPrescriptionDrugInfo extends AlipayObject {
 	private String comments;
 
 	/**
-	 * 剂型
+	 * 剂型 非枚举
 	 */
 	@ApiField("dosage_form")
 	private String dosageForm;
@@ -50,22 +56,41 @@ public class PlatformPrescriptionDrugInfo extends AlipayObject {
 	private String drugUrl;
 
 	/**
+	 * 频次（单位允许不统一）
+	 */
+	@ApiField("frequency")
+	private String frequency;
+
+	/**
 	 * 用药说明
 	 */
 	@ApiField("instructions")
 	private String instructions;
 
 	/**
-	 * 药品数量
+	 * 药品数量（单位允许不统一）
 	 */
 	@ApiField("medicine_quantity")
 	private String medicineQuantity;
+
+	/**
+	 * 单次剂量（如"2片"）
+	 */
+	@ApiField("single_dose")
+	private String singleDose;
 
 	/**
 	 * 规格
 	 */
 	@ApiField("spec")
 	private String spec;
+
+	public String getAdministrationRoute() {
+		return this.administrationRoute;
+	}
+	public void setAdministrationRoute(String administrationRoute) {
+		this.administrationRoute = administrationRoute;
+	}
 
 	public String getComments() {
 		return this.comments;
@@ -109,6 +134,13 @@ public class PlatformPrescriptionDrugInfo extends AlipayObject {
 		this.drugUrl = drugUrl;
 	}
 
+	public String getFrequency() {
+		return this.frequency;
+	}
+	public void setFrequency(String frequency) {
+		this.frequency = frequency;
+	}
+
 	public String getInstructions() {
 		return this.instructions;
 	}
@@ -121,6 +153,13 @@ public class PlatformPrescriptionDrugInfo extends AlipayObject {
 	}
 	public void setMedicineQuantity(String medicineQuantity) {
 		this.medicineQuantity = medicineQuantity;
+	}
+
+	public String getSingleDose() {
+		return this.singleDose;
+	}
+	public void setSingleDose(String singleDose) {
+		this.singleDose = singleDose;
 	}
 
 	public String getSpec() {

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: xinghe.lendassist.promo.voucher.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-06-03 11:37:55
+ * @since 1.0, 2026-09-28 15:42:53
  */
 public class XingheLendassistPromoVoucherNotifyRequest implements AlipayRequest<XingheLendassistPromoVoucherNotifyResponse> {
 

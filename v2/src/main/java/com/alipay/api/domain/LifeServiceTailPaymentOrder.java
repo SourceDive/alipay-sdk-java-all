@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class LifeServiceTailPaymentOrder extends AlipayObject {
 
-	private static final long serialVersionUID = 8193293783891149193L;
+	private static final long serialVersionUID = 4264622398577616793L;
 
 	/**
 	 * 取消原因

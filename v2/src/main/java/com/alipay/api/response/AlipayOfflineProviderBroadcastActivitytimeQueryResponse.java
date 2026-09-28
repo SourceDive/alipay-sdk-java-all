@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.broadcast.activitytime.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-31 19:20:24
+ * @since 1.0, 2026-09-23 14:33:32
  */
 public class AlipayOfflineProviderBroadcastActivitytimeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5484921464659816492L;
+	private static final long serialVersionUID = 1516487681362649831L;
 
 	/** 
 	 * 分页每页大小

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ReferenceDataItem extends AlipayObject {
 
-	private static final long serialVersionUID = 3854267897664635478L;
+	private static final long serialVersionUID = 2811223674271982952L;
 
 	/**
 	 * 年龄段: 1=0-7岁, 2=7-18岁

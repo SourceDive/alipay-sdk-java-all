@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 检查项维度状态同步
  *
  * @author auto create
- * @since 1.0, 2026-09-20 15:12:51
+ * @since 1.0, 2026-09-28 09:47:54
  */
 public class AlipayCommerceMedicalCheckitemStatusSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2538252721515322579L;
+	private static final long serialVersionUID = 2843272989685875572L;
 
 	/**
 	 * null
@@ -43,9 +43,10 @@ public class AlipayCommerceMedicalCheckitemStatusSyncModel extends AlipayObject 
 	private String openId;
 
 	/**
-	 * 履约类型
+	 * 履约类型 当前字段已废弃(type 类型字段无实际使用)
 	 */
 	@ApiField("type")
+	@Deprecated
 	private String type;
 
 	/**

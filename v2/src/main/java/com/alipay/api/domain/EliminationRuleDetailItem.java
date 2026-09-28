@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EliminationRuleDetailItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7298685224168872511L;
+	private static final long serialVersionUID = 4451316181916171613L;
 
 	/**
 	 * 业务标识(能力环节=题目ID,检测环节=检测项编码,收集环节=字段编码)

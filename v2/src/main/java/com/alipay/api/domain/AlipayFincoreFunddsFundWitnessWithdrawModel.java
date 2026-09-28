@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayFincoreFunddsFundWitnessWithdrawModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7729334758124455773L;
+	private static final long serialVersionUID = 4264813946981586273L;
 
 	/**
 	 * 必填，外部流水号，幂等字段

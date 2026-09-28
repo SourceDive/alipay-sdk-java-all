@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 妈妈商家扩展信息
  *
  * @author auto create
- * @since 1.0, 2025-05-13 16:45:46
+ * @since 1.0, 2026-09-25 13:38:02
  */
 public class AlimamaPrincipalExtendInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5111765926955642692L;
+	private static final long serialVersionUID = 1245922572718285681L;
 
 	/**
 	 * 商家自定义账户名称

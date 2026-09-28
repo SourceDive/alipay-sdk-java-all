@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询新能源充电芝麻先享签约状态
  *
  * @author auto create
- * @since 1.0, 2026-09-21 11:07:57
+ * @since 1.0, 2026-09-28 10:57:55
  */
 public class AlipayCommerceTransportChargerZhimaQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2896236312922146391L;
+	private static final long serialVersionUID = 5784539416194986171L;
 
 	/**
 	 * 用户设备ID
@@ -38,7 +38,7 @@ public class AlipayCommerceTransportChargerZhimaQueryModel extends AlipayObject 
 	private String openId;
 
 	/**
-	 * 商户外部协议号，全局唯一协议号
+	 * 商户外部协议号，全局唯一协议号。每次查询时，都使用新的协议号，不影响实际签约状态。
 	 */
 	@ApiField("out_agreement_no")
 	private String outAgreementNo;

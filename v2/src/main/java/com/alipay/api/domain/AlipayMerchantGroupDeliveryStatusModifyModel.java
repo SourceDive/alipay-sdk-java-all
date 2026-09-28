@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 修改推广计划状态
  *
  * @author auto create
- * @since 1.0, 2024-10-31 16:15:48
+ * @since 1.0, 2026-09-22 19:29:13
  */
 public class AlipayMerchantGroupDeliveryStatusModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2474366377153353892L;
+	private static final long serialVersionUID = 4143713799817752356L;
 
 	/**
 	 * 推广计划id

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WeatherInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7814776488145282273L;
+	private static final long serialVersionUID = 3288441184664211126L;
 
 	/**
 	 * 附加信息

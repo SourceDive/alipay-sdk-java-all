@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 获取指定档位购买链接
  *
  * @author auto create
- * @since 1.0, 2026-09-02 00:47:51
+ * @since 1.0, 2026-09-28 15:32:54
  */
 public class AlipayAipayNowpayPurchaseCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8842125659786229453L;
+	private static final long serialVersionUID = 3117714831111267461L;
 
 	/**
 	 * 购买完成返回地址

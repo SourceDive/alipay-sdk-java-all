@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-09-11 10:21:05
+ * @since 1.0, 2026-09-28 11:32:56
  */
 public class BizVoucherConsultInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3224964889971646351L;
+	private static final long serialVersionUID = 2768522152777692995L;
 
 	/**
 	 * 券生效时间
@@ -38,6 +38,12 @@ public class BizVoucherConsultInfo extends AlipayObject {
 	 */
 	@ApiField("optimal")
 	private Boolean optimal;
+
+	/**
+	 * 下单页优惠文案
+	 */
+	@ApiField("order_page_promo_text")
+	private String orderPagePromoText;
 
 	/**
 	 * 优惠文档
@@ -112,6 +118,13 @@ public class BizVoucherConsultInfo extends AlipayObject {
 	}
 	public void setOptimal(Boolean optimal) {
 		this.optimal = optimal;
+	}
+
+	public String getOrderPagePromoText() {
+		return this.orderPagePromoText;
+	}
+	public void setOrderPagePromoText(String orderPagePromoText) {
+		this.orderPagePromoText = orderPagePromoText;
 	}
 
 	public String getPromoText() {

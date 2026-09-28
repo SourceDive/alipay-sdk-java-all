@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * N模组绑定上位机
  *
  * @author auto create
- * @since 1.0, 2026-04-29 19:32:48
+ * @since 1.0, 2026-09-23 14:34:10
  */
 public class AlipayOpenSpNopenModuleBindModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3142733867877443286L;
+	private static final long serialVersionUID = 8465155388423784714L;
 
 	/**
 	 * 设备 adid

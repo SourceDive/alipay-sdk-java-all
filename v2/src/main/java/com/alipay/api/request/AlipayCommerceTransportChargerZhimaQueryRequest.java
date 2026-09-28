@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.transport.charger.zhima.query request
  * 
  * @author auto create
- * @since 1.0, 2026-09-21 11:07:57
+ * @since 1.0, 2026-09-28 10:57:55
  */
 public class AlipayCommerceTransportChargerZhimaQueryRequest implements AlipayRequest<AlipayCommerceTransportChargerZhimaQueryResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LifeServiceRoomStockBusyTime extends AlipayObject {
 
-	private static final long serialVersionUID = 6391783238465519164L;
+	private static final long serialVersionUID = 7337731289837989671L;
 
 	/**
 	 * 无法预约的原因

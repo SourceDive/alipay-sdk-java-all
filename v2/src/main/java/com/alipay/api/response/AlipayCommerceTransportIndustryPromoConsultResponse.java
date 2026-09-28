@@ -11,11 +11,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.industry.promo.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-11 10:21:05
+ * @since 1.0, 2026-09-28 11:32:56
  */
 public class AlipayCommerceTransportIndustryPromoConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3518655837486898951L;
+	private static final long serialVersionUID = 7217236649526673338L;
+
+	/** 
+	 * 收银台订单信息文案
+	 */
+	@ApiField("cashier_order_info_text")
+	private String cashierOrderInfoText;
 
 	/** 
 	 * null
@@ -23,6 +29,13 @@ public class AlipayCommerceTransportIndustryPromoConsultResponse extends AlipayR
 	@ApiListField("voucher_consult_list")
 	@ApiField("biz_voucher_consult_info")
 	private List<BizVoucherConsultInfo> voucherConsultList;
+
+	public void setCashierOrderInfoText(String cashierOrderInfoText) {
+		this.cashierOrderInfoText = cashierOrderInfoText;
+	}
+	public String getCashierOrderInfoText( ) {
+		return this.cashierOrderInfoText;
+	}
 
 	public void setVoucherConsultList(List<BizVoucherConsultInfo> voucherConsultList) {
 		this.voucherConsultList = voucherConsultList;

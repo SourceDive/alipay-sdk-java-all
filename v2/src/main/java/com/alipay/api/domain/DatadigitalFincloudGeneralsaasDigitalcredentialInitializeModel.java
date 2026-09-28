@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DatadigitalFincloudGeneralsaasDigitalcredentialInitializeModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6519233266753881638L;
+	private static final long serialVersionUID = 7452481739821788814L;
 
 	/**
 	 * 客户生成的业务唯一标识，用于查询用户完成数字凭证授权后生成的凭证单据。

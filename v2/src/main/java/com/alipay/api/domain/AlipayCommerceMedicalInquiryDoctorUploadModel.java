@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 互联网医院医生基础数据同步
  *
  * @author auto create
- * @since 1.0, 2026-09-20 19:47:52
+ * @since 1.0, 2026-09-22 17:47:52
  */
 public class AlipayCommerceMedicalInquiryDoctorUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3461765415179743483L;
+	private static final long serialVersionUID = 5792197139243129773L;
 
 	/**
 	 * 认证状态

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.hy.inquiryorder.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-18 20:17:56
+ * @since 1.0, 2026-09-23 18:24:09
  */
 public class AlipayCommerceMedicalHyInquiryorderSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6855824265678764714L;
+	private static final long serialVersionUID = 8221471468585373435L;
 
 	/** 
 	 * 退费流水号

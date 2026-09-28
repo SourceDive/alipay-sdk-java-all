@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.expressway.cardtrip.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-08-24 14:27:51
+ * @since 1.0, 2026-09-21 21:57:52
  */
 public class AlipayCommerceTransportExpresswayCardtripSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4699396389497663724L;
+	private static final long serialVersionUID = 3268823379253228782L;
 
 	/** 
 	 * 路网侧唯一高速行程单号

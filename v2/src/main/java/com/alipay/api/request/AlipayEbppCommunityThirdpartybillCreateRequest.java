@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ebpp.community.thirdpartybill.create request
  * 
  * @author auto create
- * @since 1.0, 2025-07-15 16:12:33
+ * @since 1.0, 2026-09-24 11:43:51
  */
 public class AlipayEbppCommunityThirdpartybillCreateRequest implements AlipayRequest<AlipayEbppCommunityThirdpartybillCreateResponse> {
 

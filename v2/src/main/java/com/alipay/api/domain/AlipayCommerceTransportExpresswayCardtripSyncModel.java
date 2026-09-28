@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 高速行业灵动岛卡片行程同步
  *
  * @author auto create
- * @since 1.0, 2026-08-24 14:25:10
+ * @since 1.0, 2026-09-21 21:56:00
  */
 public class AlipayCommerceTransportExpresswayCardtripSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7421464826332368867L;
+	private static final long serialVersionUID = 1151653327711542878L;
 
 	/**
 	 * 具体业务变更时间
@@ -40,6 +40,12 @@ public class AlipayCommerceTransportExpresswayCardtripSyncModel extends AlipayOb
 	 */
 	@ApiField("isv_id")
 	private String isvId;
+
+	/**
+	 * 用于标记支付宝用户在应用下的唯一标识
+	 */
+	@ApiField("open_id")
+	private String openId;
 
 	/**
 	 * 行程授权开通外部流水号
@@ -152,6 +158,13 @@ public class AlipayCommerceTransportExpresswayCardtripSyncModel extends AlipayOb
 	}
 	public void setIsvId(String isvId) {
 		this.isvId = isvId;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
 	}
 
 	public String getOutBizNo() {

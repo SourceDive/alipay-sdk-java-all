@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询收费能力和档位
  *
  * @author auto create
- * @since 1.0, 2026-09-02 00:47:51
+ * @since 1.0, 2026-09-28 15:32:54
  */
 public class AlipayAipayNowpayChargeQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4685318162786732785L;
+	private static final long serialVersionUID = 2374658922527343533L;
 
 	/**
 	 * 商品所有者标识

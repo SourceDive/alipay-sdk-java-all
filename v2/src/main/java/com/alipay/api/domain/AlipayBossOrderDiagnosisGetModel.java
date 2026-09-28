@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayBossOrderDiagnosisGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2432255276377352551L;
+	private static final long serialVersionUID = 2118463643233528267L;
 
 	/**
 	 * 返回的具体的结果信息，选填

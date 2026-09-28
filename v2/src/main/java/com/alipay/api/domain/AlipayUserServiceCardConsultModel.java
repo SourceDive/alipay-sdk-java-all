@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * AHA服务卡片预咨询
  *
  * @author auto create
- * @since 1.0, 2025-12-29 15:32:42
+ * @since 1.0, 2026-09-22 12:12:15
  */
 public class AlipayUserServiceCardConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2875812877815153533L;
+	private static final long serialVersionUID = 1341547896166128716L;
 
 	/**
 	 * 上下文信息

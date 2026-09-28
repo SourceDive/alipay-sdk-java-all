@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.aipay.nowpay.quota.verify response.
  * 
  * @author auto create
- * @since 1.0, 2026-09-02 00:47:51
+ * @since 1.0, 2026-09-28 15:52:55
  */
 public class AlipayAipayNowpayQuotaVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1894117561788684527L;
+	private static final long serialVersionUID = 1863844533669991179L;
 
 	/** 
 	 * 消费流水标识

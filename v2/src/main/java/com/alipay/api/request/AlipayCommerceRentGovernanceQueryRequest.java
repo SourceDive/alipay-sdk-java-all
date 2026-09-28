@@ -11,12 +11,24 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.rent.governance.query request
  * 
  * @author auto create
- * @since 1.0, 2026-09-18 14:17:36
+ * @since 1.0, 2026-09-23 10:47:54
  */
 public class AlipayCommerceRentGovernanceQueryRequest implements AlipayRequest<AlipayCommerceRentGovernanceQueryResponse> {
 
 	private AlipayHashMap udfParams; // add user-defined text parameters
 	private String apiVersion="1.0";
+
+	/** 
+	* 租赁商户治理记录查询
+	 */
+	private String bizContent;
+
+	public void setBizContent(String bizContent) {
+		this.bizContent = bizContent;
+	}
+	public String getBizContent() {
+		return this.bizContent;
+	}
 	private String terminalType;
 	private String terminalInfo;	
 	private String prodCode;
@@ -79,6 +91,7 @@ public class AlipayCommerceRentGovernanceQueryRequest implements AlipayRequest<A
 
 	public Map<String, String> getTextParams() {		
 		AlipayHashMap txtParams = new AlipayHashMap();
+		txtParams.put("biz_content", this.bizContent);
 		if(udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}

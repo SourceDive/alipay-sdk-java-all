@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenOauthTokenRevokeModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8194549122249979974L;
+	private static final long serialVersionUID = 8373286389929335944L;
 
 	/**
 	 * 访问令牌。通过该访问令牌调用支付宝开放平台

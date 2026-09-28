@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DatadigitalFincloudGeneralsaasDigitalcredentialVpQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4513122776385952154L;
+	private static final long serialVersionUID = 1356234588783886934L;
 
 	/**
 	 * 数字凭证初始化接口返回的certify_id，用于查询加密VP。

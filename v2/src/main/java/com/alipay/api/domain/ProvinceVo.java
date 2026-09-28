@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ProvinceVo extends AlipayObject {
 
-	private static final long serialVersionUID = 4281436287688482928L;
+	private static final long serialVersionUID = 1867959826436115718L;
 
 	/**
 	 * null

@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOverseasOpenIndrreferralCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1873346769236389619L;
+	private static final long serialVersionUID = 3627362528851943462L;
 
 	/** 
 	 * 推荐码过期时间，超期之后用户仍然可以点击链接跳转，但不会记录推荐关系

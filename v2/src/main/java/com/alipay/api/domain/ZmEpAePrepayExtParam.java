@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZmEpAePrepayExtParam extends AlipayObject {
 
-	private static final long serialVersionUID = 8847445579746512471L;
+	private static final long serialVersionUID = 6729238529691528378L;
 
 	/**
 	 * 审核单创建时间戳

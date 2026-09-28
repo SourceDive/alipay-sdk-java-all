@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.operation.promo.activity.signup request
  * 
  * @author auto create
- * @since 1.0, 2026-06-30 10:37:59
+ * @since 1.0, 2026-09-21 22:12:54
  */
 public class AlipayCommerceOperationPromoActivitySignupRequest implements AlipayRequest<AlipayCommerceOperationPromoActivitySignupResponse> {
 

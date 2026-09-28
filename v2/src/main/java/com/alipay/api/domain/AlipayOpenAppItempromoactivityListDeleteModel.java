@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenAppItempromoactivityListDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7693974954735339963L;
+	private static final long serialVersionUID = 3855117944642874722L;
 
 	/**
 	 * 商品及其属性列表

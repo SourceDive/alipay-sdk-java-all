@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AnttechAiDevicePayCallbackResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7489659232561896552L;
+	private static final long serialVersionUID = 8529555322527331556L;
 
 	/** 
 	 * 业务回执，调用方需要 说明： 如果在提交创建任务的请求参数中传入了biz_receiet，则此处返回对应的biz_receiet

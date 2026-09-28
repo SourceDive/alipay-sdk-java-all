@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AntfortuneMarketingBlackcarduserGradeinfoQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6786682357557896125L;
+	private static final long serialVersionUID = 7293329872945915454L;
 
 	/**
 	 * 用户证件号，AES加密

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MeasureUnitInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 6846484312876132956L;
+	private static final long serialVersionUID = 7783777575253633782L;
 
 	/**
 	 * 度量衡单位的模板id

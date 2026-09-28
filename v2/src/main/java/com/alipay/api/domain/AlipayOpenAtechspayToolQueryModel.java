@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenAtechspayToolQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8833696344394348137L;
+	private static final long serialVersionUID = 2522656622272261744L;
 
 	/**
 	 * 查询结束时间，格式 yyyy-MM-dd HH:mm:ss。不传时默认取当前时间

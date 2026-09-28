@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEcoBasicBizinfoQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1379681692778138855L;
+	private static final long serialVersionUID = 3787494883537532121L;
 
 	/**
 	 * 表示提供目标业务的机构名称

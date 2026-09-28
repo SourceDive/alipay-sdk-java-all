@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class YpzCloudDispenseMedicineHomeCardOne extends AlipayObject {
 
-	private static final long serialVersionUID = 7548417942886183126L;
+	private static final long serialVersionUID = 1366641812661467838L;
 
 	/**
 	 * 按钮文案

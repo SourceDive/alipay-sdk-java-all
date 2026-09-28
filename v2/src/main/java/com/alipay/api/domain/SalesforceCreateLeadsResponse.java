@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 创建商机返回参数
  *
  * @author auto create
- * @since 1.0, 2026-04-14 14:25:55
+ * @since 1.0, 2026-09-22 14:29:24
  */
 public class SalesforceCreateLeadsResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 1651832958156774355L;
+	private static final long serialVersionUID = 1764589622654624535L;
 
 	/**
 	 * 商机id

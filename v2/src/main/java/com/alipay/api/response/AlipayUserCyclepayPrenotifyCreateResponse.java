@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserCyclepayPrenotifyCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4338245131978158926L;
+	private static final long serialVersionUID = 3476987488741516245L;
 
 	/** 
 	 * 商户代扣扣款许可生效结束时间
